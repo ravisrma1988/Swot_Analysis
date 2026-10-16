@@ -1,0 +1,222 @@
+nohup: ignoring input
+reach D unit/ext: 280 rows, groups 1899, features 44, 54 s (total 55 s)
+reach D unit/notwin: 80 rows, groups 1899, features 42, 52 s (total 106 s)
+reach D unit/causal: 80 rows, groups 1899, features 35, 52 s (total 158 s)
+reach D basin/ext: 80 rows, groups 135, features 44, 52 s (total 210 s)
+reach D unit/ext+calval: 80 rows, groups 1901, features 44, 53 s (total 262 s)
+reach D unit/ext+tidal: 80 rows, groups 1964, features 44, 52 s (total 314 s)
+reach C unit/ext: 280 rows, groups 1903, features 43, 53 s (total 368 s)
+reach C unit/notwin: 80 rows, groups 1903, features 41, 52 s (total 419 s)
+reach C unit/causal: 80 rows, groups 1903, features 34, 52 s (total 471 s)
+reach C basin/ext: 80 rows, groups 135, features 43, 53 s (total 524 s)
+reach C unit/ext+calval: 80 rows, groups 1905, features 43, 53 s (total 577 s)
+reach C unit/ext+tidal: 80 rows, groups 1968, features 43, 53 s (total 630 s)
+reach cross-version: 480 rows, 106 s (total 736 s)
+node D unit/ext: 280 rows, groups 1941, features 44, 56 s (total 792 s)
+node D unit/notwin: 80 rows, groups 1941, features 42, 54 s (total 846 s)
+node D unit/causal: 80 rows, groups 1941, features 35, 54 s (total 900 s)
+node D basin/ext: 80 rows, groups 135, features 44, 54 s (total 954 s)
+node D unit/ext+calval: 80 rows, groups 1942, features 44, 54 s (total 1009 s)
+node D unit/ext+tidal: 80 rows, groups 2008, features 44, 54 s (total 1063 s)
+node C unit/ext: 280 rows, groups 1909, features 44, 54 s (total 1117 s)
+node C unit/notwin: 80 rows, groups 1909, features 42, 52 s (total 1169 s)
+node C unit/causal: 80 rows, groups 1909, features 35, 52 s (total 1221 s)
+node C basin/ext: 80 rows, groups 135, features 44, 52 s (total 1272 s)
+node C unit/ext+calval: 80 rows, groups 1911, features 44, 53 s (total 1325 s)
+node C unit/ext+tidal: 80 rows, groups 1974, features 44, 52 s (total 1378 s)
+node cross-version: 480 rows, 110 s (total 1487 s)
+
+Stop rule 1 (mean realised SDR - alpha > 2 SE): 4 of 176 S6 configurations flagged
+                                                          sdr  excess  two_se   n
+design          type  v alpha m   method                                         
+xver/C->D stale node  D 0.1   3.0 S6 SCoRE-SDR (homo)  0.1333  0.0333  0.0061  20
+                        0.2   3.0 S6 SCoRE-SDR (homo)  0.2465  0.0465  0.0093  20
+                reach D 0.1   3.0 S6 SCoRE-SDR (homo)  0.1312  0.0312  0.0064  20
+                        0.2   3.0 S6 SCoRE-SDR (homo)  0.2478  0.0478  0.0089  20
+
+                                                        retention  site_coverage    sdr  sdr_if_any  share_gt_alpha  share_none
+design           type  v alpha m   method                                                                                      
+basin/ext        node  C 0.1   3.0 S6 SCoRE-SDR (None)      0.132          0.262  0.039       0.097            0.20        0.60
+                                   S6 SCoRE-SDR (homo)      0.324          0.567  0.090       0.094            0.35        0.05
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.249          0.321  0.081       0.203            0.20        0.60
+                                   S6 SCoRE-SDR (homo)      0.587          0.757  0.200       0.200            0.60        0.00
+                       D 0.1   3.0 S6 SCoRE-SDR (None)      0.090          0.125  0.023       0.113            0.15        0.80
+                                   S6 SCoRE-SDR (homo)      0.375          0.500  0.090       0.094            0.30        0.05
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.273          0.337  0.092       0.204            0.20        0.55
+                                   S6 SCoRE-SDR (homo)      0.606          0.730  0.195       0.195            0.30        0.00
+                 reach C 0.1   3.0 S6 SCoRE-SDR (None)      0.080          0.129  0.028       0.111            0.10        0.75
+                                   S6 SCoRE-SDR (homo)      0.286          0.454  0.092       0.097            0.25        0.05
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.264          0.343  0.090       0.200            0.20        0.55
+                                   S6 SCoRE-SDR (homo)      0.589          0.754  0.200       0.200            0.50        0.00
+                       D 0.1   3.0 S6 SCoRE-SDR (None)      0.084          0.140  0.022       0.111            0.20        0.80
+                                   S6 SCoRE-SDR (homo)      0.406          0.558  0.098       0.104            0.55        0.05
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.285          0.326  0.081       0.203            0.20        0.60
+                                   S6 SCoRE-SDR (homo)      0.667          0.745  0.187       0.197            0.45        0.05
+unit/causal      node  C 0.1   3.0 S6 SCoRE-SDR (None)      0.000          0.000  0.000         NaN            0.00        1.00
+                                   S6 SCoRE-SDR (homo)      0.289          0.418  0.100       0.100            0.50        0.00
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.195          0.238  0.069       0.196            0.15        0.65
+                                   S6 SCoRE-SDR (homo)      0.555          0.678  0.198       0.198            0.50        0.00
+                       D 0.1   3.0 S6 SCoRE-SDR (None)      0.038          0.050  0.010       0.099            0.05        0.90
+                                   S6 SCoRE-SDR (homo)      0.326          0.420  0.092       0.097            0.45        0.05
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.240          0.268  0.082       0.204            0.25        0.60
+                                   S6 SCoRE-SDR (homo)      0.585          0.664  0.199       0.199            0.50        0.00
+                 reach C 0.1   3.0 S6 SCoRE-SDR (None)      0.023          0.057  0.012       0.121            0.10        0.90
+                                   S6 SCoRE-SDR (homo)      0.211          0.403  0.094       0.099            0.45        0.05
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.089          0.113  0.028       0.186            0.05        0.85
+                                   S6 SCoRE-SDR (homo)      0.557          0.695  0.200       0.200            0.45        0.00
+                       D 0.1   3.0 S6 SCoRE-SDR (None)      0.039          0.047  0.011       0.110            0.05        0.90
+                                   S6 SCoRE-SDR (homo)      0.395          0.489  0.101       0.101            0.40        0.00
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.215          0.235  0.062       0.206            0.20        0.70
+                                   S6 SCoRE-SDR (homo)      0.706          0.766  0.200       0.200            0.45        0.00
+unit/ext         node  C 0.1   1.0 S6 SCoRE-SDR (None)      0.089          0.150  0.026       0.106            0.20        0.75
+                                   S6 SCoRE-SDR (homo)      0.359          0.561  0.102       0.102            0.75        0.00
+                               3.0 S6 SCoRE-SDR (None)      0.037          0.066  0.011       0.110            0.10        0.90
+                                   S6 SCoRE-SDR (homo)      0.347          0.543  0.097       0.102            0.65        0.05
+                               5.0 S6 SCoRE-SDR (None)      0.092          0.156  0.027       0.107            0.20        0.75
+                                   S6 SCoRE-SDR (homo)      0.369          0.589  0.102       0.102            0.60        0.00
+                               NaN M3 pooled                0.422          0.808  0.144       0.144            1.00        0.00
+                         0.2   1.0 S6 SCoRE-SDR (None)      0.175          0.216  0.058       0.192            0.10        0.70
+                                   S6 SCoRE-SDR (homo)      0.596          0.748  0.197       0.197            0.35        0.00
+                               3.0 S6 SCoRE-SDR (None)      0.241          0.300  0.081       0.202            0.20        0.60
+                                   S6 SCoRE-SDR (homo)      0.570          0.718  0.188       0.197            0.30        0.05
+                               5.0 S6 SCoRE-SDR (None)      0.031          0.039  0.010       0.199            0.00        0.95
+                                   S6 SCoRE-SDR (homo)      0.600          0.754  0.197       0.197            0.30        0.00
+                               NaN M3 pooled                0.637          0.933  0.256       0.256            1.00        0.00
+                       D 0.1   1.0 S6 SCoRE-SDR (None)      0.085          0.115  0.021       0.103            0.10        0.80
+                                   S6 SCoRE-SDR (homo)      0.392          0.527  0.094       0.099            0.30        0.05
+                               3.0 S6 SCoRE-SDR (None)      0.103          0.146  0.025       0.100            0.10        0.75
+                                   S6 SCoRE-SDR (homo)      0.415          0.558  0.099       0.099            0.40        0.00
+                               5.0 S6 SCoRE-SDR (None)      0.057          0.080  0.013       0.088            0.00        0.85
+                                   S6 SCoRE-SDR (homo)      0.417          0.558  0.099       0.099            0.40        0.00
+                               NaN M3 pooled                0.457          0.795  0.149       0.149            1.00        0.00
+                         0.2   1.0 S6 SCoRE-SDR (None)      0.281          0.339  0.091       0.202            0.25        0.55
+                                   S6 SCoRE-SDR (homo)      0.614          0.730  0.196       0.196            0.35        0.00
+                               3.0 S6 SCoRE-SDR (None)      0.280          0.335  0.091       0.202            0.25        0.55
+                                   S6 SCoRE-SDR (homo)      0.615          0.730  0.196       0.196            0.40        0.00
+                               5.0 S6 SCoRE-SDR (None)      0.124          0.148  0.040       0.201            0.10        0.80
+                                   S6 SCoRE-SDR (homo)      0.617          0.733  0.197       0.197            0.40        0.00
+                               NaN M3 pooled                0.653          0.918  0.270       0.270            1.00        0.00
+                 reach C 0.1   1.0 S6 SCoRE-SDR (None)      0.037          0.066  0.012       0.120            0.10        0.90
+                                   S6 SCoRE-SDR (homo)      0.331          0.501  0.097       0.097            0.40        0.00
+                               3.0 S6 SCoRE-SDR (None)      0.054          0.077  0.015       0.099            0.10        0.85
+                                   S6 SCoRE-SDR (homo)      0.315          0.488  0.091       0.096            0.40        0.05
+                               5.0 S6 SCoRE-SDR (None)      0.049          0.082  0.015       0.102            0.10        0.85
+                                   S6 SCoRE-SDR (homo)      0.319          0.493  0.093       0.098            0.40        0.05
+                               NaN M3 pooled                0.392          0.807  0.141       0.141            1.00        0.00
+                         0.2   1.0 S6 SCoRE-SDR (None)      0.090          0.109  0.030       0.200            0.05        0.85
+                                   S6 SCoRE-SDR (homo)      0.607          0.758  0.197       0.197            0.45        0.00
+                               3.0 S6 SCoRE-SDR (None)      0.091          0.117  0.028       0.184            0.00        0.85
+                                   S6 SCoRE-SDR (homo)      0.608          0.759  0.197       0.197            0.45        0.00
+                               5.0 S6 SCoRE-SDR (None)      0.123          0.151  0.039       0.197            0.10        0.80
+                                   S6 SCoRE-SDR (homo)      0.610          0.761  0.197       0.197            0.40        0.00
+                               NaN M3 pooled                0.652          0.951  0.249       0.249            1.00        0.00
+                       D 0.1   1.0 S6 SCoRE-SDR (None)      0.069          0.107  0.016       0.105            0.10        0.85
+                                   S6 SCoRE-SDR (homo)      0.457          0.618  0.102       0.102            0.65        0.00
+                               3.0 S6 SCoRE-SDR (None)      0.093          0.134  0.021       0.103            0.20        0.80
+                                   S6 SCoRE-SDR (homo)      0.461          0.626  0.101       0.101            0.55        0.00
+                               5.0 S6 SCoRE-SDR (None)      0.098          0.136  0.019       0.095            0.10        0.80
+                                   S6 SCoRE-SDR (homo)      0.459          0.615  0.100       0.100            0.50        0.00
+                               NaN M3 pooled                0.522          0.837  0.143       0.143            1.00        0.00
+                         0.2   1.0 S6 SCoRE-SDR (None)      0.146          0.159  0.042       0.212            0.10        0.80
+                                   S6 SCoRE-SDR (homo)      0.730          0.806  0.200       0.200            0.40        0.00
+                               3.0 S6 SCoRE-SDR (None)      0.363          0.397  0.099       0.198            0.10        0.50
+                                   S6 SCoRE-SDR (homo)      0.730          0.806  0.199       0.199            0.30        0.00
+                               5.0 S6 SCoRE-SDR (None)      0.366          0.401  0.099       0.198            0.15        0.50
+                                   S6 SCoRE-SDR (homo)      0.728          0.800  0.197       0.197            0.30        0.00
+                               NaN M3 pooled                0.768          0.967  0.254       0.254            1.00        0.00
+unit/ext+calval  node  C 0.1   3.0 S6 SCoRE-SDR (None)      0.102          0.152  0.024       0.096            0.10        0.75
+                                   S6 SCoRE-SDR (homo)      0.398          0.594  0.100       0.100            0.50        0.00
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.153          0.185  0.049       0.197            0.10        0.75
+                                   S6 SCoRE-SDR (homo)      0.617          0.761  0.199       0.199            0.55        0.00
+                       D 0.1   3.0 S6 SCoRE-SDR (None)      0.041          0.050  0.010       0.100            0.05        0.90
+                                   S6 SCoRE-SDR (homo)      0.416          0.540  0.095       0.095            0.35        0.00
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.187          0.223  0.060       0.199            0.10        0.70
+                                   S6 SCoRE-SDR (homo)      0.620          0.745  0.196       0.196            0.30        0.00
+                 reach C 0.1   3.0 S6 SCoRE-SDR (None)      0.031          0.051  0.010       0.103            0.05        0.90
+                                   S6 SCoRE-SDR (homo)      0.342          0.521  0.100       0.100            0.45        0.00
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.096          0.125  0.031       0.207            0.10        0.85
+                                   S6 SCoRE-SDR (homo)      0.623          0.786  0.201       0.201            0.55        0.00
+                       D 0.1   3.0 S6 SCoRE-SDR (None)      0.050          0.072  0.012       0.117            0.10        0.90
+                                   S6 SCoRE-SDR (homo)      0.473          0.620  0.100       0.100            0.45        0.00
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.114          0.124  0.032       0.214            0.15        0.85
+                                   S6 SCoRE-SDR (homo)      0.737          0.808  0.198       0.198            0.40        0.00
+unit/ext+tidal   node  C 0.1   3.0 S6 SCoRE-SDR (None)      0.095          0.159  0.025       0.099            0.10        0.75
+                                   S6 SCoRE-SDR (homo)      0.371          0.589  0.099       0.099            0.50        0.00
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.188          0.240  0.062       0.208            0.30        0.70
+                                   S6 SCoRE-SDR (homo)      0.603          0.761  0.200       0.200            0.55        0.00
+                       D 0.1   3.0 S6 SCoRE-SDR (None)      0.085          0.117  0.020       0.100            0.10        0.80
+                                   S6 SCoRE-SDR (homo)      0.425          0.576  0.101       0.101            0.45        0.00
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.377          0.444  0.119       0.198            0.30        0.40
+                                   S6 SCoRE-SDR (homo)      0.628          0.747  0.200       0.200            0.55        0.00
+                 reach C 0.1   3.0 S6 SCoRE-SDR (None)      0.094          0.145  0.026       0.102            0.20        0.75
+                                   S6 SCoRE-SDR (homo)      0.350          0.522  0.097       0.097            0.45        0.00
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.223          0.283  0.073       0.209            0.30        0.65
+                                   S6 SCoRE-SDR (homo)      0.623          0.780  0.200       0.200            0.55        0.00
+                       D 0.1   3.0 S6 SCoRE-SDR (None)      0.047          0.063  0.010       0.097            0.05        0.90
+                                   S6 SCoRE-SDR (homo)      0.463          0.592  0.099       0.099            0.50        0.00
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.260          0.287  0.075       0.214            0.30        0.65
+                                   S6 SCoRE-SDR (homo)      0.735          0.811  0.201       0.201            0.50        0.00
+unit/notwin      node  C 0.1   3.0 S6 SCoRE-SDR (None)      0.021          0.034  0.006       0.117            0.05        0.95
+                                   S6 SCoRE-SDR (homo)      0.340          0.530  0.099       0.099            0.50        0.00
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.147          0.190  0.049       0.195            0.10        0.75
+                                   S6 SCoRE-SDR (homo)      0.588          0.749  0.197       0.197            0.50        0.00
+                       D 0.1   3.0 S6 SCoRE-SDR (None)      0.021          0.029  0.005       0.103            0.05        0.95
+                                   S6 SCoRE-SDR (homo)      0.404          0.552  0.098       0.098            0.55        0.00
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.091          0.109  0.028       0.185            0.00        0.85
+                                   S6 SCoRE-SDR (homo)      0.609          0.724  0.196       0.196            0.40        0.00
+                 reach C 0.1   3.0 S6 SCoRE-SDR (None)      0.030          0.042  0.009       0.091            0.00        0.90
+                                   S6 SCoRE-SDR (homo)      0.298          0.466  0.092       0.097            0.30        0.05
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.182          0.232  0.059       0.198            0.15        0.70
+                                   S6 SCoRE-SDR (homo)      0.593          0.746  0.195       0.195            0.35        0.00
+                       D 0.1   3.0 S6 SCoRE-SDR (None)      0.068          0.095  0.014       0.096            0.05        0.85
+                                   S6 SCoRE-SDR (homo)      0.453          0.610  0.101       0.101            0.55        0.00
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.221          0.242  0.060       0.201            0.15        0.70
+                                   S6 SCoRE-SDR (homo)      0.722          0.793  0.197       0.197            0.35        0.00
+xver/C->D native node  D 0.1   3.0 S6 SCoRE-SDR (None)      0.059          0.088  0.015       0.100            0.05        0.85
+                                   S6 SCoRE-SDR (homo)      0.394          0.541  0.096       0.096            0.40        0.00
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.186          0.224  0.061       0.203            0.15        0.70
+                                   S6 SCoRE-SDR (homo)      0.612          0.728  0.197       0.197            0.45        0.00
+                 reach D 0.1   3.0 S6 SCoRE-SDR (None)      0.067          0.112  0.018       0.117            0.15        0.85
+                                   S6 SCoRE-SDR (homo)      0.445          0.617  0.100       0.100            0.55        0.00
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.188          0.210  0.052       0.209            0.10        0.75
+                                   S6 SCoRE-SDR (homo)      0.729          0.811  0.201       0.201            0.50        0.00
+xver/C->D recal  node  D 0.1   3.0 S6 SCoRE-SDR (None)      0.000          0.000  0.000         NaN            0.00        1.00
+                                   S6 SCoRE-SDR (homo)      0.309          0.413  0.090       0.095            0.45        0.05
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.168          0.204  0.061       0.204            0.15        0.70
+                                   S6 SCoRE-SDR (homo)      0.559          0.657  0.196       0.196            0.40        0.00
+                 reach D 0.1   3.0 S6 SCoRE-SDR (None)      0.044          0.059  0.009       0.094            0.00        0.90
+                                   S6 SCoRE-SDR (homo)      0.401          0.519  0.098       0.098            0.45        0.00
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.286          0.319  0.082       0.205            0.15        0.60
+                                   S6 SCoRE-SDR (homo)      0.691          0.770  0.199       0.199            0.35        0.00
+xver/C->D stale  node  D 0.1   3.0 S6 SCoRE-SDR (None)      0.081          0.141  0.028       0.139            0.20        0.80
+                                   S6 SCoRE-SDR (homo)      0.423          0.657  0.133       0.133            1.00        0.00
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.232          0.288  0.087       0.248            0.35        0.65
+                                   S6 SCoRE-SDR (homo)      0.649          0.806  0.246       0.246            1.00        0.00
+                 reach D 0.1   3.0 S6 SCoRE-SDR (None)      0.097          0.145  0.027       0.133            0.20        0.80
+                                   S6 SCoRE-SDR (homo)      0.503          0.709  0.131       0.131            1.00        0.00
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.274          0.319  0.087       0.248            0.35        0.65
+                                   S6 SCoRE-SDR (homo)      0.782          0.907  0.248       0.248            1.00        0.00
+xver/D->C native node  C 0.1   3.0 S6 SCoRE-SDR (None)      0.068          0.124  0.019       0.096            0.05        0.80
+                                   S6 SCoRE-SDR (homo)      0.331          0.529  0.097       0.097            0.40        0.00
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.212          0.275  0.074       0.210            0.20        0.65
+                                   S6 SCoRE-SDR (homo)      0.591          0.756  0.202       0.202            0.40        0.00
+                 reach C 0.1   3.0 S6 SCoRE-SDR (None)      0.016          0.027  0.005       0.097            0.00        0.95
+                                   S6 SCoRE-SDR (homo)      0.329          0.524  0.100       0.100            0.45        0.00
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.152          0.189  0.050       0.201            0.15        0.75
+                                   S6 SCoRE-SDR (homo)      0.599          0.752  0.197       0.197            0.45        0.00
+xver/D->C recal  node  C 0.1   3.0 S6 SCoRE-SDR (None)      0.031          0.058  0.009       0.091            0.05        0.90
+                                   S6 SCoRE-SDR (homo)      0.335          0.514  0.096       0.096            0.35        0.00
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.088          0.105  0.029       0.190            0.00        0.85
+                                   S6 SCoRE-SDR (homo)      0.593          0.754  0.201       0.201            0.40        0.00
+                 reach C 0.1   3.0 S6 SCoRE-SDR (None)      0.116          0.223  0.040       0.099            0.25        0.60
+                                   S6 SCoRE-SDR (homo)      0.271          0.478  0.091       0.096            0.40        0.05
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.116          0.141  0.040       0.201            0.10        0.80
+                                   S6 SCoRE-SDR (homo)      0.567          0.686  0.200       0.200            0.45        0.00
+xver/D->C stale  node  C 0.1   3.0 S6 SCoRE-SDR (None)      0.000          0.000  0.000         NaN            0.00        1.00
+                                   S6 SCoRE-SDR (homo)      0.158          0.229  0.051       0.079            0.05        0.35
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.096          0.113  0.033       0.165            0.00        0.80
+                                   S6 SCoRE-SDR (homo)      0.519          0.621  0.171       0.171            0.05        0.00
+                 reach C 0.1   3.0 S6 SCoRE-SDR (None)      0.038          0.077  0.019       0.094            0.10        0.80
+                                   S6 SCoRE-SDR (homo)      0.086          0.153  0.038       0.085            0.15        0.55
+                         0.2   3.0 S6 SCoRE-SDR (None)      0.046          0.054  0.015       0.154            0.00        0.90
+                                   S6 SCoRE-SDR (homo)      0.149          0.166  0.079       0.105            0.05        0.25

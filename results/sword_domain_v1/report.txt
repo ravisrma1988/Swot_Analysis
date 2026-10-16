@@ -1,0 +1,4 @@
+river reaches 22116, gauged 1795; full-target ESS (from sword_support_v1) 132
+q=0.9: threshold 1.84; domain 9758 reaches = 0.480 of ungauged; AUC 0.636; ESS 1034 of 1795; gauged weight q95/q99 2.46/4.15
+q=0.95: threshold 3.11; domain 11743 reaches = 0.578 of ungauged; AUC 0.667; ESS 872 of 1795; gauged weight q95/q99 3.15/5.20
+q=0.99: threshold 9.35; domain 15346 reaches = 0.755 of ungauged; AUC 0.737; ESS 530 of 1795; gauged weight q95/q99 4.13/8.96

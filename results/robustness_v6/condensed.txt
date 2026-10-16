@@ -1,0 +1,61 @@
+
+== S6 homo, m=3, alpha=0.2: retention / site coverage / realised SDR (nX = share of splits certifying nothing)
+tv                               node C           node D                reach C                reach D
+design                                                                                                
+basin/ext               0.59/0.76/0.200  0.61/0.73/0.195        0.59/0.75/0.200  0.67/0.74/0.187 n0.05
+unit/causal             0.55/0.68/0.198  0.58/0.66/0.199        0.56/0.70/0.200        0.71/0.77/0.200
+unit/ext          0.57/0.72/0.188 n0.05  0.62/0.73/0.196        0.61/0.76/0.197        0.73/0.81/0.199
+unit/ext+calval         0.62/0.76/0.199  0.62/0.74/0.196        0.62/0.79/0.201        0.74/0.81/0.198
+unit/ext+tidal          0.60/0.76/0.200  0.63/0.75/0.200        0.62/0.78/0.200        0.73/0.81/0.201
+unit/notwin             0.59/0.75/0.197  0.61/0.72/0.196        0.59/0.75/0.195        0.72/0.79/0.197
+xver/C->D native                    NaN  0.61/0.73/0.197                    NaN        0.73/0.81/0.201
+xver/C->D recal                     NaN  0.56/0.66/0.196                    NaN        0.69/0.77/0.199
+xver/C->D stale                     NaN  0.65/0.81/0.246                    NaN        0.78/0.91/0.248
+xver/D->C native        0.59/0.76/0.202              NaN        0.60/0.75/0.197                    NaN
+xver/D->C recal         0.59/0.75/0.201              NaN        0.57/0.69/0.200                    NaN
+xver/D->C stale         0.52/0.62/0.171              NaN  0.15/0.17/0.079 n0.25                    NaN
+
+== S6 homo, m=3, alpha=0.1: retention / site coverage / realised SDR (nX = share of splits certifying nothing)
+tv                               node C                 node D                reach C                reach D
+design                                                                                                      
+basin/ext         0.32/0.57/0.090 n0.05  0.38/0.50/0.090 n0.05  0.29/0.45/0.092 n0.05  0.41/0.56/0.098 n0.05
+unit/causal             0.29/0.42/0.100  0.33/0.42/0.092 n0.05  0.21/0.40/0.094 n0.05        0.40/0.49/0.101
+unit/ext          0.35/0.54/0.097 n0.05        0.41/0.56/0.099  0.32/0.49/0.091 n0.05        0.46/0.63/0.101
+unit/ext+calval         0.40/0.59/0.100        0.42/0.54/0.095        0.34/0.52/0.100        0.47/0.62/0.100
+unit/ext+tidal          0.37/0.59/0.099        0.43/0.58/0.101        0.35/0.52/0.097        0.46/0.59/0.099
+unit/notwin             0.34/0.53/0.099        0.40/0.55/0.098  0.30/0.47/0.092 n0.05        0.45/0.61/0.101
+xver/C->D native                    NaN        0.39/0.54/0.096                    NaN        0.45/0.62/0.100
+xver/C->D recal                     NaN  0.31/0.41/0.090 n0.05                    NaN        0.40/0.52/0.098
+xver/C->D stale                     NaN        0.42/0.66/0.133                    NaN        0.50/0.71/0.131
+xver/D->C native        0.33/0.53/0.097                    NaN        0.33/0.52/0.100                    NaN
+xver/D->C recal         0.34/0.51/0.096                    NaN  0.27/0.48/0.091 n0.05                    NaN
+xver/D->C stale   0.16/0.23/0.051 n0.35                    NaN  0.09/0.15/0.038 n0.55                    NaN
+
+== M3 pooled, unit/ext (realised site-level SDR for comparison)
+tv              node C           node D          reach C          reach D
+alpha                                                                    
+0.1    0.42/0.81/0.144  0.46/0.80/0.149  0.39/0.81/0.141  0.52/0.84/0.143
+0.2    0.64/0.93/0.256  0.65/0.92/0.270  0.65/0.95/0.249  0.77/0.97/0.254
+
+== m sensitivity, unit/ext, S6 homo
+tv                        node C                 node D                reach C          reach D
+alpha m                                                                                        
+0.1   1.0        0.36/0.56/0.102  0.39/0.53/0.094 n0.05        0.33/0.50/0.097  0.46/0.62/0.102
+      3.0  0.35/0.54/0.097 n0.05        0.41/0.56/0.099  0.32/0.49/0.091 n0.05  0.46/0.63/0.101
+      5.0        0.37/0.59/0.102        0.42/0.56/0.099  0.32/0.49/0.093 n0.05  0.46/0.62/0.100
+0.2   1.0        0.60/0.75/0.197        0.61/0.73/0.196        0.61/0.76/0.197  0.73/0.81/0.200
+      3.0  0.57/0.72/0.188 n0.05        0.62/0.73/0.196        0.61/0.76/0.197  0.73/0.81/0.199
+      5.0        0.60/0.75/0.197        0.62/0.73/0.197        0.61/0.76/0.197  0.73/0.80/0.197
+
+== S6 without pruning (None), unit/ext, m=3
+tv                    node C                 node D                reach C                reach D
+alpha                                                                                            
+0.1    0.04/0.07/0.011 n0.90  0.10/0.15/0.025 n0.75  0.05/0.08/0.015 n0.85  0.09/0.13/0.021 n0.80
+0.2    0.24/0.30/0.081 n0.60  0.28/0.33/0.091 n0.55  0.09/0.12/0.028 n0.85  0.36/0.40/0.099 n0.50
+
+== Stop rule 1: 4 of 176 S6 configurations flagged (excess > 2 SE)
+         design  type v  alpha   m              method      sdr   excess   two_se  violation  n
+xver/C->D stale  node D    0.1 3.0 S6 SCoRE-SDR (homo) 0.133255 0.033255 0.006117       True 20
+xver/C->D stale  node D    0.2 3.0 S6 SCoRE-SDR (homo) 0.246494 0.046494 0.009284       True 20
+xver/C->D stale reach D    0.1 3.0 S6 SCoRE-SDR (homo) 0.131199 0.031199 0.006385       True 20
+xver/C->D stale reach D    0.2 3.0 S6 SCoRE-SDR (homo) 0.247801 0.047801 0.008906       True 20

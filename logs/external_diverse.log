@@ -1,0 +1,58 @@
+main repeat 1/20 at 16 s
+main repeat 2/20 at 28 s
+main repeat 3/20 at 41 s
+main repeat 4/20 at 53 s
+main repeat 5/20 at 66 s
+main repeat 6/20 at 78 s
+main repeat 7/20 at 90 s
+main repeat 8/20 at 103 s
+main repeat 9/20 at 115 s
+main repeat 10/20 at 127 s
+main repeat 11/20 at 140 s
+main repeat 12/20 at 152 s
+main repeat 13/20 at 165 s
+main repeat 14/20 at 177 s
+main repeat 15/20 at 189 s
+main repeat 16/20 at 202 s
+main repeat 17/20 at 214 s
+main repeat 18/20 at 227 s
+main repeat 19/20 at 239 s
+main repeat 20/20 at 254 s
+strict_qc repeat 1/20 at 266 s
+strict_qc repeat 2/20 at 278 s
+strict_qc repeat 3/20 at 290 s
+strict_qc repeat 4/20 at 302 s
+strict_qc repeat 5/20 at 314 s
+strict_qc repeat 6/20 at 326 s
+strict_qc repeat 7/20 at 338 s
+strict_qc repeat 8/20 at 350 s
+strict_qc repeat 9/20 at 362 s
+strict_qc repeat 10/20 at 375 s
+strict_qc repeat 11/20 at 387 s
+strict_qc repeat 12/20 at 399 s
+strict_qc repeat 13/20 at 411 s
+strict_qc repeat 14/20 at 423 s
+strict_qc repeat 15/20 at 435 s
+strict_qc repeat 16/20 at 447 s
+strict_qc repeat 17/20 at 459 s
+strict_qc repeat 18/20 at 471 s
+strict_qc repeat 19/20 at 483 s
+strict_qc repeat 20/20 at 495 s
+                                                   retention  site_coverage    sdr  sdr_sd  share_none  excess_over_2se
+stratum   alpha score                calibration                                                                       
+main      0.1   A: NA-only score     Brazil calib      0.027          0.032  0.034   0.060        0.75           -0.093
+                                     NA calib          0.124          0.174  0.099   0.067        0.25           -0.031
+                B: NA + Brazil score Brazil calib      0.016          0.024  0.022   0.047        0.80           -0.100
+                                     NA calib          0.085          0.155  0.079   0.071        0.40           -0.053
+          0.2   A: NA-only score     Brazil calib      0.215          0.243  0.168   0.077        0.15           -0.066
+                                     NA calib          0.303          0.347  0.208   0.020        0.00           -0.000
+                B: NA + Brazil score Brazil calib      0.265          0.311  0.161   0.086        0.20           -0.077
+                                     NA calib          0.290          0.353  0.189   0.077        0.10           -0.046
+strict_qc 0.1   A: NA-only score     Brazil calib      0.061          0.083  0.033   0.056        0.70           -0.092
+                                     NA calib          0.162          0.258  0.083   0.063        0.25           -0.045
+                B: NA + Brazil score Brazil calib      0.063          0.089  0.037   0.057        0.65           -0.088
+                                     NA calib          0.152          0.248  0.081   0.061        0.25           -0.046
+          0.2   A: NA-only score     Brazil calib      0.339          0.392  0.160   0.101        0.20           -0.085
+                                     NA calib          0.395          0.454  0.191   0.060        0.05           -0.036
+                B: NA + Brazil score Brazil calib      0.317          0.371  0.151   0.110        0.30           -0.098
+                                     NA calib          0.445          0.525  0.211   0.052        0.00           -0.013

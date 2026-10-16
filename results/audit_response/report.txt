@@ -1,0 +1,118 @@
+== A leakage matrix (max overlap over 20 splits; overpasses are expected to be shared)
+                                        max_T_C  max_T_U  max_C_U  mean_C_U  mean_n_U
+type  identity                                                                       
+node  SWOT observation (feature, time)        0        0        0       0.0   27395.2
+      feature                                 0        0        0       0.0     409.2
+      gauge                                   0        0        0       0.0     409.2
+      overpass (cycle, pass)               4778     4428     4425    4254.9    4555.2
+      unit                                    0        0        0       0.0     388.2
+reach SWOT observation (feature, time)        0        0        0       0.0   19312.0
+      feature                                 0        0        0       0.0     379.8
+      gauge                                   0        0        0       0.0     399.4
+      overpass (cycle, pass)               4443     4046     4151    3896.4    4222.8
+      unit                                    0        0        0       0.0     379.8
+cross-version design: gauges map to one group each across versions: True; crosswalk rows 172003 (used only as a label-free feature)
+[section A done at 4 s]
+
+== D Brazil QC flow
+| Step | Count |
+|---|---|
+| ANA telemetric stations listed | 5401 |
+| fluviometric codes with coordinates | 4964 |
+| within 1 km of a SWORD v17b river node | 1829 |
+| with >= 10 valid SWOT D passes | 1827 |
+| with >= 100 gauge records 2023-07-26..2025-12-31 | 1585 |
+| passing gauge-only QC | 1065 |
+| paired gauges (Brasilia time) | 1585 |
+| paired reaches | 1204 |
+| pairs | 110207 |
+
+Match distance km: median 0.116, p95 0.667, max 0.999. Pairing gap min: median 7.0, p90 25.0, p95 27.2, max 60.0.
+
+| Stratum (after dam/reservoir, tidal, >= 5 pairs) | Gauges | Sites | Pairs | Bad rate (tau 0.25) |
+|---|---|---|---|---|
+| main | 942 | 942 | 65176 | 0.508 |
+| strict_names | 507 | 507 | 36273 | 0.502 |
+| strict_qc | 395 | 395 | 28007 | 0.480 |
+| hydro_only | 506 | 506 | 38313 | 0.583 |
+| non_hydro | 436 | 436 | 26863 | 0.401 |
+| amazon_basin | 161 | 161 | 9840 | 0.473 |
+| optimistic | 788 | 788 | 54094 | 0.424 |
+[section D done at 5 s]
+
+== E support classes (denominator: 20321 ungauged SWORD v17b river reaches, type 1, lakeflag 0)
+support
+within estimated covariate support (ratio <= 0.01)    16684
+weak covariate support (0.01 < ratio <= 0.1)           2817
+outside covariate support (ratio > 0.1)                 820
+[section E done at 5 s]
+
+== G main table
+| Type | alpha | Method | Retained obs (mean +- SD) | Site coverage | Realised SDR (mean +- SD) |
+|---|---|---|---|---|---|
+| node | 0.10 | M1 USGS-style grid (in-sample) | 0.000 +- 0.000 | 0.000 | 0.000 +- 0.000 |
+| node | 0.10 | M3 pooled conformal | 0.461 +- 0.029 | 0.795 | 0.149 +- 0.012 |
+| node | 0.10 | S1 site CRC (abstain = 0) | 0.320 +- 0.025 | 0.703 | 0.092 +- 0.011 |
+| node | 0.10 | S6 SCoRE-SDR (homo) | 0.422 +- 0.034 | 0.562 | 0.098 +- 0.010 |
+| node | 0.20 | M1 USGS-style grid (in-sample) | 0.194 +- 0.009 | 0.776 | 0.259 +- 0.014 |
+| node | 0.20 | M3 pooled conformal | 0.654 +- 0.018 | 0.947 | 0.271 +- 0.014 |
+| node | 0.20 | S1 site CRC (abstain = 0) | 0.508 +- 0.021 | 0.823 | 0.172 +- 0.016 |
+| node | 0.20 | S6 SCoRE-SDR (homo) | 0.618 +- 0.027 | 0.732 | 0.198 +- 0.011 |
+| reach | 0.10 | M1 USGS-style grid (in-sample) | 0.000 +- 0.001 | 0.009 | 0.068 +- 0.096 |
+| reach | 0.10 | M3 pooled conformal | 0.525 +- 0.037 | 0.836 | 0.141 +- 0.013 |
+| reach | 0.10 | S1 site CRC (abstain = 0) | 0.368 +- 0.032 | 0.733 | 0.089 +- 0.016 |
+| reach | 0.10 | S6 SCoRE-SDR (homo) | 0.465 +- 0.049 | 0.616 | 0.100 +- 0.014 |
+| reach | 0.20 | M1 USGS-style grid (in-sample) | 0.370 +- 0.132 | 0.853 | 0.255 +- 0.032 |
+| reach | 0.20 | M3 pooled conformal | 0.769 +- 0.020 | 0.977 | 0.256 +- 0.014 |
+| reach | 0.20 | S1 site CRC (abstain = 0) | 0.581 +- 0.026 | 0.870 | 0.163 +- 0.015 |
+| reach | 0.20 | S6 SCoRE-SDR (homo) | 0.725 +- 0.036 | 0.793 | 0.196 +- 0.012 |
+
+| Type | alpha | Paired retention difference (per split, n = 20) | mean +- SD |
+|---|---|---|---|
+| node | 0.10 | S6 - S1 site CRC (abstain = 0) | 0.102 +- 0.023 |
+| node | 0.10 | S6 - M3 pooled conformal | -0.039 +- 0.017 |
+| node | 0.10 | S6 - M1 USGS-style grid (in-sample) | 0.422 +- 0.034 |
+| node | 0.20 | S6 - S1 site CRC (abstain = 0) | 0.110 +- 0.027 |
+| node | 0.20 | S6 - M3 pooled conformal | -0.036 +- 0.014 |
+| node | 0.20 | S6 - M1 USGS-style grid (in-sample) | 0.423 +- 0.027 |
+| reach | 0.10 | S6 - S1 site CRC (abstain = 0) | 0.097 +- 0.045 |
+| reach | 0.10 | S6 - M3 pooled conformal | -0.060 +- 0.041 |
+| reach | 0.10 | S6 - M1 USGS-style grid (in-sample) | 0.465 +- 0.049 |
+| reach | 0.20 | S6 - S1 site CRC (abstain = 0) | 0.145 +- 0.031 |
+| reach | 0.20 | S6 - M3 pooled conformal | -0.044 +- 0.026 |
+| reach | 0.20 | S6 - M1 USGS-style grid (in-sample) | 0.356 +- 0.152 |
+
+SD is across 20 splits (4 repeats x 5 folds); splits share units across repeats, so SDs understate fully independent replication. Paired differences use identical splits.
+[section G done at 5 s]
+
+== C weight diagnostics (mean over 5 repeats)
+                                          auc_cal_vs_eval    ess_C    n_C  wC_q99  wE_q50   wE_q99  dominance_gt_0p01  dominance_gt_0p1
+experiment            type  setting                                                                                                    
+Brazil reach tau 0.25 reach amazon_basin            0.976   58.593  997.4  13.555  33.038   95.694              0.795             0.212
+                            main                    0.963   70.325  997.4   8.898  10.064   59.120              0.567             0.006
+                            non_hydro               0.944  144.549  997.4   8.024   4.749   51.930              0.416             0.003
+                            strict_qc               0.962   69.548  997.4  10.393  12.627   74.034              0.587             0.009
+real shift (v9)       node  CA->US                  0.963   23.628  200.0   8.637  12.935   37.710              0.895             0.591
+                            E->W110                 0.920  140.460  784.4   8.690   4.324   40.859              0.344             0.001
+                            S->N55                  0.973   29.170  930.6  24.065  33.141  116.571              0.793             0.094
+                            US->CA                  0.961   39.313  823.4  34.638  17.972   59.447              0.651             0.000
+                      reach CA->US                  0.961   24.820  196.0   7.389  12.650   37.675              0.903             0.535
+                            E->W110                 0.928  138.695  766.4   8.719   4.157   34.774              0.378             0.000
+                            S->N55                  0.977   26.939  906.4  49.181  46.906  107.962              0.763             0.027
+                            US->CA                  0.963   42.463  800.6  20.598  16.313   56.819              0.674             0.015
+[section C done at 17 s]
+B reach: 1922 sites with >= 5 pre-2025 pairs; median |offset_full - offset_pre| = 0.018 m
+B node: 1982 sites with >= 5 pre-2025 pairs; median |offset_full - offset_pre| = 0.016 m
+
+== B prospective-offset sensitivity (temporal design, S6 homo, tau 0.25)
+                                       retention  coverage     sdr      sd      se
+type  label                     alpha                                             
+node  offset from full record   0.1       0.4310    0.5766  0.1075  0.0097  0.0022
+                                0.2       0.6262    0.7143  0.2026  0.0190  0.0042
+      offset from pre-2025 only 0.1       0.4287    0.5563  0.1210  0.0160  0.0036
+                                0.2       0.6284    0.7355  0.2238  0.0239  0.0053
+reach offset from full record   0.1       0.4633    0.5916  0.1029  0.0158  0.0035
+                                0.2       0.7428    0.8062  0.2090  0.0154  0.0034
+      offset from pre-2025 only 0.1       0.4283    0.5335  0.1189  0.0308  0.0069
+                                0.2       0.7453    0.8086  0.2384  0.0158  0.0035
+[section B done at 461 s]

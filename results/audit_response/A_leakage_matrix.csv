@@ -1,0 +1,11 @@
+type,identity,max_T_C,max_T_U,max_C_U,mean_C_U,mean_n_U
+node,"SWOT observation (feature, time)",0,0,0,0.0,27395.2
+node,feature,0,0,0,0.0,409.2
+node,gauge,0,0,0,0.0,409.2
+node,"overpass (cycle, pass)",4778,4428,4425,4254.9,4555.15
+node,unit,0,0,0,0.0,388.2
+reach,"SWOT observation (feature, time)",0,0,0,0.0,19312.0
+reach,feature,0,0,0,0.0,379.8
+reach,gauge,0,0,0,0.0,399.4
+reach,"overpass (cycle, pass)",4443,4046,4151,3896.4,4222.8
+reach,unit,0,0,0,0.0,379.8

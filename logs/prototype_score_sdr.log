@@ -1,0 +1,53 @@
+nohup: ignoring input
+reach D: rows 98563, units 1899, bad rate 0.351
+   done reach D at 79 s
+reach C: rows 101203, units 1903, bad rate 0.423
+   done reach C at 149 s
+node D: rows 136976, units 1941, bad rate 0.441
+   done node D at 218 s
+node C: rows 106285, units 1909, bad rate 0.450
+   done node C at 291 s
+
+site_fdp_where_kept = mean over held-out sites that keep data of their bad share; 20 repeats, tau 0.25 m
+                                               retention  site_coverage  pooled_fdp  site_fdp_where_kept     sd  share_splits_gt_alpha  share_splits_none
+type  v alpha method                                                                                                                                     
+node  C 0.1   M3 pooled conformal selection        0.279          0.834       0.101                0.191  0.014                   1.00               0.00
+              S1 site-level CRC (abstain = 0)      0.132          0.589       0.064                0.124  0.014                   0.95               0.00
+              S4 selective LTT (m=3)               0.000          0.000       0.000                0.000  0.000                   0.00               1.00
+              S5 site SDR e-BH (m=1)               0.000          0.000       0.000                0.000  0.000                   0.00               1.00
+              S5 site SDR e-BH (m=3)               0.003          0.003       0.003                0.003  0.012                   0.00               0.95
+        0.2   M3 pooled conformal selection        0.574          0.984       0.201                0.292  0.010                   1.00               0.00
+              S1 site-level CRC (abstain = 0)      0.254          0.809       0.095                0.182  0.015                   0.20               0.00
+              S4 selective LTT (m=3)               0.309          0.526       0.091                0.103  0.040                   0.00               0.10
+              S5 site SDR e-BH (m=1)               0.000          0.000       0.000                0.000  0.000                   0.00               1.00
+              S5 site SDR e-BH (m=3)               0.000          0.000       0.000                0.000  0.000                   0.00               1.00
+      D 0.1   M3 pooled conformal selection        0.342          0.859       0.102                0.216  0.018                   1.00               0.00
+              S1 site-level CRC (abstain = 0)      0.169          0.616       0.057                0.127  0.014                   1.00               0.00
+              S4 selective LTT (m=3)               0.000          0.000       0.000                0.000  0.000                   0.00               1.00
+              S5 site SDR e-BH (m=1)               0.000          0.000       0.000                0.000  0.000                   0.00               1.00
+              S5 site SDR e-BH (m=3)               0.000          0.000       0.000                0.000  0.000                   0.00               1.00
+        0.2   M3 pooled conformal selection        0.596          0.985       0.200                0.318  0.008                   1.00               0.00
+              S1 site-level CRC (abstain = 0)      0.283          0.803       0.085                0.187  0.015                   0.20               0.00
+              S4 selective LTT (m=3)               0.382          0.612       0.097                0.112  0.016                   0.00               0.00
+              S5 site SDR e-BH (m=1)               0.000          0.000       0.000                0.000  0.000                   0.00               1.00
+              S5 site SDR e-BH (m=3)               0.000          0.000       0.000                0.000  0.000                   0.00               1.00
+reach C 0.1   M3 pooled conformal selection        0.242          0.797       0.101                0.178  0.044                   0.95               0.05
+              S1 site-level CRC (abstain = 0)      0.099          0.595       0.073                0.130  0.013                   0.95               0.00
+              S4 selective LTT (m=3)               0.000          0.000       0.000                0.000  0.000                   0.00               1.00
+              S5 site SDR e-BH (m=1)               0.000          0.000       0.000                0.000  0.000                   0.00               1.00
+              S5 site SDR e-BH (m=3)               0.000          0.000       0.000                0.000  0.000                   0.00               1.00
+        0.2   M3 pooled conformal selection        0.588          0.976       0.204                0.278  0.010                   1.00               0.00
+              S1 site-level CRC (abstain = 0)      0.226          0.817       0.100                0.178  0.007                   0.00               0.00
+              S4 selective LTT (m=3)               0.276          0.559       0.090                0.107  0.030                   0.00               0.05
+              S5 site SDR e-BH (m=1)               0.000          0.000       0.000                0.000  0.000                   0.00               1.00
+              S5 site SDR e-BH (m=3)               0.000          0.000       0.000                0.000  0.000                   0.00               1.00
+      D 0.1   M3 pooled conformal selection        0.390          0.869       0.099                0.184  0.012                   1.00               0.00
+              S1 site-level CRC (abstain = 0)      0.164          0.622       0.064                0.115  0.010                   0.95               0.00
+              S4 selective LTT (m=3)               0.000          0.000       0.000                0.000  0.000                   0.00               1.00
+              S5 site SDR e-BH (m=1)               0.000          0.000       0.000                0.000  0.000                   0.00               1.00
+              S5 site SDR e-BH (m=3)               0.000          0.000       0.000                0.000  0.000                   0.00               1.00
+        0.2   M3 pooled conformal selection        0.729          0.985       0.201                0.276  0.011                   1.00               0.00
+              S1 site-level CRC (abstain = 0)      0.329          0.826       0.088                0.167  0.015                   0.00               0.00
+              S4 selective LTT (m=3)               0.447          0.654       0.102                0.119  0.021                   0.00               0.00
+              S5 site SDR e-BH (m=1)               0.000          0.000       0.000                0.000  0.000                   0.00               1.00
+              S5 site SDR e-BH (m=3)               0.000          0.000       0.000                0.000  0.000                   0.00               1.00

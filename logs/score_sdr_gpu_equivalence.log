@@ -1,0 +1,2 @@
+nohup: ignoring input
+device cuda; cases 72; e-value mismatches 0 (worst rel diff 0.00e+00); selection mismatches 0; time reference 23.8 s vs GPU port 0.4 s

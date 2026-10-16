@@ -1,0 +1,15 @@
+reach D: units 1899 -> single-site units 1809; sites 1997 -> 1809; pairs 98563 -> 90686
+reach: bad rate 0.342; elapsed 169 s
+node D: units 1941 -> single-site units 1845; sites 2046 -> 1845; pairs 136976 -> 124251
+node: bad rate 0.437; elapsed 339 s
+                                 retention  site_coverage  pooled_fdp    sdr  sdr_sd   n  excess_over_2se
+type  alpha method                                                                                       
+node  0.1   S6 SCoRE-SDR (None)      0.145          0.192       0.031  0.034   0.048  20           -0.087
+            S6 SCoRE-SDR (homo)      0.426          0.562       0.090  0.099   0.011  20           -0.006
+      0.2   S6 SCoRE-SDR (None)      0.160          0.194       0.048  0.052   0.094  20           -0.190
+            S6 SCoRE-SDR (homo)      0.630          0.754       0.186  0.202   0.015  20           -0.005
+reach 0.1   S6 SCoRE-SDR (None)      0.073          0.090       0.012  0.014   0.034  20           -0.101
+            S6 SCoRE-SDR (homo)      0.479          0.599       0.087  0.097   0.015  20           -0.010
+      0.2   S6 SCoRE-SDR (None)      0.219          0.241       0.052  0.056   0.089  20           -0.183
+            S6 SCoRE-SDR (homo)      0.747          0.826       0.183  0.199   0.018  20           -0.010
+flagged (excess > 2 SE): 0 of 8; total 339 s

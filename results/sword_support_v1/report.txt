@@ -1,0 +1,10 @@
+zip members (first 12): ['netcdf/', '__MACOSX/._netcdf', 'netcdf/eu_sword_v17b.nc', '__MACOSX/netcdf/._eu_sword_v17b.nc', 'netcdf/.DS_Store', '__MACOSX/netcdf/._.DS_Store', 'netcdf/oc_sword_v17b.nc', '__MACOSX/netcdf/._oc_sword_v17b.nc', 'netcdf/sa_sword_v17b.nc', '__MACOSX/netcdf/._sa_sword_v17b.nc', 'netcdf/af_sword_v17b.nc', '__MACOSX/netcdf/._af_sword_v17b.nc']
+North America file: ['netcdf/na_sword_v17b.nc', '__MACOSX/netcdf/._na_sword_v17b.nc']
+reaches variables: ['area_fits', 'cl_ids', 'discharge_models', 'dist_out', 'edit_flag', 'end_reach', 'facc', 'grod_id', 'hfalls_id', 'iceflag', 'julian_day', 'lakeflag', 'low_slope_flag', 'main_side', 'max_width', 'n_chan_max', 'n_chan_mod', 'n_nodes', 'n_rch_down', 'n_rch_up', 'network', 'num_domains', 'num_ids', 'num_reaches', 'obstr_type', 'orbits', 'path_freq', 'path_order', 'path_segs', 'rch_id_dn', 'rch_id_up', 'reach_id', 'reach_length', 'river_name', 'slope', 'stream_order', 'swot_obs', 'swot_orbits', 'trib_flag', 'width', 'width_var', 'wse', 'wse_var', 'x', 'x_max', 'x_min', 'y', 'y_max', 'y_min']
+NA reaches 38696; river reaches (type 1, lakeflag 0) 22116; gauged among them 1795 of 1933 gauged reach ids
+out-of-fold AUC (gauged vs ungauged): 0.803
+weight quantiles, gauged reaches : [0.166, 0.31, 0.477, 0.732, 3.107, 9.348]
+weight quantiles, ungauged reaches: [0.3, 0.681, 2.046, 8.937, 79.404, 243.464]
+ESS of gauged weights: 132 of 1795
+share of ungauged reaches with w <= 9.35 (gauged-support proxy): 0.755
+share of ungauged reaches with w <= 106.44 (gauged-support proxy): 0.963

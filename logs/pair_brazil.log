@@ -1,0 +1,4 @@
+stations used 1827 (no SWOT 0, no gauge 240); rows 220504 -> 220384 after overpass dedup
+  brasilia: 110207 pairs, 1585 gauges, 1204 reaches; amazon-basin pairs 15096; dt_s q50/q90 [423.0, 1502.0]; flags: hydro 0.70, dam/reservoir 0.24, tidal 0.13, name mismatch 0.07
+  local: 110177 pairs, 1585 gauges, 1204 reaches; amazon-basin pairs 15089; dt_s q50/q90 [423.0, 1502.0]; flags: hydro 0.70, dam/reservoir 0.24, tidal 0.13, name mismatch 0.07
+saved /workspace/ravi/swot/data/processed/brazil_pairs_v1.parquet

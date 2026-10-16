@@ -1,0 +1,6 @@
+data/
+external/
+__pycache__/
+*.pyc
+*.parquet
+.ipynb_checkpoints/

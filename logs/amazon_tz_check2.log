@@ -1,0 +1,17 @@
+stations in UTC-4/-5 states with downloaded stage: 352; top daily ranges (m): [1.15, 0.8, 0.79, 0.62, 0.6, 0.58, 0.52, 0.46, 0.42, 0.41, 0.41, 0.4, 0.38, 0.37, 0.36]
+  16090000 AM RIO UATUMÃ         range 1.15 m: best UTC-1.75; MAD -3: 0.205, -4: 0.209, -5: 0.274, 0: 0.240
+  17091090 MT RIO JURUENA        range 0.80 m: best UTC-7.75; MAD -3: 3.366, -4: 2.587, -5: 2.246, 0: 3.593
+  15750575 MT RIO ARIPUANÃ       range 0.79 m: best UTC+6.25; MAD -3: 1.948, -4: 1.853, -5: 1.810, 0: 1.565
+  17091099 MT RIO JURUENA        range 0.62 m: best UTC-8.00; MAD -3: 0.232, -4: 0.260, -5: 0.267, 0: 0.249
+  63921000 MS RIO PARDO          range 0.60 m: best UTC+3.25; MAD -3: 0.363, -4: 0.443, -5: 0.475, 0: 0.393
+  17091095 MT RIO JURUENA        range 0.58 m: best UTC-2.75; MAD -3: 0.121, -4: 0.161, -5: 0.200, 0: 0.185
+  17390100 MT RIO TELES PIRES (O range 0.52 m: best UTC-2.50; MAD -3: 0.168, -4: 0.228, -5: 0.267, 0: 0.294
+  17091097 MT RIO JURUENA        range 0.46 m: best UTC-3.00; MAD -3: 0.200, -4: 0.254, -5: 0.240, 0: 0.262
+  17099400 MT RIO CLARO          range 0.42 m: best UTC+2.50; MAD -3: 5.129, -4: 5.129, -5: 5.118, 0: 5.067
+  66005900 MT RIO SANTANA        range 0.41 m: best UTC-6.75; MAD -3: 0.424, -4: 0.423, -5: 0.445, 0: 0.435
+  66400360 MT RIO SÃO LOURENÇO   range 0.40 m: best UTC+0.00; MAD -3: 0.238, -4: 0.233, -5: 0.220, 0: 0.203
+  17307000 MT RIO TELES PIRES (O range 0.38 m: best UTC-2.50; MAD -3: 0.060, -4: 0.072, -5: 0.083, 0: 0.099
+  66029000 MT RIBEIRÃO DO SAPO   range 0.37 m: best UTC-3.00; MAD -3: 0.129, -4: 0.142, -5: 0.142, 0: 0.160
+  17090580 MT RIO JURUENA        range 0.36 m: best UTC+6.25; MAD -3: 0.162, -4: 0.165, -5: 0.182, 0: 0.155
+
+verdict per station: {'Brasilia (-3)': 9, 'local (-4/-5)': 5}

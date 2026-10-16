@@ -1,0 +1,25 @@
+{
+  "_provenance": "Transcribed on 2026-10-13 from the ScienceBase item record https://www.sciencebase.gov/catalog/item/688ce6bdd4be02086276c296?format=json as shown in a browser JSON viewer. Scripted retrieval is blocked by a Cloudflare challenge, so this is not the raw API response. Contact details, tags and preview-image fields are omitted; all values below are copied unchanged.",
+  "id": "688ce6bdd4be02086276c296",
+  "doi": "10.5066/P1FE9W9E",
+  "title": "Paired Water Surface Elevation Data in the United States and Canada from the Surface Water Ocean Topography (SWOT) Satellite and In Situ Gage Data from 2023 to 2025",
+  "citation": "Harlan, M.E., Bjerklie, D.M., Eggleston, J.R., Riggs, R.M., and Zwart, J.A., 2026, Paired Water Surface Elevation Data in the United States and Canada from the Surface Water Ocean Topography (SWOT) Satellite and In Situ Gage Data from 2023 to 2025: U.S. Geological Survey data release, https://doi.org/10.5066/P1FE9W9E.",
+  "rights": "CC0-1.0",
+  "publication_date": "2026-03-30",
+  "date_created": "2025-08-01T16:09:33Z",
+  "last_updated": "2026-03-30T14:39:35Z",
+  "temporal_coverage": {"start": "2023-01-01", "end": "2025-12-31"},
+  "has_children": false,
+  "distribution_zip_name": "PairedWaterSurf.zip",
+  "files": [
+    {"name": "site_location_map.png", "size": 5348760, "md5": "555ac029007cec2e822c35dd980d68e4", "content_type": "image/png", "date_uploaded": "2026-02-27T00:15:35Z"},
+    {"name": "paired_lake_SWOT_sites.csv", "size": 197992, "md5": "2d2b9e0d9f7c0153afee3ceb54682547", "content_type": "text/csv", "date_uploaded": "2026-03-11T22:53:57Z"},
+    {"name": "paired_reach_SWOT_sites.csv", "size": 588539, "md5": "ea84afd7e7e7bb6bbe9f0438fb8e7eaa", "content_type": "text/csv", "date_uploaded": "2026-03-11T22:54:08Z"},
+    {"name": "paired_node_SWOT_sites.csv", "size": 544332, "md5": "fb5e123a382d14f8727efcaf4fd6e3bf", "content_type": "text/csv", "date_uploaded": "2026-03-11T22:54:20Z"},
+    {"name": "paired_lake_SWOT_gage.csv", "size": 27712097, "md5": "0ace76901be684d9bbe99c015cf3f7d1", "content_type": "text/csv", "date_uploaded": "2026-03-11T22:55:08Z"},
+    {"name": "paired_reach_SWOT_gage.csv", "size": 103092082, "md5": "cf2f244a5fb495dcf9ae90a2213eb909", "content_type": "text/csv", "date_uploaded": "2026-03-11T22:55:36Z"},
+    {"name": "paired_node_SWOT_gage.csv", "size": 114426933, "md5": "125c6f4f840f7cbc58efbf2c76a772f5", "content_type": "text/csv", "date_uploaded": "2026-03-11T22:55:46Z"},
+    {"name": "SWOT_insitu_comparison_metadata.xml", "size": 183330, "md5": "9cacc703a14f68ac277f9dbf97660984", "content_type": "application/fgdc+xml", "date_uploaded": "2026-03-30T14:38:19Z"},
+    {"name": "paired_filtering_analysis.csv", "size": 26096488, "md5": "b4a6aa00725e1c5bf0ff21289fae1e74", "content_type": "text/csv", "date_uploaded": "2026-03-15T02:23:35Z"}
+  ]
+}

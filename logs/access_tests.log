@@ -1,0 +1,19 @@
+Hydrocron test reach 71140100161
+  HTTP 200 | first 600 chars:
+ {"status":"200 OK","time":98.818,"hits":16,"results":{"csv":"reach_id,time_str,wse,reach_q,wse_units\n71140100161,2024-01-08T11:11:17Z,132.6873,1,m\n71140100161,2024-01-09T20:02:41Z,132.6855,1,m\n71140100161,2024-01-10T20:03:20Z,131.9576,1,m\n71140100161,2024-01-18T09:33:30Z,132.8346,1,m\n71140100161,no_data,-999999999999.0,3,m\n71140100161,2024-01-20T18:25:34Z,133.0187,1,m\n71140100161,2024-01-29T07:56:23Z,133.1325,1,m\n71140100161,2024-01-30T16:47:47Z,132.7526,1,m\n71140100161,2024-01-31T16:48:27Z,134.223,1,m\n71140100161,2024-02-08T06:18:35Z,136.2872,1,m\n71140100161,no_data,-999999999999.0
+
+ANA legacy telemetry service
+  HTTP 200 | length 88943 | first 800 chars:
+ <?xml version="1.0" encoding="utf-8"?>
+<DataTable xmlns="http://MRCS/">
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DadosHidrometereologicos" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DadosHidrometereologicos">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CodEstacao" type="xs:string" minOccurs="0" />
+                <xs:element name="DataHora" type="xs:string" minOccurs="0" />
+                <xs:element name="Vazao" type="xs:string" minOccurs="0" />
+                <xs

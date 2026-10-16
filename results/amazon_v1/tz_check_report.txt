@@ -1,0 +1,23 @@
+candidate stations (estuary box, >= 10 SWOT D passes): 20
+  16900000 RIO TROMBETAS        daily range 0.06 m; best offset UTC-4.50 h (MAD 0.026); MAD at UTC-3 0.034, UTC-4 0.031, UTC 0.050
+  30080000 RIO ARAGUARI         daily range 0.07 m; best offset UTC-3.00 h (MAD 0.288); MAD at UTC-3 0.288, UTC-4 0.313, UTC 0.345
+  19090000 RIO JARI             daily range 0.06 m; best offset UTC+7.50 h (MAD 0.104); MAD at UTC-3 0.146, UTC-4 0.148, UTC 0.127
+  19151500 RIO JARI             daily range 0.64 m; best offset UTC-3.50 h (MAD 0.175); MAD at UTC-3 0.193, UTC-4 0.225, UTC 0.260
+  19095000 RIO JARI             daily range 0.02 m; best offset UTC-2.75 h (MAD 0.111); MAD at UTC-3 0.114, UTC-4 0.132, UTC 0.136
+  19152500 RIO JARI             daily range 1.09 m; best offset UTC-2.75 h (MAD 0.055); MAD at UTC-3 0.056, UTC-4 0.126, UTC 0.286
+  19110000 RIO IRATAPURU        daily range 0.03 m; best offset UTC-6.75 h (MAD 0.186); MAD at UTC-3 0.215, UTC-4 0.205, UTC 0.193
+  31700000 RIO CAPIM            daily range 0.03 m; best offset UTC-5.75 h (MAD 0.092); MAD at UTC-3 0.103, UTC-4 0.101, UTC 0.113
+  30200050 RIO ARAGUARI         daily range 0.08 m; best offset UTC+4.50 h (MAD 0.093); MAD at UTC-3 0.123, UTC-4 0.127, UTC 0.110
+  30510000 RIO ARAGUARI         daily range 0.19 m; best offset UTC-7.00 h (MAD 0.136); MAD at UTC-3 0.157, UTC-4 0.157, UTC 0.190
+  30498000: no ANA stage around the overpasses, skipped
+  30511000 RIO ARAGUARI         daily range 0.43 m; best offset UTC-1.25 h (MAD 0.894); MAD at UTC-3 1.041, UTC-4 1.286, UTC 1.097
+  30189000 RIO ARAGUARI         daily range 0.09 m; best offset UTC+5.00 h (MAD 0.091); MAD at UTC-3 0.123, UTC-4 0.136, UTC 0.118
+  30400050: no ANA stage around the overpasses, skipped
+  30400080 RIO ARAGUARI         daily range 0.14 m; best offset UTC-8.00 h (MAD 5.778); MAD at UTC-3 5.836, UTC-4 5.822, UTC 5.869
+  30400040 RIO ARAGUARI         daily range 0.02 m; best offset UTC-3.75 h (MAD 0.062); MAD at UTC-3 0.063, UTC-4 0.064, UTC 0.079
+  30497000: no ANA stage around the overpasses, skipped
+  30370000 RIO AMAPARI          daily range 0.16 m; best offset UTC-2.00 h (MAD 0.589); MAD at UTC-3 0.591, UTC-4 0.663, UTC 0.737
+  30300000 RIO AMAPARI          daily range 0.06 m; best offset UTC+1.00 h (MAD 0.182); MAD at UTC-3 0.204, UTC-4 0.205, UTC 0.202
+  30075000 RIO TARTARUGAL GRAND daily range 0.02 m; best offset UTC-0.75 h (MAD 0.097); MAD at UTC-3 0.101, UTC-4 0.101, UTC 0.111
+
+tidal stations (median daily range >= 0.5 m): 2; best offsets: {-3.5: 1, -2.75: 1}

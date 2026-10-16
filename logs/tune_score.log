@@ -1,0 +1,39 @@
+cfg 1/25 at 8 s
+cfg 2/25 at 12 s
+cfg 3/25 at 19 s
+cfg 4/25 at 27 s
+cfg 5/25 at 30 s
+cfg 6/25 at 33 s
+cfg 7/25 at 41 s
+cfg 8/25 at 48 s
+cfg 9/25 at 53 s
+cfg 10/25 at 59 s
+cfg 11/25 at 71 s
+cfg 12/25 at 82 s
+cfg 13/25 at 88 s
+cfg 14/25 at 93 s
+cfg 15/25 at 105 s
+cfg 16/25 at 116 s
+cfg 17/25 at 126 s
+cfg 18/25 at 135 s
+cfg 19/25 at 157 s
+cfg 20/25 at 175 s
+cfg 21/25 at 184 s
+cfg 22/25 at 192 s
+cfg 23/25 at 214 s
+cfg 24/25 at 231 s
+cfg 25/25 at 238 s
+     logloss     auc
+cfg                 
+19    0.3698  0.9077
+17    0.3703  0.9076
+21    0.3707  0.9073
+11    0.3713  0.9070
+16    0.3717  0.9069
+previous default (cfg 24): {'logloss': 0.3742, 'auc': 0.9055}; selected cfg 19: {'max_depth': 8, 'learning_rate': 0.03, 'n_estimators': 700, 'min_child_weight': 10}
+ type  monotone  logloss    auc
+reach     False   0.3895 0.8967
+reach      True   0.3959 0.8937
+ node     False   0.3501 0.9187
+ node      True   0.3582 0.9157
+model_config.json written: {'max_depth': 8, 'learning_rate': 0.03, 'n_estimators': 700, 'min_child_weight': 10, 'subsample': 0.8, 'colsample_bytree': 0.8, 'monotone_gain_logloss': -0.00723, 'tuned_on': 'Version C reach+node, grouped 5-fold by unit, tau 0.25'}

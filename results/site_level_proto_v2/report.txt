@@ -1,0 +1,99 @@
+reach D: rows 98563, units 1899, bad rate 0.351
+   done reach D at 76 s
+reach C: rows 101203, units 1903, bad rate 0.423
+   done reach C at 158 s
+node D: rows 136976, units 1941, bad rate 0.441
+   done node D at 238 s
+node C: rows 106285, units 1909, bad rate 0.450
+   done node C at 313 s
+
+site_fdp_where_kept = mean over held-out sites that keep data of their bad share; 20 repeats, tau 0.25 m
+                                               retention  site_coverage  pooled_fdp  site_fdp_abstain0  site_fdp_where_kept  sd_where_kept  share_splits_where_kept_gt_alpha
+type  v alpha method                                                                                                                                                        
+node  C 0.1   M3 pooled conformal selection        0.279          0.834       0.101              0.160                0.191          0.014                              1.00
+              S1 site-level CRC (abstain = 0)      0.132          0.589       0.064              0.073                0.124          0.014                              0.95
+              S3 gate + CRC (abstain = 0)          0.392          0.483       0.141              0.067                0.140          0.036                              0.85
+              S4 selective LTT (m=1)               0.000          0.000       0.000              0.000                0.000          0.000                              0.00
+              S4 selective LTT (m=3)               0.000          0.000       0.000              0.000                0.000          0.000                              0.00
+        0.2   M3 pooled conformal selection        0.574          0.984       0.201              0.288                0.292          0.010                              1.00
+              S1 site-level CRC (abstain = 0)      0.254          0.809       0.095              0.148                0.182          0.015                              0.20
+              S3 gate + CRC (abstain = 0)          0.613          0.611       0.278              0.166                0.272          0.027                              0.95
+              S4 selective LTT (m=1)               0.294          0.526       0.088              0.061                0.103          0.041                              0.00
+              S4 selective LTT (m=3)               0.309          0.526       0.091              0.061                0.103          0.040                              0.00
+      D 0.1   M3 pooled conformal selection        0.342          0.859       0.102              0.186                0.216          0.018                              1.00
+              S1 site-level CRC (abstain = 0)      0.169          0.616       0.057              0.078                0.127          0.014                              1.00
+              S3 gate + CRC (abstain = 0)          0.465          0.486       0.165              0.078                0.162          0.029                              1.00
+              S4 selective LTT (m=1)               0.000          0.000       0.000              0.000                0.000          0.000                              0.00
+              S4 selective LTT (m=3)               0.000          0.000       0.000              0.000                0.000          0.000                              0.00
+        0.2   M3 pooled conformal selection        0.596          0.985       0.200              0.313                0.318          0.008                              1.00
+              S1 site-level CRC (abstain = 0)      0.283          0.803       0.085              0.150                0.187          0.015                              0.20
+              S3 gate + CRC (abstain = 0)          0.637          0.632       0.256              0.160                0.254          0.028                              1.00
+              S4 selective LTT (m=1)               0.367          0.617       0.093              0.068                0.110          0.018                              0.00
+              S4 selective LTT (m=3)               0.382          0.612       0.097              0.069                0.112          0.016                              0.00
+reach C 0.1   M3 pooled conformal selection        0.242          0.797       0.101              0.150                0.178          0.044                              0.95
+              S1 site-level CRC (abstain = 0)      0.099          0.595       0.073              0.078                0.130          0.013                              0.95
+              S3 gate + CRC (abstain = 0)          0.367          0.495       0.129              0.066                0.134          0.036                              0.90
+              S4 selective LTT (m=1)               0.000          0.000       0.000              0.000                0.000          0.000                              0.00
+              S4 selective LTT (m=3)               0.000          0.000       0.000              0.000                0.000          0.000                              0.00
+        0.2   M3 pooled conformal selection        0.588          0.976       0.204              0.271                0.278          0.010                              1.00
+              S1 site-level CRC (abstain = 0)      0.226          0.817       0.100              0.145                0.178          0.007                              0.00
+              S3 gate + CRC (abstain = 0)          0.586          0.615       0.251              0.153                0.250          0.041                              0.90
+              S4 selective LTT (m=1)               0.235          0.520       0.080              0.057                0.098          0.036                              0.00
+              S4 selective LTT (m=3)               0.276          0.559       0.090              0.064                0.107          0.030                              0.00
+      D 0.1   M3 pooled conformal selection        0.390          0.869       0.099              0.160                0.184          0.012                              1.00
+              S1 site-level CRC (abstain = 0)      0.164          0.622       0.064              0.071                0.115          0.010                              0.95
+              S3 gate + CRC (abstain = 0)          0.455          0.485       0.137              0.067                0.140          0.032                              0.90
+              S4 selective LTT (m=1)               0.000          0.000       0.000              0.000                0.000          0.000                              0.00
+              S4 selective LTT (m=3)               0.000          0.000       0.000              0.000                0.000          0.000                              0.00
+        0.2   M3 pooled conformal selection        0.729          0.985       0.201              0.272                0.276          0.011                              1.00
+              S1 site-level CRC (abstain = 0)      0.329          0.826       0.088              0.139                0.167          0.015                              0.00
+              S3 gate + CRC (abstain = 0)          0.666          0.698       0.195              0.140                0.201          0.031                              0.55
+              S4 selective LTT (m=1)               0.390          0.590       0.089              0.070                0.105          0.043                              0.00
+              S4 selective LTT (m=3)               0.447          0.654       0.102              0.079                0.119          0.021                              0.00
+
+S4 gate quantile chosen (count of splits):
+type   v  alpha  method                  gate_q
+node   C  0.1    S4 selective LTT (m=1)  NaN       20
+                 S4 selective LTT (m=3)  NaN       20
+          0.2    S4 selective LTT (m=1)  0.3        8
+                                         0.4        6
+                                         0.5        2
+                                         NaN        2
+                                         0.2        1
+                                         0.6        1
+                 S4 selective LTT (m=3)  0.3       10
+                                         0.4        5
+                                         0.5        2
+                                         NaN        2
+                                         0.6        1
+       D  0.1    S4 selective LTT (m=1)  NaN       20
+                 S4 selective LTT (m=3)  NaN       20
+          0.2    S4 selective LTT (m=1)  0.3       11
+                                         0.4        6
+                                         0.2        2
+                                         0.5        1
+                 S4 selective LTT (m=3)  0.3        9
+                                         0.4        8
+                                         0.2        3
+reach  C  0.1    S4 selective LTT (m=1)  NaN       20
+                 S4 selective LTT (m=3)  NaN       20
+          0.2    S4 selective LTT (m=1)  0.4       10
+                                         0.3        3
+                                         0.5        3
+                                         0.2        2
+                                         NaN        2
+                 S4 selective LTT (m=3)  0.4        8
+                                         0.3        7
+                                         0.5        3
+                                         0.2        1
+                                         NaN        1
+       D  0.1    S4 selective LTT (m=1)  NaN       20
+                 S4 selective LTT (m=3)  NaN       20
+          0.2    S4 selective LTT (m=1)  0.2        7
+                                         0.3        6
+                                         0.4        5
+                                         NaN        2
+                 S4 selective LTT (m=3)  0.2        7
+                                         0.3        6
+                                         0.4        6
+                                         0.1        1

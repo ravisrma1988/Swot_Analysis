@@ -1,0 +1,239 @@
+== validity curve, S6 homo, tau 0.25 (realised SDR by alpha)
+type    node         reach       
+v          C      D      C      D
+alpha                            
+0.05   0.037  0.045  0.044  0.038
+0.10   0.096  0.098  0.096  0.100
+0.15   0.148  0.149  0.147  0.149
+0.20   0.186  0.198  0.195  0.196
+0.25   0.250  0.246  0.246  0.249
+0.30   0.301  0.297  0.297  0.297
+
+== S6 homo, Version D, tau frontier (kept/coverage/SDR)
+type                         node                  reach
+tau  alpha                                              
+0.10 0.1    0.01/0.03/0.049 n0.60  0.00/0.01/0.034 n0.80
+     0.2          0.12/0.25/0.199  0.08/0.20/0.167 n0.15
+0.25 0.1          0.42/0.56/0.098        0.47/0.62/0.100
+     0.2          0.62/0.73/0.198        0.73/0.79/0.196
+0.50 0.1          0.70/0.81/0.098        0.80/0.87/0.099
+     0.2          0.82/0.86/0.198        0.94/0.95/0.203
+
+== label A (absolute), Version D
+type                         node                                                                reach                                              
+method        M3 pooled conformal    S6 SCoRE-SDR (None)    S6 SCoRE-SDR (homo)    M3 pooled conformal    S6 SCoRE-SDR (None)    S6 SCoRE-SDR (homo)
+tau  alpha                                                                                                                                          
+0.25 0.1    0.03/0.15/0.091 n0.20  0.00/0.00/0.000 n1.00  0.02/0.03/0.049 n0.75  0.00/0.01/0.073 n0.50  0.00/0.00/0.015 n0.95  0.00/0.00/0.015 n0.95
+     0.2          0.30/0.77/0.230  0.11/0.26/0.075 n0.60        0.26/0.53/0.190  0.01/0.03/0.153 n0.35  0.01/0.01/0.065 n0.85  0.01/0.01/0.113 n0.70
+0.50 0.1          0.31/0.66/0.110  0.06/0.15/0.024 n0.75  0.28/0.48/0.094 n0.05  0.01/0.02/0.181 n0.35  0.00/0.00/0.000 n1.00  0.00/0.00/0.011 n0.95
+     0.2          0.76/1.00/0.245  0.35/0.46/0.100 n0.50        0.70/0.88/0.200  0.02/0.05/0.243 n0.20  0.01/0.02/0.084 n0.65  0.02/0.02/0.119 n0.45
+1.00 0.1          0.74/0.98/0.133  0.28/0.37/0.041 n0.55        0.63/0.78/0.093  0.02/0.04/0.121 n0.20  0.00/0.00/0.000 n1.00  0.00/0.00/0.002 n0.95
+     0.2          0.91/1.00/0.240  0.38/0.43/0.087 n0.55        0.86/0.96/0.199  0.07/0.15/0.252 n0.05  0.01/0.01/0.033 n0.85  0.04/0.05/0.113 n0.45
+
+== robustness stop rule 1 flagged:
+         design  type v  alpha   m              method      sdr   excess   two_se  violation  n
+xver/C->D stale  node D    0.1 3.0 S6 SCoRE-SDR (homo) 0.129301 0.029301 0.006273       True 20
+xver/C->D stale  node D    0.2 3.0 S6 SCoRE-SDR (homo) 0.242117 0.042117 0.008695       True 20
+xver/C->D stale reach D    0.1 3.0 S6 SCoRE-SDR (homo) 0.134896 0.034896 0.007272       True 20
+xver/C->D stale reach D    0.2 3.0 S6 SCoRE-SDR (homo) 0.250880 0.050880 0.008383       True 20
+
+== robustness, S6 homo m=3
+type                               node                                                                                 reach                                                               
+v                                     C                                             D                                       C                                             D                 
+alpha                               0.1                    0.2                    0.1              0.2                    0.1                    0.2                    0.1              0.2
+design                                                                                                                                                                                      
+basin/ext               0.34/0.59/0.097        0.59/0.76/0.200        0.40/0.53/0.094  0.61/0.73/0.193  0.30/0.46/0.088 n0.10        0.59/0.75/0.198  0.40/0.55/0.094 n0.05  0.70/0.80/0.202
+unit/causal       0.25/0.36/0.091 n0.05        0.55/0.66/0.199        0.36/0.45/0.101  0.59/0.67/0.198  0.22/0.38/0.093 n0.05        0.55/0.69/0.199        0.39/0.50/0.100  0.70/0.75/0.196
+unit/ext          0.35/0.56/0.096 n0.05  0.57/0.72/0.186 n0.05        0.42/0.56/0.098  0.62/0.73/0.198        0.34/0.52/0.096        0.61/0.76/0.195        0.47/0.62/0.100  0.73/0.79/0.196
+unit/ext+calval   0.38/0.55/0.094 n0.05        0.61/0.76/0.199  0.40/0.53/0.093 n0.05  0.62/0.75/0.199        0.36/0.53/0.102        0.62/0.79/0.200        0.47/0.59/0.098  0.73/0.81/0.196
+unit/ext+tidal          0.38/0.59/0.099        0.61/0.77/0.203        0.43/0.58/0.100  0.63/0.75/0.200  0.34/0.54/0.095 n0.05        0.62/0.78/0.199        0.47/0.61/0.098  0.74/0.82/0.202
+unit/notwin             0.35/0.57/0.100  0.56/0.72/0.186 n0.05  0.39/0.52/0.094 n0.05  0.61/0.72/0.196  0.31/0.48/0.092 n0.05        0.59/0.75/0.196        0.46/0.63/0.100  0.72/0.79/0.196
+xver/C->D native                    NaN                    NaN        0.41/0.55/0.097  0.61/0.73/0.200                    NaN                    NaN        0.45/0.62/0.099  0.73/0.81/0.201
+xver/C->D recal                     NaN                    NaN  0.33/0.45/0.094 n0.05  0.57/0.67/0.199                    NaN                    NaN        0.41/0.52/0.100  0.69/0.76/0.198
+xver/C->D stale                     NaN                    NaN        0.42/0.66/0.129  0.65/0.80/0.242                    NaN                    NaN        0.51/0.73/0.135  0.79/0.91/0.251
+xver/D->C native        0.35/0.56/0.099        0.59/0.75/0.198                    NaN              NaN  0.32/0.50/0.092 n0.05        0.59/0.74/0.197                    NaN              NaN
+xver/D->C recal         0.33/0.47/0.095        0.59/0.74/0.198                    NaN              NaN  0.27/0.46/0.089 n0.05        0.55/0.66/0.200                    NaN              NaN
+xver/D->C stale   0.22/0.30/0.066 n0.20        0.52/0.61/0.172                    NaN              NaN  0.13/0.21/0.047 n0.40  0.21/0.24/0.098 n0.15                    NaN              NaN
+
+== shift_v7 (kept/coverage/SDR; excess_over_2se > 0 = violation)
+ type shift   b  alpha        method                     c  excess_over_2se
+ node south 1.0    0.1 S6 unweighted       0.48/0.63/0.113            0.008
+ node south 1.0    0.1 S6w estimated 0.28/0.38/0.072 n0.30           -0.050
+ node south 1.0    0.1    S6w oracle 0.26/0.36/0.074 n0.20           -0.044
+ node south 1.0    0.2 S6 unweighted       0.67/0.83/0.211            0.006
+ node south 1.0    0.2 S6w estimated       0.66/0.81/0.205            0.000
+ node south 1.0    0.2    S6w oracle       0.64/0.78/0.199           -0.008
+ node south 2.0    0.1 S6 unweighted       0.50/0.69/0.114            0.010
+ node south 2.0    0.1 S6w estimated 0.16/0.23/0.054 n0.50           -0.071
+ node south 2.0    0.1    S6w oracle 0.17/0.25/0.060 n0.45           -0.066
+ node south 2.0    0.2 S6 unweighted       0.68/0.86/0.203           -0.002
+ node south 2.0    0.2 S6w estimated       0.66/0.83/0.205           -0.003
+ node south 2.0    0.2    S6w oracle 0.44/0.58/0.172 n0.15           -0.065
+ node width 0.0    0.1 S6 unweighted       0.41/0.56/0.097           -0.007
+ node width 0.0    0.1 S6w estimated 0.39/0.53/0.092 n0.05           -0.019
+ node width 0.0    0.1    S6w oracle       0.41/0.56/0.097           -0.007
+ node width 0.0    0.2 S6 unweighted       0.60/0.72/0.196           -0.010
+ node width 0.0    0.2 S6w estimated       0.60/0.71/0.194           -0.013
+ node width 0.0    0.2    S6w oracle       0.60/0.72/0.196           -0.010
+ node width 1.0    0.1 S6 unweighted 0.11/0.16/0.036 n0.65           -0.088
+ node width 1.0    0.1 S6w estimated 0.28/0.36/0.089 n0.05           -0.021
+ node width 1.0    0.1    S6w oracle 0.28/0.36/0.090 n0.05           -0.021
+ node width 1.0    0.2 S6 unweighted 0.46/0.53/0.181 n0.05           -0.046
+ node width 1.0    0.2 S6w estimated       0.50/0.56/0.190           -0.019
+ node width 1.0    0.2    S6w oracle       0.50/0.56/0.191           -0.019
+ node width 2.0    0.1 S6 unweighted 0.03/0.05/0.011 n0.90           -0.104
+ node width 2.0    0.1 S6w estimated 0.12/0.15/0.056 n0.40           -0.065
+ node width 2.0    0.1    S6w oracle 0.12/0.15/0.054 n0.45           -0.069
+ node width 2.0    0.2 S6 unweighted 0.16/0.18/0.071 n0.65           -0.176
+ node width 2.0    0.2 S6w estimated 0.34/0.37/0.158 n0.15           -0.075
+ node width 2.0    0.2    S6w oracle 0.34/0.37/0.160 n0.15           -0.073
+reach south 1.0    0.1 S6 unweighted 0.48/0.64/0.110 n0.05           -0.003
+reach south 1.0    0.1 S6w estimated 0.29/0.38/0.074 n0.25           -0.047
+reach south 1.0    0.1    S6w oracle 0.27/0.35/0.070 n0.25           -0.050
+reach south 1.0    0.2 S6 unweighted       0.76/0.86/0.212            0.006
+reach south 1.0    0.2 S6w estimated       0.72/0.81/0.197           -0.011
+reach south 1.0    0.2    S6w oracle       0.69/0.78/0.192           -0.020
+reach south 2.0    0.1 S6 unweighted       0.53/0.70/0.116            0.011
+reach south 2.0    0.1 S6w estimated 0.15/0.21/0.048 n0.55           -0.077
+reach south 2.0    0.1    S6w oracle 0.18/0.25/0.056 n0.45           -0.068
+reach south 2.0    0.2 S6 unweighted       0.77/0.88/0.215            0.010
+reach south 2.0    0.2 S6w estimated       0.69/0.78/0.201           -0.009
+reach south 2.0    0.2    S6w oracle 0.47/0.55/0.161 n0.15           -0.073
+reach width 0.0    0.1 S6 unweighted       0.45/0.59/0.101           -0.006
+reach width 0.0    0.1 S6w estimated       0.44/0.57/0.099           -0.008
+reach width 0.0    0.1    S6w oracle       0.45/0.59/0.101           -0.006
+reach width 0.0    0.2 S6 unweighted       0.72/0.80/0.201           -0.007
+reach width 0.0    0.2 S6w estimated       0.72/0.79/0.199           -0.009
+reach width 0.0    0.2    S6w oracle       0.72/0.80/0.201           -0.007
+reach width 1.0    0.1 S6 unweighted 0.31/0.38/0.081 n0.05           -0.030
+reach width 1.0    0.1 S6w estimated 0.34/0.44/0.087 n0.10           -0.029
+reach width 1.0    0.1    S6w oracle 0.37/0.47/0.095 n0.05           -0.018
+reach width 1.0    0.2 S6 unweighted       0.64/0.69/0.190           -0.021
+reach width 1.0    0.2 S6w estimated       0.66/0.72/0.197           -0.010
+reach width 1.0    0.2    S6w oracle       0.67/0.73/0.198           -0.009
+reach width 2.0    0.1 S6 unweighted 0.22/0.25/0.061 n0.25           -0.056
+reach width 2.0    0.1 S6w estimated 0.21/0.27/0.064 n0.35           -0.058
+reach width 2.0    0.1    S6w oracle 0.21/0.26/0.066 n0.30           -0.055
+reach width 2.0    0.2 S6 unweighted 0.47/0.48/0.146 n0.10           -0.080
+reach width 2.0    0.2 S6w estimated       0.63/0.67/0.200           -0.014
+reach width 2.0    0.2    S6w oracle       0.63/0.67/0.202           -0.013
+
+== real_shift_v9 (kept/coverage/SDR; excess_over_2se > 0 = violation)
+ type  design  alpha               method                     c  excess_over_2se
+ node  CA->US    0.1        S6 unweighted 0.17/0.23/0.050 n0.30           -0.067
+ node  CA->US    0.1 S6w physical weights 0.01/0.01/0.012 n0.90           -0.105
+ node  CA->US    0.2        S6 unweighted 0.34/0.38/0.122 n0.05           -0.095
+ node  CA->US    0.2 S6w physical weights 0.04/0.04/0.044 n0.80           -0.197
+ node E->W110    0.1        S6 unweighted 0.53/0.75/0.118 n0.05            0.005
+ node E->W110    0.1 S6w physical weights 0.32/0.45/0.088 n0.25           -0.036
+ node E->W110    0.2        S6 unweighted       0.73/0.90/0.208            0.003
+ node E->W110    0.2 S6w physical weights 0.63/0.78/0.179 n0.10           -0.049
+ node  S->N55    0.1        S6 unweighted       0.58/0.88/0.127            0.022
+ node  S->N55    0.1 S6w physical weights 0.07/0.10/0.036 n0.65           -0.087
+ node  S->N55    0.2        S6 unweighted       0.76/0.98/0.206           -0.000
+ node  S->N55    0.2 S6w physical weights 0.47/0.60/0.151 n0.20           -0.084
+ node  US->CA    0.1        S6 unweighted       0.58/0.83/0.124            0.020
+ node  US->CA    0.1 S6w physical weights 0.08/0.11/0.027 n0.70           -0.095
+ node  US->CA    0.2        S6 unweighted       0.75/0.95/0.212            0.007
+ node  US->CA    0.2 S6w physical weights 0.46/0.58/0.141 n0.30           -0.102
+reach  CA->US    0.1        S6 unweighted 0.31/0.44/0.081 n0.15           -0.037
+reach  CA->US    0.1 S6w physical weights 0.01/0.01/0.007 n0.90           -0.103
+reach  CA->US    0.2        S6 unweighted 0.58/0.66/0.168 n0.05           -0.057
+reach  CA->US    0.2 S6w physical weights 0.04/0.04/0.037 n0.80           -0.198
+reach E->W110    0.1        S6 unweighted 0.52/0.69/0.117 n0.05            0.004
+reach E->W110    0.1 S6w physical weights 0.13/0.16/0.045 n0.60           -0.081
+reach E->W110    0.2        S6 unweighted       0.78/0.88/0.215            0.009
+reach E->W110    0.2 S6w physical weights 0.62/0.68/0.168 n0.10           -0.058
+reach  S->N55    0.1        S6 unweighted       0.53/0.86/0.132            0.025
+reach  S->N55    0.1 S6w physical weights 0.04/0.06/0.035 n0.70           -0.091
+reach  S->N55    0.2        S6 unweighted       0.80/0.97/0.234            0.029
+reach  S->N55    0.2 S6w physical weights 0.46/0.56/0.179 n0.15           -0.056
+reach  US->CA    0.1        S6 unweighted       0.54/0.81/0.125            0.019
+reach  US->CA    0.1 S6w physical weights 0.03/0.05/0.020 n0.80           -0.099
+reach  US->CA    0.2        S6 unweighted       0.79/0.92/0.219            0.014
+reach  US->CA    0.2 S6w physical weights 0.33/0.38/0.113 n0.45           -0.134
+
+== external_v2
+method             S6 in-domain reference (Brazil calib) S6 unweighted (NA calib) S6w physical weights (NA calib)
+stratum      alpha                                                                                               
+amazon_basin 0.1                   0.01/0.01/0.016 n0.95    0.04/0.06/0.033 n0.85           0.01/0.02/0.037 n0.85
+             0.2                   0.04/0.04/0.046 n0.85    0.09/0.09/0.151 n0.55           0.02/0.02/0.107 n0.75
+hydro_only   0.1                   0.00/0.00/0.000 n1.00    0.04/0.05/0.073 n0.60           0.01/0.02/0.061 n0.65
+             0.2                   0.08/0.09/0.131 n0.45    0.11/0.13/0.179 n0.20           0.02/0.02/0.074 n0.60
+main         0.1                   0.04/0.04/0.050 n0.60    0.10/0.13/0.087 n0.35           0.05/0.07/0.070 n0.55
+             0.2                   0.27/0.30/0.183 n0.10    0.30/0.34/0.197 n0.05           0.11/0.12/0.110 n0.45
+non_hydro    0.1                   0.15/0.18/0.077 n0.25          0.29/0.39/0.120           0.11/0.15/0.076 n0.45
+             0.2                   0.46/0.52/0.180 n0.10          0.50/0.56/0.196           0.30/0.33/0.149 n0.25
+optimistic   0.1                   0.07/0.08/0.071 n0.35    0.12/0.15/0.078 n0.40           0.05/0.07/0.058 n0.60
+             0.2                   0.32/0.36/0.180 n0.10    0.47/0.54/0.219 n0.05           0.15/0.17/0.129 n0.35
+strict_names 0.1                   0.02/0.02/0.017 n0.85    0.14/0.19/0.091 n0.35           0.04/0.05/0.045 n0.70
+             0.2                   0.22/0.24/0.138 n0.30    0.33/0.36/0.194 n0.05           0.11/0.12/0.094 n0.50
+strict_qc    0.1                   0.07/0.09/0.043 n0.60    0.11/0.15/0.066 n0.40           0.05/0.07/0.048 n0.60
+             0.2                   0.36/0.41/0.173 n0.15          0.36/0.41/0.185           0.09/0.10/0.073 n0.55
+violations: [['non_hydro', 0.1, 'S6 unweighted (NA calib)', 0.12]]
+
+== external_v2_tau0.5
+method             S6 in-domain reference (Brazil calib) S6 unweighted (NA calib) S6w physical weights (NA calib)
+stratum      alpha                                                                                               
+amazon_basin 0.1                   0.04/0.03/0.016 n0.90    0.32/0.35/0.118 n0.10           0.03/0.03/0.056 n0.75
+             0.2                   0.55/0.56/0.157 n0.15          0.64/0.67/0.190           0.16/0.15/0.092 n0.55
+hydro_only   0.1                   0.12/0.13/0.054 n0.50    0.52/0.61/0.160 n0.05           0.09/0.11/0.079 n0.50
+             0.2                   0.46/0.47/0.185 n0.10          0.69/0.71/0.270           0.25/0.26/0.177 n0.15
+main         0.1                   0.36/0.40/0.091 n0.05    0.56/0.64/0.127 n0.05           0.20/0.23/0.080 n0.30
+             0.2                   0.64/0.67/0.186 n0.05          0.75/0.78/0.225           0.34/0.36/0.129 n0.20
+non_hydro    0.1                   0.58/0.65/0.089 n0.05    0.61/0.68/0.092 n0.05           0.35/0.38/0.074 n0.25
+             0.2                   0.82/0.85/0.190 n0.05    0.80/0.82/0.182 n0.05           0.70/0.71/0.161 n0.10
+optimistic   0.1                   0.48/0.52/0.091 n0.05    0.72/0.83/0.132 n0.05           0.29/0.33/0.090 n0.15
+             0.2                   0.79/0.81/0.192 n0.05          0.95/0.98/0.236           0.56/0.57/0.158 n0.25
+strict_names 0.1                   0.32/0.35/0.067 n0.30          0.60/0.69/0.133           0.20/0.23/0.072 n0.25
+             0.2                   0.64/0.66/0.183 n0.05          0.75/0.78/0.223           0.39/0.41/0.131 n0.15
+strict_qc    0.1                   0.49/0.54/0.086 n0.10    0.61/0.70/0.116 n0.05           0.24/0.27/0.069 n0.20
+             0.2                   0.70/0.73/0.186 n0.05          0.79/0.82/0.216           0.38/0.39/0.115 n0.20
+violations: [['hydro_only', 0.1, 'S6 unweighted (NA calib)', 0.16], ['hydro_only', 0.2, 'S6 unweighted (NA calib)', 0.27], ['main', 0.1, 'S6 unweighted (NA calib)', 0.127], ['main', 0.2, 'S6 unweighted (NA calib)', 0.225], ['optimistic', 0.1, 'S6 unweighted (NA calib)', 0.132], ['optimistic', 0.2, 'S6 unweighted (NA calib)', 0.236], ['strict_names', 0.1, 'S6 unweighted (NA calib)', 0.133], ['strict_names', 0.2, 'S6 unweighted (NA calib)', 0.223], ['strict_qc', 0.1, 'S6 unweighted (NA calib)', 0.116], ['strict_qc', 0.2, 'S6 unweighted (NA calib)', 0.216]]
+
+== external_v2_tau0.1
+method             S6 in-domain reference (Brazil calib) S6 unweighted (NA calib) S6w physical weights (NA calib)
+stratum      alpha                                                                                               
+amazon_basin 0.1                   0.00/0.00/0.000 n1.00    0.01/0.02/0.160 n0.55           0.00/0.00/0.064 n0.75
+             0.2                   0.01/0.02/0.081 n0.80    0.02/0.06/0.292 n0.25           0.00/0.01/0.098 n0.75
+hydro_only   0.1                   0.00/0.00/0.000 n1.00    0.00/0.00/0.035 n0.85           0.00/0.00/0.125 n0.65
+             0.2                   0.00/0.01/0.062 n0.85    0.01/0.02/0.145 n0.60           0.01/0.02/0.239 n0.35
+main         0.1                   0.00/0.00/0.000 n1.00    0.00/0.00/0.011 n0.90           0.00/0.00/0.017 n0.95
+             0.2                   0.01/0.02/0.093 n0.65    0.01/0.03/0.077 n0.75           0.01/0.02/0.110 n0.65
+non_hydro    0.1                   0.00/0.00/0.000 n1.00    0.00/0.01/0.017 n0.85           0.00/0.00/0.000 n1.00
+             0.2                   0.01/0.03/0.074 n0.75    0.02/0.04/0.106 n0.60           0.00/0.01/0.039 n0.85
+optimistic   0.1                   0.00/0.00/0.010 n0.95    0.00/0.00/0.006 n0.95           0.00/0.00/0.010 n0.95
+             0.2                   0.01/0.01/0.085 n0.70    0.01/0.02/0.076 n0.70           0.01/0.03/0.156 n0.50
+strict_names 0.1                   0.00/0.00/0.000 n1.00    0.00/0.00/0.048 n0.80           0.00/0.00/0.063 n0.80
+             0.2                   0.00/0.00/0.000 n1.00    0.00/0.02/0.046 n0.85           0.01/0.02/0.157 n0.60
+strict_qc    0.1                   0.00/0.00/0.000 n1.00    0.00/0.00/0.019 n0.85           0.00/0.00/0.013 n0.95
+             0.2                   0.01/0.01/0.033 n0.90    0.01/0.03/0.070 n0.75           0.01/0.02/0.117 n0.65
+violations: [['amazon_basin', 0.2, 'S6 unweighted (NA calib)', 0.292]]
+
+== external_v2_node
+method             S6 in-domain reference (Brazil calib) S6 unweighted (NA calib) S6w physical weights (NA calib)
+stratum      alpha                                                                                               
+amazon_basin 0.1                   0.00/0.00/0.000 n1.00    0.29/0.37/0.175 n0.15           0.03/0.05/0.069 n0.70
+             0.2                   0.22/0.24/0.118 n0.55    0.57/0.64/0.261 n0.05           0.17/0.18/0.133 n0.50
+hydro_only   0.1                   0.02/0.02/0.023 n0.80    0.14/0.19/0.119 n0.35           0.03/0.04/0.077 n0.60
+             0.2                   0.12/0.12/0.131 n0.25          0.55/0.67/0.312           0.07/0.08/0.123 n0.55
+main         0.1                   0.08/0.08/0.075 n0.45    0.27/0.34/0.154 n0.15           0.07/0.09/0.079 n0.55
+             0.2                   0.29/0.31/0.175 n0.20    0.50/0.57/0.251 n0.05           0.23/0.26/0.174 n0.30
+non_hydro    0.1                   0.03/0.03/0.016 n0.85    0.33/0.41/0.122 n0.05           0.13/0.17/0.073 n0.45
+             0.2                   0.38/0.41/0.158 n0.15    0.48/0.53/0.193 n0.05           0.36/0.41/0.168 n0.25
+optimistic   0.1                   0.10/0.10/0.069 n0.40    0.32/0.43/0.153 n0.05           0.07/0.10/0.064 n0.60
+             0.2                   0.33/0.37/0.167 n0.15          0.66/0.81/0.269           0.32/0.38/0.177 n0.30
+strict_names 0.1                   0.01/0.01/0.005 n0.95    0.26/0.34/0.145 n0.15           0.05/0.07/0.060 n0.55
+             0.2                   0.29/0.31/0.185 n0.05          0.52/0.60/0.254           0.16/0.18/0.121 n0.50
+strict_qc    0.1                   0.03/0.03/0.017 n0.85    0.23/0.29/0.119 n0.15           0.06/0.08/0.059 n0.55
+             0.2                   0.29/0.31/0.145 n0.30          0.51/0.58/0.241           0.14/0.16/0.105 n0.50
+violations: [['amazon_basin', 0.1, 'S6 unweighted (NA calib)', 0.175], ['amazon_basin', 0.2, 'S6 unweighted (NA calib)', 0.261], ['hydro_only', 0.2, 'S6 unweighted (NA calib)', 0.312], ['main', 0.1, 'S6 unweighted (NA calib)', 0.154], ['main', 0.2, 'S6 unweighted (NA calib)', 0.251], ['non_hydro', 0.1, 'S6 unweighted (NA calib)', 0.122], ['optimistic', 0.1, 'S6 unweighted (NA calib)', 0.153], ['optimistic', 0.2, 'S6 unweighted (NA calib)', 0.269], ['strict_names', 0.1, 'S6 unweighted (NA calib)', 0.145], ['strict_names', 0.2, 'S6 unweighted (NA calib)', 0.254], ['strict_qc', 0.2, 'S6 unweighted (NA calib)', 0.241]]
+
+== diverse training
+score                 A: NA-only score                          B: NA + Brazil score                       
+calibration               Brazil calib               NA calib           Brazil calib               NA calib
+stratum   alpha                                                                                            
+main      0.1    0.03/0.03/0.034 n0.75  0.12/0.17/0.099 n0.25  0.02/0.02/0.022 n0.80  0.08/0.15/0.079 n0.40
+          0.2    0.21/0.24/0.168 n0.15        0.30/0.35/0.208  0.27/0.31/0.161 n0.20  0.29/0.35/0.189 n0.10
+strict_qc 0.1    0.06/0.08/0.033 n0.70  0.16/0.26/0.083 n0.25  0.06/0.09/0.037 n0.65  0.15/0.25/0.081 n0.25
+          0.2    0.34/0.39/0.160 n0.20  0.40/0.45/0.191 n0.05  0.32/0.37/0.151 n0.30        0.45/0.52/0.211

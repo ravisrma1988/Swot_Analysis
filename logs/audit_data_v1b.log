@@ -1,0 +1,50 @@
+== 1. columns that differ within duplicate groups having one SWOT time and one wse (share of groups)
+gage_alt_datum      0.8147
+gage_stage_m        0.1375
+gage_wse_EGM2008    0.0932
+gage_flow_m3s       0.0581
+area_total          0.0000
+area_tot_u          0.0000
+area_detct          0.0000
+area_det_u          0.0000
+wse_r_u             0.0000
+crid                0.0000
+xtrk_dist           0.0000
+wse_u               0.0000
+wse_std             0.0000
+
+== 2. BOR gauges
+gauge time-of-day (UTC), top 6: {'07:00': 7689, '06:00': 4260, '05:00': 1336, '08:00': 531}
+gap shares: <=1 h 0.083, <=12 h 0.996, <=24 h 0.997, >48 h 0.003
+
+== 3. missing share of filter variables
+         pdiff  dark_frac  area_ratio  qflag  qbit  xovr_cal_q  ice_clim_f  xtrk_dist  partial_f  p_ref_wse
+type  v                                                                                                    
+lake  C  0.987      0.033       0.000    0.0   1.0         0.0         0.0        0.0        0.0      0.987
+      D  0.035      0.000       0.000    0.0   1.0         0.0         0.0        0.0        0.0      0.035
+node  C  0.000      0.000       0.040    0.0   0.0         0.0         0.0        0.0        1.0      1.000
+      D  0.000      0.000       0.042    0.0   0.0         0.0         0.0        0.0        1.0      1.000
+reach C  0.000      0.000       0.041    0.0   0.0         0.0         0.0        0.0        0.0      1.000
+      D  0.000      0.000       0.044    0.0   0.0         0.0         0.0        0.0        0.0      1.000
+
+== 4. grid reproduction variants (percent_remaining against the RAW row count of each type x version)
+                      pr_err_mean  pr_err_maxabs  q68_err_mean  q68_err_maxabs
+type  variant                                                                 
+lake  N1                  -31.270         86.142        -0.060           0.199
+      N1+dedup            -36.773         86.142        -0.071           0.199
+      N1+dedup+gap        -43.328         86.142        -0.082           0.199
+      N1+gap              -37.825         86.142        -0.069           0.199
+      SKIP+dedup+gap      -18.514         80.907        -0.033           0.097
+      SKIP+gap            -10.578         80.907        -0.010           0.097
+node  N1                    2.928          3.966         0.000           0.011
+      N1+dedup             -0.711          0.848        -0.011           0.020
+      N1+dedup+gap         -0.711          0.848        -0.011           0.020
+      N1+gap                2.928          3.966         0.000           0.011
+      SKIP+dedup+gap        1.699          2.806        -0.021           0.030
+      SKIP+gap              5.716          7.978        -0.012           0.025
+reach N1                    3.130          4.120         0.002           0.004
+      N1+dedup             -0.040          0.327        -0.006           0.009
+      N1+dedup+gap         -0.040          0.327        -0.006           0.009
+      N1+gap                3.130          4.120         0.002           0.004
+      SKIP+dedup+gap        2.467          3.940        -0.008           0.012
+      SKIP+gap              6.014          8.497        -0.001           0.007

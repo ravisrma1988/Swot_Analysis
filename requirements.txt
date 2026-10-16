@@ -1,0 +1,11 @@
+# Tested in the NVIDIA NGC PyTorch container 25.03 (Python 3.12.3, CUDA 12); torch comes with that container.
+numpy==1.26.4
+pandas==2.2.3
+pyarrow==19.0.1
+scikit-learn==1.6.1
+scipy==1.15.2
+xgboost==2.1.3
+cupy-cuda12x==13.3.0
+matplotlib==3.10.1
+requests==2.32.3
+h5py

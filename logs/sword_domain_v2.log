@@ -1,0 +1,12 @@
+nohup: ignoring input
+zip members (first 12): ['netcdf/', '__MACOSX/._netcdf', 'netcdf/eu_sword_v17b.nc', '__MACOSX/netcdf/._eu_sword_v17b.nc', 'netcdf/.DS_Store', '__MACOSX/netcdf/._.DS_Store', 'netcdf/oc_sword_v17b.nc', '__MACOSX/netcdf/._oc_sword_v17b.nc', 'netcdf/sa_sword_v17b.nc', '__MACOSX/netcdf/._sa_sword_v17b.nc', 'netcdf/af_sword_v17b.nc', '__MACOSX/netcdf/._af_sword_v17b.nc']
+North America file: ['netcdf/na_sword_v17b.nc', '__MACOSX/netcdf/._na_sword_v17b.nc']
+reaches variables: ['area_fits', 'cl_ids', 'discharge_models', 'dist_out', 'edit_flag', 'end_reach', 'facc', 'grod_id', 'hfalls_id', 'iceflag', 'julian_day', 'lakeflag', 'low_slope_flag', 'main_side', 'max_width', 'n_chan_max', 'n_chan_mod', 'n_nodes', 'n_rch_down', 'n_rch_up', 'network', 'num_domains', 'num_ids', 'num_reaches', 'obstr_type', 'orbits', 'path_freq', 'path_order', 'path_segs', 'rch_id_dn', 'rch_id_up', 'reach_id', 'reach_length', 'river_name', 'slope', 'stream_order', 'swot_obs', 'swot_orbits', 'trib_flag', 'width', 'width_var', 'wse', 'wse_var', 'x', 'x_max', 'x_min', 'y', 'y_max', 'y_min']
+river reaches 22116, gauged 1795; covariates ['log_width', 'wse', 'slope', 'log_facc', 'log_len', 'nch', 'obstr', 'ice_frac', 'ice_full_frac', 'stream_order', 'log_dist_out']
+physical covariates: AUC 0.790 (location-based v1: 0.803); ESS 188 of 1795 (location-based v1: 132)
+weight quantiles gauged  : [0.156, 0.314, 0.503, 0.865, 3.401, 9.075]
+weight quantiles ungauged: [0.287, 0.69, 2.094, 8.295, 163.106, 333.283]
+q=0.9: domain 9966 = 0.490 of ungauged (location-based v1: 0.48); AUC 0.603; ESS 1189
+q=0.95: domain 12042 = 0.593 of ungauged (location-based v1: 0.578); AUC 0.650; ESS 942
+q=0.99: domain 15500 = 0.763 of ungauged (location-based v1: 0.755); AUC 0.725; ESS 571
+transferability classes (ungauged reaches): {'likely certifiable': 0.821, 'partial': 0.139, 'abstention likely': 0.04}

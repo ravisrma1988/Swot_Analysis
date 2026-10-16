@@ -1,0 +1,12 @@
+nohup: ignoring input
+reach: 98563 pairs; 2025 share 0.386; flow data share 0.751
+   reach repeat 1/4 at 63 s
+   reach repeat 2/4 at 118 s
+   reach repeat 3/4 at 173 s
+   reach repeat 4/4 at 228 s
+node: 136976 pairs; 2025 share 0.387; flow data share 0.750
+   node repeat 1/4 at 290 s
+   node repeat 2/4 at 348 s
+   node repeat 3/4 at 405 s
+   node repeat 4/4 at 463 s
+done in 463 s

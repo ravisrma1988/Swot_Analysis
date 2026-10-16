@@ -1,0 +1,22 @@
+reach: test rows 37326 (bad 0.373); calibration-label bad rate naive 0.356, drift-aware 0.399; median |off25 - off24| 0.040 m
+   reach done at 55 s
+   reach done at 105 s
+   reach done at 155 s
+   reach done at 206 s
+node: test rows 52095 (bad 0.454); calibration-label bad rate naive 0.445, drift-aware 0.481; median |off25 - off24| 0.044 m
+   node done at 263 s
+   node done at 315 s
+   node done at 367 s
+   node done at 419 s
+
+== prospective protocol (causal features; test labels vs pre-2025 offsets; 2025 observations)
+                         retention  coverage     sdr      sd   n      se  excess_over_2se
+type  scheme      alpha                                                                  
+node  drift-aware 0.1       0.1297    0.1984  0.0559  0.0345  20  0.0077          -0.0596
+                  0.2       0.4532    0.5133  0.1648  0.0205  20  0.0046          -0.0443
+      naive       0.1       0.3249    0.4230  0.1059  0.0320  20  0.0071          -0.0084
+                  0.2       0.5386    0.6038  0.1977  0.0488  20  0.0109          -0.0241
+reach drift-aware 0.1       0.1862    0.2349  0.0897  0.0319  20  0.0071          -0.0245
+                  0.2       0.5616    0.6155  0.1835  0.0158  20  0.0035          -0.0236
+      naive       0.1       0.3431    0.3989  0.1149  0.0326  20  0.0073           0.0003
+                  0.2       0.6661    0.7163  0.2190  0.0198  20  0.0044           0.0101

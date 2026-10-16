@@ -1,0 +1,64 @@
+nohup: ignoring input
+reach D: rows 98563, units 1899, bad rate 0.351
+   done reach D at 75 s
+reach C: rows 101203, units 1903, bad rate 0.423
+   done reach C at 145 s
+node D: rows 136976, units 1941, bad rate 0.441
+   done node D at 237 s
+node C: rows 106285, units 1909, bad rate 0.450
+   done node C at 318 s
+
+site_fdp = mean over held-out sites of the share bad among kept (0 if none kept); 20 repeats, tau 0.25 m
+                                             retention  pooled_fdp  site_fdp  site_fdp_sd  share_splits_site_fdp_gt_alpha  site_fdp_if_kept  site_coverage
+type  v alpha method                                                                                                                                      
+node  C 0.1   M3 pooled conformal selection      0.279       0.101     0.160        0.018                            1.00             0.191          0.834
+              S1 site-level CRC                  0.132       0.064     0.073        0.011                            0.00             0.124          0.589
+              S2 site-level LTT (delta 0.1)      0.130       0.063     0.071        0.014                            0.00             0.122          0.579
+              S3 site-aware gate + CRC           0.392       0.141     0.067        0.015                            0.00             0.140          0.483
+        0.2   M3 pooled conformal selection      0.574       0.201     0.288        0.011                            1.00             0.292          0.984
+              S1 site-level CRC                  0.254       0.095     0.148        0.015                            0.00             0.182          0.809
+              S2 site-level LTT (delta 0.1)      0.288       0.104     0.167        0.016                            0.05             0.197          0.847
+              S3 site-aware gate + CRC           0.613       0.278     0.166        0.016                            0.00             0.272          0.611
+      D 0.1   M3 pooled conformal selection      0.342       0.102     0.186        0.022                            1.00             0.216          0.859
+              S1 site-level CRC                  0.169       0.057     0.078        0.012                            0.10             0.127          0.616
+              S2 site-level LTT (delta 0.1)      0.165       0.056     0.076        0.012                            0.05             0.125          0.606
+              S3 site-aware gate + CRC           0.465       0.165     0.078        0.015                            0.05             0.162          0.486
+        0.2   M3 pooled conformal selection      0.596       0.200     0.313        0.009                            1.00             0.318          0.985
+              S1 site-level CRC                  0.283       0.085     0.150        0.015                            0.00             0.187          0.803
+              S2 site-level LTT (delta 0.1)      0.307       0.092     0.165        0.014                            0.00             0.198          0.829
+              S3 site-aware gate + CRC           0.637       0.256     0.160        0.014                            0.00             0.254          0.632
+reach C 0.1   M3 pooled conformal selection      0.242       0.101     0.150        0.040                            0.95             0.178          0.797
+              S1 site-level CRC                  0.099       0.073     0.078        0.010                            0.00             0.130          0.595
+              S2 site-level LTT (delta 0.1)      0.094       0.072     0.074        0.012                            0.00             0.127          0.577
+              S3 site-aware gate + CRC           0.367       0.129     0.066        0.015                            0.00             0.134          0.495
+        0.2   M3 pooled conformal selection      0.588       0.204     0.271        0.011                            1.00             0.278          0.976
+              S1 site-level CRC                  0.226       0.100     0.145        0.007                            0.00             0.178          0.817
+              S2 site-level LTT (delta 0.1)      0.298       0.116     0.176        0.013                            0.00             0.200          0.878
+              S3 site-aware gate + CRC           0.586       0.251     0.153        0.020                            0.00             0.250          0.615
+      D 0.1   M3 pooled conformal selection      0.390       0.099     0.160        0.015                            1.00             0.184          0.869
+              S1 site-level CRC                  0.164       0.064     0.071        0.008                            0.00             0.115          0.622
+              S2 site-level LTT (delta 0.1)      0.173       0.065     0.075        0.012                            0.05             0.116          0.638
+              S3 site-aware gate + CRC           0.455       0.137     0.067        0.012                            0.00             0.140          0.485
+        0.2   M3 pooled conformal selection      0.729       0.201     0.272        0.010                            1.00             0.276          0.985
+              S1 site-level CRC                  0.329       0.088     0.139        0.015                            0.00             0.167          0.826
+              S2 site-level LTT (delta 0.1)      0.399       0.102     0.165        0.022                            0.05             0.188          0.877
+              S3 site-aware gate + CRC           0.666       0.195     0.140        0.018                            0.00             0.201          0.698
+
+S3 gate quantile chosen (count of splits):
+type   v  alpha  gate_q
+node   C  0.1    0.5       18
+                 0.4        2
+          0.2    0.4       11
+                 0.3        9
+       D  0.1    0.5       15
+                 0.4        5
+          0.2    0.3       17
+                 0.4        3
+reach  C  0.1    0.5       19
+                 0.4        1
+          0.2    0.4       12
+                 0.3        8
+       D  0.1    0.5       16
+                 0.4        4
+          0.2    0.3       11
+                 0.2        9

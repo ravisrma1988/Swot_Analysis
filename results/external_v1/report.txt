@@ -1,0 +1,67 @@
+source NA reach D: 98563 pairs, 1997 sites, bad rate 0.351, 42 features
+target brasilia/brazil_all: 65176 pairs, 942 gauges, bad rate 0.508; SWORD covariates for 1.000 of sites
+target brasilia/amazon_basin: 9840 pairs, 161 gauges, bad rate 0.473; SWORD covariates for 1.000 of sites
+target brasilia/brazil_no_hydro: 26863 pairs, 436 gauges, bad rate 0.401; SWORD covariates for 1.000 of sites
+target local/brazil_all: 65162 pairs, 942 gauges, bad rate 0.508; SWORD covariates for 1.000 of sites
+target local/amazon_basin: 9842 pairs, 161 gauges, bad rate 0.472; SWORD covariates for 1.000 of sites
+target local/brazil_no_hydro: 26851 pairs, 436 gauges, bad rate 0.402; SWORD covariates for 1.000 of sites
+repeat 1/20 done at 8 s
+repeat 2/20 done at 12 s
+repeat 3/20 done at 15 s
+repeat 4/20 done at 19 s
+repeat 5/20 done at 23 s
+repeat 6/20 done at 26 s
+repeat 7/20 done at 30 s
+repeat 8/20 done at 33 s
+repeat 9/20 done at 37 s
+repeat 10/20 done at 40 s
+repeat 11/20 done at 44 s
+repeat 12/20 done at 47 s
+repeat 13/20 done at 51 s
+repeat 14/20 done at 55 s
+repeat 15/20 done at 58 s
+repeat 16/20 done at 62 s
+repeat 17/20 done at 65 s
+repeat 18/20 done at 69 s
+repeat 19/20 done at 73 s
+repeat 20/20 done at 76 s
+
+excess_over_2se > 0: mean realised SDR above alpha by more than two standard errors
+                                                                      retention  site_coverage    sdr  sdr_sd  share_gt_alpha  share_none   ess_C  wratio_med  bad_target  n_eval_sites  excess_over_2se
+tz_mode  stratum         alpha method                                                                                                                                                                   
+brasilia amazon_basin    0.1   S6 in-domain reference (Brazil calib)      0.000          0.000  0.000   0.000            0.00        1.00  10.648       0.337       0.476         80.65           -0.100
+                               S6 unweighted (NA calib)                   0.033          0.055  0.037   0.092            0.15        0.85  10.648       0.337       0.476         80.65           -0.104
+                               S6w physical weights (NA calib)            0.015          0.027  0.036   0.079            0.15        0.80  10.648       0.337       0.476         80.65           -0.099
+                         0.2   S6 in-domain reference (Brazil calib)      0.056          0.057  0.043   0.106            0.15        0.85   9.558       0.244       0.476         80.65           -0.204
+                               S6 unweighted (NA calib)                   0.051          0.054  0.120   0.158            0.35        0.60   9.558       0.244       0.476         80.65           -0.151
+                               S6w physical weights (NA calib)            0.049          0.056  0.092   0.133            0.30        0.65   9.558       0.244       0.476         80.65           -0.168
+         brazil_all      0.1   S6 in-domain reference (Brazil calib)      0.042          0.050  0.057   0.061            0.30        0.50  25.482       0.021       0.506        469.55           -0.071
+                               S6 unweighted (NA calib)                   0.100          0.142  0.090   0.071            0.60        0.35  25.482       0.021       0.506        469.55           -0.042
+                               S6w physical weights (NA calib)            0.065          0.100  0.080   0.083            0.50        0.50  25.482       0.021       0.506        469.55           -0.057
+                         0.2   S6 in-domain reference (Brazil calib)      0.263          0.293  0.186   0.066            0.55        0.10  31.116       0.017       0.506        469.55           -0.043
+                               S6 unweighted (NA calib)                   0.312          0.349  0.212   0.017            0.70        0.00  31.116       0.017       0.506        469.55            0.004
+                               S6w physical weights (NA calib)            0.162          0.188  0.152   0.107            0.50        0.30  31.116       0.017       0.506        469.55           -0.096
+         brazil_no_hydro 0.1   S6 in-domain reference (Brazil calib)      0.056          0.069  0.033   0.048            0.15        0.65  52.202       0.013       0.403        218.60           -0.089
+                               S6 unweighted (NA calib)                   0.201          0.290  0.083   0.056            0.55        0.25  52.202       0.013       0.403        218.60           -0.042
+                               S6w physical weights (NA calib)            0.113          0.170  0.069   0.066            0.50        0.45  52.202       0.013       0.403        218.60           -0.061
+                         0.2   S6 in-domain reference (Brazil calib)      0.408          0.457  0.163   0.078            0.35        0.15  73.913       0.010       0.403        218.60           -0.072
+                               S6 unweighted (NA calib)                   0.479          0.532  0.191   0.023            0.35        0.00  73.913       0.010       0.403        218.60           -0.019
+                               S6w physical weights (NA calib)            0.286          0.322  0.154   0.095            0.40        0.25  73.913       0.010       0.403        218.60           -0.088
+local    amazon_basin    0.1   S6 in-domain reference (Brazil calib)      0.000          0.000  0.000   0.000            0.00        1.00   8.679       0.341       0.468         80.30           -0.100
+                               S6 unweighted (NA calib)                   0.025          0.051  0.022   0.067            0.10        0.90   8.679       0.341       0.468         80.30           -0.108
+                               S6w physical weights (NA calib)            0.019          0.029  0.048   0.095            0.20        0.75   8.679       0.341       0.468         80.30           -0.094
+                         0.2   S6 in-domain reference (Brazil calib)      0.038          0.040  0.025   0.080            0.10        0.90   9.154       0.274       0.468         80.30           -0.210
+                               S6 unweighted (NA calib)                   0.048          0.049  0.111   0.176            0.35        0.65   9.154       0.274       0.468         80.30           -0.168
+                               S6w physical weights (NA calib)            0.057          0.059  0.106   0.135            0.40        0.60   9.154       0.274       0.468         80.30           -0.154
+         brazil_all      0.1   S6 in-domain reference (Brazil calib)      0.034          0.042  0.039   0.062            0.25        0.70  25.605       0.021       0.508        471.05           -0.089
+                               S6 unweighted (NA calib)                   0.080          0.118  0.076   0.072            0.55        0.45  25.605       0.021       0.508        471.05           -0.056
+                               S6w physical weights (NA calib)            0.053          0.084  0.072   0.083            0.45        0.55  25.605       0.021       0.508        471.05           -0.065
+                         0.2   S6 in-domain reference (Brazil calib)      0.160          0.178  0.130   0.090            0.25        0.30  33.246       0.017       0.508        471.05           -0.110
+                               S6 unweighted (NA calib)                   0.258          0.289  0.193   0.049            0.60        0.05  33.246       0.017       0.508        471.05           -0.029
+                               S6w physical weights (NA calib)            0.114          0.132  0.125   0.108            0.45        0.40  33.246       0.017       0.508        471.05           -0.123
+         brazil_no_hydro 0.1   S6 in-domain reference (Brazil calib)      0.054          0.064  0.030   0.040            0.00        0.60  56.384       0.012       0.404        218.45           -0.088
+                               S6 unweighted (NA calib)                   0.200          0.278  0.090   0.045            0.50        0.15  56.384       0.012       0.404        218.45           -0.030
+                               S6w physical weights (NA calib)            0.109          0.162  0.068   0.064            0.50        0.45  56.384       0.012       0.404        218.45           -0.061
+                         0.2   S6 in-domain reference (Brazil calib)      0.362          0.409  0.155   0.084            0.35        0.20  77.876       0.009       0.404        218.45           -0.083
+                               S6 unweighted (NA calib)                   0.428          0.473  0.180   0.047            0.25        0.05  77.876       0.009       0.404        218.45           -0.041
+                               S6w physical weights (NA calib)            0.283          0.319  0.154   0.099            0.40        0.25  77.876       0.009       0.404        218.45           -0.090

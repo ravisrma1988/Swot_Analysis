@@ -1,0 +1,4 @@
+NA Version D reach sites with SWORD position: 1997 of 1997; USGS 1607, Canada 390
+Brazil main-stratum gauges on map: 942
+Brazil node main stratum: 49823 pairs, 930 gauges, 930 sites, bad rate 0.491
+Brazil reach main stratum: 65176 pairs, 942 gauges

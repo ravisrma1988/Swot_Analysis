@@ -1,0 +1,841 @@
+stratum,rep,alpha,method,bad_target,n_eval_sites,retention,fdp,site_fdp_all,site_fdp_kept,site_coverage,none,exceed
+main,0,0.1,S6 unweighted (NA calib),0.7110259162705107,470,0.0,0.0,0.0,0.0,0.0,True,False
+main,0,0.1,S6w physical weights (NA calib),0.7110259162705107,470,0.0,0.0,0.0,0.0,0.0,True,False
+main,0,0.1,S6 in-domain reference (Brazil calib),0.7110259162705107,470,0.0,0.0,0.0,0.0,0.0,True,False
+main,0,0.2,S6 unweighted (NA calib),0.7110259162705107,470,0.027940499923324643,0.2579582875960483,0.04242169351877004,0.3067414762126449,0.13829787234042554,False,True
+main,0,0.2,S6w physical weights (NA calib),0.7110259162705107,470,0.0,0.0,0.0,0.0,0.0,True,False
+main,0,0.2,S6 in-domain reference (Brazil calib),0.7110259162705107,470,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,0,0.1,S6 unweighted (NA calib),0.7060336632556059,251,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,0,0.1,S6w physical weights (NA calib),0.7060336632556059,251,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,0,0.1,S6 in-domain reference (Brazil calib),0.7060336632556059,251,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,0,0.2,S6 unweighted (NA calib),0.7060336632556059,251,0.02628194374545658,0.26382978723404255,0.048164762541436354,0.318140931523698,0.15139442231075698,False,True
+strict_names,0,0.2,S6w physical weights (NA calib),0.7060336632556059,251,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,0,0.2,S6 in-domain reference (Brazil calib),0.7060336632556059,251,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,0,0.1,S6 unweighted (NA calib),0.6939772489357248,196,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,0,0.1,S6w physical weights (NA calib),0.6939772489357248,196,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,0,0.1,S6 in-domain reference (Brazil calib),0.6939772489357248,196,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,0,0.2,S6 unweighted (NA calib),0.6939772489357248,196,0.022332333030916324,0.31875,0.03873023136006768,0.29196635948358707,0.1326530612244898,False,True
+strict_qc,0,0.2,S6w physical weights (NA calib),0.6939772489357248,196,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,0,0.2,S6 in-domain reference (Brazil calib),0.6939772489357248,196,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,0,0.1,S6 unweighted (NA calib),0.779215976331361,254,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,0,0.1,S6w physical weights (NA calib),0.779215976331361,254,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,0,0.1,S6 in-domain reference (Brazil calib),0.779215976331361,254,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,0,0.2,S6 unweighted (NA calib),0.779215976331361,254,0.019917582417582416,0.27586206896551724,0.03657921598704545,0.40396177655258886,0.09055118110236221,False,True
+hydro_only,0,0.2,S6w physical weights (NA calib),0.779215976331361,254,0.0084530853761623,0.16875,0.0027074372055580164,0.17192226255293405,0.015748031496062992,False,False
+hydro_only,0,0.2,S6 in-domain reference (Brazil calib),0.779215976331361,254,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,0,0.1,S6 unweighted (NA calib),0.6344735077129443,218,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,0,0.1,S6w physical weights (NA calib),0.6344735077129443,218,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,0,0.1,S6 in-domain reference (Brazil calib),0.6344735077129443,218,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,0,0.2,S6 unweighted (NA calib),0.6344735077129443,218,0.03316193457038528,0.18876404494382024,0.036334974655140094,0.22631498499487257,0.16055045871559634,False,True
+non_hydro,0,0.2,S6w physical weights (NA calib),0.6344735077129443,218,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,0,0.2,S6 in-domain reference (Brazil calib),0.6344735077129443,218,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,0,0.1,S6 unweighted (NA calib),0.6632050498880065,79,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,0,0.1,S6w physical weights (NA calib),0.6632050498880065,79,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,0,0.1,S6 in-domain reference (Brazil calib),0.6632050498880065,79,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,0,0.2,S6 unweighted (NA calib),0.6632050498880065,79,0.04011402972917939,0.5431472081218274,0.044679932943571136,0.352971470254212,0.12658227848101267,False,True
+amazon_basin,0,0.2,S6w physical weights (NA calib),0.6632050498880065,79,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,0,0.2,S6 in-domain reference (Brazil calib),0.6632050498880065,79,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,0,0.1,S6 unweighted (NA calib),0.6840190215433388,401,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,0,0.1,S6w physical weights (NA calib),0.6840190215433388,401,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,0,0.1,S6 in-domain reference (Brazil calib),0.6840190215433388,401,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,0,0.2,S6 unweighted (NA calib),0.6840190215433388,401,0.031558469630376826,0.3287671232876712,0.04801179749459623,0.3500496508242379,0.1371571072319202,False,True
+optimistic,0,0.2,S6w physical weights (NA calib),0.6840190215433388,401,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,0,0.2,S6 in-domain reference (Brazil calib),0.6840190215433388,401,0.0,0.0,0.0,0.0,0.0,True,False
+main,1,0.1,S6 unweighted (NA calib),0.7168411037107517,462,0.0,0.0,0.0,0.0,0.0,True,False
+main,1,0.1,S6w physical weights (NA calib),0.7168411037107517,462,0.0,0.0,0.0,0.0,0.0,True,False
+main,1,0.1,S6 in-domain reference (Brazil calib),0.7168411037107517,462,0.0,0.0,0.0,0.0,0.0,True,False
+main,1,0.2,S6 unweighted (NA calib),0.7168411037107517,462,0.0,0.0,0.0,0.0,0.0,True,False
+main,1,0.2,S6w physical weights (NA calib),0.7168411037107517,462,0.0,0.0,0.0,0.0,0.0,True,False
+main,1,0.2,S6 in-domain reference (Brazil calib),0.7168411037107517,462,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,1,0.1,S6 unweighted (NA calib),0.7148552128896517,251,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,1,0.1,S6w physical weights (NA calib),0.7148552128896517,251,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,1,0.1,S6 in-domain reference (Brazil calib),0.7148552128896517,251,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,1,0.2,S6 unweighted (NA calib),0.7148552128896517,251,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,1,0.2,S6w physical weights (NA calib),0.7148552128896517,251,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,1,0.2,S6 in-domain reference (Brazil calib),0.7148552128896517,251,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,1,0.1,S6 unweighted (NA calib),0.7047201666786407,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,1,0.1,S6w physical weights (NA calib),0.7047201666786407,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,1,0.1,S6 in-domain reference (Brazil calib),0.7047201666786407,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,1,0.2,S6 unweighted (NA calib),0.7047201666786407,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,1,0.2,S6w physical weights (NA calib),0.7047201666786407,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,1,0.2,S6 in-domain reference (Brazil calib),0.7047201666786407,198,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,1,0.1,S6 unweighted (NA calib),0.7939435217687432,255,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,1,0.1,S6w physical weights (NA calib),0.7939435217687432,255,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,1,0.1,S6 in-domain reference (Brazil calib),0.7939435217687432,255,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,1,0.2,S6 unweighted (NA calib),0.7939435217687432,255,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,1,0.2,S6w physical weights (NA calib),0.7939435217687432,255,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,1,0.2,S6 in-domain reference (Brazil calib),0.7939435217687432,255,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,1,0.1,S6 unweighted (NA calib),0.643874013424799,221,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,1,0.1,S6w physical weights (NA calib),0.643874013424799,221,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,1,0.1,S6 in-domain reference (Brazil calib),0.643874013424799,221,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,1,0.2,S6 unweighted (NA calib),0.643874013424799,221,0.05591207494283396,0.18601583113456466,0.029351798476802093,0.22368094701287117,0.13122171945701358,False,True
+non_hydro,1,0.2,S6w physical weights (NA calib),0.643874013424799,221,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,1,0.2,S6 in-domain reference (Brazil calib),0.643874013424799,221,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,1,0.1,S6 unweighted (NA calib),0.6990535058914429,81,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,1,0.1,S6w physical weights (NA calib),0.6990535058914429,81,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,1,0.1,S6 in-domain reference (Brazil calib),0.6990535058914429,81,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,1,0.2,S6 unweighted (NA calib),0.6990535058914429,81,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,1,0.2,S6w physical weights (NA calib),0.6990535058914429,81,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,1,0.2,S6 in-domain reference (Brazil calib),0.6990535058914429,81,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,1,0.1,S6 unweighted (NA calib),0.6889594687263146,401,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,1,0.1,S6w physical weights (NA calib),0.6889594687263146,401,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,1,0.1,S6 in-domain reference (Brazil calib),0.6889594687263146,401,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,1,0.2,S6 unweighted (NA calib),0.6889594687263146,401,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,1,0.2,S6w physical weights (NA calib),0.6889594687263146,401,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,1,0.2,S6 in-domain reference (Brazil calib),0.6889594687263146,401,0.0,0.0,0.0,0.0,0.0,True,False
+main,2,0.1,S6 unweighted (NA calib),0.7158159296271916,473,0.004069175991861648,0.10294117647058823,0.0040667401661059165,0.11315106462165284,0.035940803382663845,False,True
+main,2,0.1,S6w physical weights (NA calib),0.7158159296271916,473,0.0,0.0,0.0,0.0,0.0,True,False
+main,2,0.1,S6 in-domain reference (Brazil calib),0.7158159296271916,473,0.0,0.0,0.0,0.0,0.0,True,False
+main,2,0.2,S6 unweighted (NA calib),0.7158159296271916,473,0.029322003470767757,0.20612244897959184,0.036916256463993435,0.2728342079292015,0.13530655391120508,False,True
+main,2,0.2,S6w physical weights (NA calib),0.7158159296271916,473,0.01890970019747472,0.1819620253164557,0.01808804535768388,0.23123366092390474,0.07822410147991543,False,True
+main,2,0.2,S6 in-domain reference (Brazil calib),0.7158159296271916,473,0.014481479265154688,0.16735537190082644,0.009645431526040119,0.217251862467475,0.04439746300211417,False,True
+strict_names,2,0.1,S6 unweighted (NA calib),0.6951608391608392,251,0.002181818181818182,0.15384615384615385,0.002867650278008843,0.14395604395604394,0.0199203187250996,False,True
+strict_names,2,0.1,S6w physical weights (NA calib),0.6951608391608392,251,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,2,0.1,S6 in-domain reference (Brazil calib),0.6951608391608392,251,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,2,0.2,S6 unweighted (NA calib),0.6951608391608392,251,0.018405594405594406,0.22188449848024316,0.021257217120821528,0.23198093466635664,0.09163346613545817,False,True
+strict_names,2,0.2,S6w physical weights (NA calib),0.6951608391608392,251,0.005818181818181818,0.3173076923076923,0.00911591728324796,0.2860119047619048,0.03187250996015936,False,True
+strict_names,2,0.2,S6 in-domain reference (Brazil calib),0.6951608391608392,251,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,2,0.1,S6 unweighted (NA calib),0.6969502636454326,197,0.00470286447199658,0.18181818181818182,0.005988329211679465,0.16852869352869354,0.03553299492385787,False,True
+strict_qc,2,0.1,S6w physical weights (NA calib),0.6969502636454326,197,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,2,0.1,S6 in-domain reference (Brazil calib),0.6969502636454326,197,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,2,0.2,S6 unweighted (NA calib),0.6969502636454326,197,0.03135242981331053,0.225,0.040736483232877825,0.2675029065625643,0.15228426395939088,False,True
+strict_qc,2,0.2,S6w physical weights (NA calib),0.6969502636454326,197,0.004987886561208493,0.18571428571428572,0.006707759245830312,0.18877551020408162,0.03553299492385787,False,False
+strict_qc,2,0.2,S6 in-domain reference (Brazil calib),0.6969502636454326,197,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,2,0.1,S6 unweighted (NA calib),0.784133523477526,253,0.002482438071092801,0.1276595744680851,0.001976284584980237,0.16666666666666666,0.011857707509881422,False,True
+hydro_only,2,0.1,S6w physical weights (NA calib),0.784133523477526,253,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,2,0.1,S6 in-domain reference (Brazil calib),0.784133523477526,253,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,2,0.2,S6 unweighted (NA calib),0.784133523477526,253,0.01864469444884593,0.31728045325779036,0.03230123369002459,0.35531357059027047,0.09090909090909091,False,True
+hydro_only,2,0.2,S6w physical weights (NA calib),0.784133523477526,253,0.012253736861564463,0.31896551724137934,0.017373732405701715,0.3381195614340411,0.05138339920948617,False,True
+hydro_only,2,0.2,S6 in-domain reference (Brazil calib),0.784133523477526,253,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,2,0.1,S6 unweighted (NA calib),0.6494581577363034,218,0.004440096327513546,0.06779661016949153,0.0028396679772826556,0.06878306878306878,0.04128440366972477,False,False
+non_hydro,2,0.1,S6w physical weights (NA calib),0.6494581577363034,218,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,2,0.1,S6 in-domain reference (Brazil calib),0.6494581577363034,218,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,2,0.2,S6 unweighted (NA calib),0.6494581577363034,218,0.034015653220951236,0.2234513274336283,0.039927204936067544,0.2560038434136095,0.1559633027522936,False,True
+non_hydro,2,0.2,S6w physical weights (NA calib),0.6494581577363034,218,0.022501505117399158,0.20066889632107024,0.018797558064380736,0.2276593143352778,0.08256880733944955,False,True
+non_hydro,2,0.2,S6 in-domain reference (Brazil calib),0.6494581577363034,218,0.033112582781456956,0.21818181818181817,0.03426971258132748,0.24099346266869,0.14220183486238533,False,True
+amazon_basin,2,0.1,S6 unweighted (NA calib),0.6805467928496319,79,0.006309148264984227,0.26666666666666666,0.01117869472299852,0.22077922077922077,0.05063291139240506,False,True
+amazon_basin,2,0.1,S6w physical weights (NA calib),0.6805467928496319,79,0.00231335436382755,0.45454545454545453,0.005753739930955121,0.45454545454545453,0.012658227848101266,False,True
+amazon_basin,2,0.1,S6 in-domain reference (Brazil calib),0.6805467928496319,79,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,2,0.2,S6 unweighted (NA calib),0.6805467928496319,79,0.025867507886435333,0.2601626016260163,0.020893167393539695,0.23579431772709078,0.08860759493670886,False,True
+amazon_basin,2,0.2,S6w physical weights (NA calib),0.6805467928496319,79,0.019137749737118823,0.2967032967032967,0.012303655639470978,0.2429971988795518,0.05063291139240506,False,True
+amazon_basin,2,0.2,S6 in-domain reference (Brazil calib),0.6805467928496319,79,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,2,0.1,S6 unweighted (NA calib),0.6872161172161172,395,0.00347985347985348,0.1368421052631579,0.004208358448864778,0.1278693528693529,0.03291139240506329,False,True
+optimistic,2,0.1,S6w physical weights (NA calib),0.6872161172161172,395,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,2,0.1,S6 in-domain reference (Brazil calib),0.6872161172161172,395,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,2,0.2,S6 unweighted (NA calib),0.6872161172161172,395,0.02978021978021978,0.2644526445264453,0.047339124430231284,0.3223957612058854,0.1468354430379747,False,True
+optimistic,2,0.2,S6w physical weights (NA calib),0.6872161172161172,395,0.009267399267399267,0.2648221343873518,0.012979245922283897,0.3015765964295376,0.043037974683544304,False,True
+optimistic,2,0.2,S6 in-domain reference (Brazil calib),0.6872161172161172,395,0.0,0.0,0.0,0.0,0.0,True,False
+main,3,0.1,S6 unweighted (NA calib),0.7156850588964662,473,0.0,0.0,0.0,0.0,0.0,True,False
+main,3,0.1,S6w physical weights (NA calib),0.7156850588964662,473,0.0,0.0,0.0,0.0,0.0,True,False
+main,3,0.1,S6 in-domain reference (Brazil calib),0.7156850588964662,473,0.0,0.0,0.0,0.0,0.0,True,False
+main,3,0.2,S6 unweighted (NA calib),0.7156850588964662,473,0.0,0.0,0.0,0.0,0.0,True,False
+main,3,0.2,S6w physical weights (NA calib),0.7156850588964662,473,0.034655920644761314,0.2898032200357782,0.02465419091907302,0.3331837801349011,0.07399577167019028,False,True
+main,3,0.2,S6 in-domain reference (Brazil calib),0.7156850588964662,473,0.02972721636701798,0.24713242961418144,0.012796567694530567,0.25219902164637326,0.0507399577167019,False,True
+strict_names,3,0.1,S6 unweighted (NA calib),0.7366030389877251,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,3,0.1,S6w physical weights (NA calib),0.7366030389877251,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,3,0.1,S6 in-domain reference (Brazil calib),0.7366030389877251,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,3,0.2,S6 unweighted (NA calib),0.7366030389877251,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,3,0.2,S6w physical weights (NA calib),0.7366030389877251,256,0.020656464608230143,0.3219895287958115,0.025339493405899652,0.36038390621723954,0.0703125,False,True
+strict_names,3,0.2,S6 in-domain reference (Brazil calib),0.7366030389877251,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,3,0.1,S6 unweighted (NA calib),0.7149785618893653,204,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,3,0.1,S6w physical weights (NA calib),0.7149785618893653,204,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,3,0.1,S6 in-domain reference (Brazil calib),0.7149785618893653,204,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,3,0.2,S6 unweighted (NA calib),0.7149785618893653,204,0.014128066352709637,0.29850746268656714,0.005433095980532618,0.2770878950071635,0.0196078431372549,False,True
+strict_qc,3,0.2,S6w physical weights (NA calib),0.7149785618893653,204,0.04350882125535953,0.3150242326332795,0.038238543835790714,0.35457558829551394,0.10784313725490197,False,True
+strict_qc,3,0.2,S6 in-domain reference (Brazil calib),0.7149785618893653,204,0.053068109931819776,0.3033112582781457,0.039418637085211705,0.33505841522429947,0.11764705882352941,False,True
+hydro_only,3,0.1,S6 unweighted (NA calib),0.7703051705054551,250,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,3,0.1,S6w physical weights (NA calib),0.7703051705054551,250,0.001686607284035208,0.0625,0.0005,0.041666666666666664,0.012,False,False
+hydro_only,3,0.1,S6 in-domain reference (Brazil calib),0.7703051705054551,250,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,3,0.2,S6 unweighted (NA calib),0.7703051705054551,250,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,3,0.2,S6w physical weights (NA calib),0.7703051705054551,250,0.016180888631212777,0.34201954397394135,0.02101509353346882,0.40413641410516965,0.052,False,True
+hydro_only,3,0.2,S6 in-domain reference (Brazil calib),0.7703051705054551,250,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,3,0.1,S6 unweighted (NA calib),0.6584976025572722,218,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,3,0.1,S6w physical weights (NA calib),0.6584976025572722,218,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,3,0.1,S6 in-domain reference (Brazil calib),0.6584976025572722,218,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,3,0.2,S6 unweighted (NA calib),0.6584976025572722,218,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,3,0.2,S6w physical weights (NA calib),0.6584976025572722,218,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,3,0.2,S6 in-domain reference (Brazil calib),0.6584976025572722,218,0.02914985919780805,0.21409921671018275,0.012128431232327234,0.2643998008647337,0.045871559633027525,False,True
+amazon_basin,3,0.1,S6 unweighted (NA calib),0.739360575905145,80,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,3,0.1,S6w physical weights (NA calib),0.739360575905145,80,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,3,0.1,S6 in-domain reference (Brazil calib),0.739360575905145,80,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,3,0.2,S6 unweighted (NA calib),0.739360575905145,80,0.05462629684522549,0.5,0.05304758034689927,0.4715340475279935,0.1125,False,True
+amazon_basin,3,0.2,S6w physical weights (NA calib),0.739360575905145,80,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,3,0.2,S6 in-domain reference (Brazil calib),0.739360575905145,80,0.06648316747829769,0.49044585987261147,0.08160313590245483,0.4663036337283133,0.175,False,True
+optimistic,3,0.1,S6 unweighted (NA calib),0.6686486686117369,391,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,3,0.1,S6w physical weights (NA calib),0.6686486686117369,391,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,3,0.1,S6 in-domain reference (Brazil calib),0.6686486686117369,391,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,3,0.2,S6 unweighted (NA calib),0.6686486686117369,391,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,3,0.2,S6w physical weights (NA calib),0.6686486686117369,391,0.034235698194039224,0.36245954692556637,0.03864391286419797,0.40837216026760564,0.09462915601023018,False,True
+optimistic,3,0.2,S6 in-domain reference (Brazil calib),0.6686486686117369,391,0.0,0.0,0.0,0.0,0.0,True,False
+main,4,0.1,S6 unweighted (NA calib),0.7304051146492899,470,0.0,0.0,0.0,0.0,0.0,True,False
+main,4,0.1,S6w physical weights (NA calib),0.7304051146492899,470,0.0,0.0,0.0,0.0,0.0,True,False
+main,4,0.1,S6 in-domain reference (Brazil calib),0.7304051146492899,470,0.0,0.0,0.0,0.0,0.0,True,False
+main,4,0.2,S6 unweighted (NA calib),0.7304051146492899,470,0.0,0.0,0.0,0.0,0.0,True,False
+main,4,0.2,S6w physical weights (NA calib),0.7304051146492899,470,0.027817052929243254,0.3425414364640884,0.025290873169844595,0.37145969968209247,0.06808510638297872,False,True
+main,4,0.2,S6 in-domain reference (Brazil calib),0.7304051146492899,470,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,4,0.1,S6 unweighted (NA calib),0.73022412656559,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,4,0.1,S6w physical weights (NA calib),0.73022412656559,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,4,0.1,S6 in-domain reference (Brazil calib),0.73022412656559,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,4,0.2,S6 unweighted (NA calib),0.73022412656559,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,4,0.2,S6w physical weights (NA calib),0.73022412656559,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,4,0.2,S6 in-domain reference (Brazil calib),0.73022412656559,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,4,0.1,S6 unweighted (NA calib),0.7066874689738316,200,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,4,0.1,S6w physical weights (NA calib),0.7066874689738316,200,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,4,0.1,S6 in-domain reference (Brazil calib),0.7066874689738316,200,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,4,0.2,S6 unweighted (NA calib),0.7066874689738316,200,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,4,0.2,S6w physical weights (NA calib),0.7066874689738316,200,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,4,0.2,S6 in-domain reference (Brazil calib),0.7066874689738316,200,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,4,0.1,S6 unweighted (NA calib),0.7726746632996633,252,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,4,0.1,S6w physical weights (NA calib),0.7726746632996633,252,0.001210016835016835,0.43478260869565216,0.001725327812284334,0.43478260869565216,0.003968253968253968,False,True
+hydro_only,4,0.1,S6 in-domain reference (Brazil calib),0.7726746632996633,252,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,4,0.2,S6 unweighted (NA calib),0.7726746632996633,252,0.010206228956228957,0.36082474226804123,0.004607785541012957,0.38705398544508846,0.011904761904761904,False,True
+hydro_only,4,0.2,S6w physical weights (NA calib),0.7726746632996633,252,0.009785353535353536,0.521505376344086,0.006313639613716392,0.5303457275521769,0.011904761904761904,False,True
+hydro_only,4,0.2,S6 in-domain reference (Brazil calib),0.7726746632996633,252,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,4,0.1,S6 unweighted (NA calib),0.6671045909057733,218,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,4,0.1,S6w physical weights (NA calib),0.6671045909057733,218,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,4,0.1,S6 in-domain reference (Brazil calib),0.6671045909057733,218,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,4,0.2,S6 unweighted (NA calib),0.6671045909057733,218,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,4,0.2,S6w physical weights (NA calib),0.6671045909057733,218,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,4,0.2,S6 in-domain reference (Brazil calib),0.6671045909057733,218,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,4,0.1,S6 unweighted (NA calib),0.7127638969591323,82,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,4,0.1,S6w physical weights (NA calib),0.7127638969591323,82,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,4,0.1,S6 in-domain reference (Brazil calib),0.7127638969591323,82,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,4,0.2,S6 unweighted (NA calib),0.7127638969591323,82,0.03176447801665698,0.36585365853658536,0.01988950807548369,0.3261879324379324,0.06097560975609756,False,True
+amazon_basin,4,0.2,S6w physical weights (NA calib),0.7127638969591323,82,0.01084640712763897,0.5535714285714286,0.006750871080139373,0.5535714285714286,0.012195121951219513,False,True
+amazon_basin,4,0.2,S6 in-domain reference (Brazil calib),0.7127638969591323,82,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,4,0.1,S6 unweighted (NA calib),0.6697851191346295,395,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,4,0.1,S6w physical weights (NA calib),0.6697851191346295,395,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,4,0.1,S6 in-domain reference (Brazil calib),0.6697851191346295,395,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,4,0.2,S6 unweighted (NA calib),0.6697851191346295,395,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,4,0.2,S6w physical weights (NA calib),0.6697851191346295,395,0.016262242362227744,0.2876404494382023,0.00728019095124256,0.2875675425740811,0.02531645569620253,False,True
+optimistic,4,0.2,S6 in-domain reference (Brazil calib),0.6697851191346295,395,0.0,0.0,0.0,0.0,0.0,True,False
+main,5,0.1,S6 unweighted (NA calib),0.7285292416354614,474,0.0,0.0,0.0,0.0,0.0,True,False
+main,5,0.1,S6w physical weights (NA calib),0.7285292416354614,474,0.0,0.0,0.0,0.0,0.0,True,False
+main,5,0.1,S6 in-domain reference (Brazil calib),0.7285292416354614,474,0.0,0.0,0.0,0.0,0.0,True,False
+main,5,0.2,S6 unweighted (NA calib),0.7285292416354614,474,0.0,0.0,0.0,0.0,0.0,True,False
+main,5,0.2,S6w physical weights (NA calib),0.7285292416354614,474,0.0,0.0,0.0,0.0,0.0,True,False
+main,5,0.2,S6 in-domain reference (Brazil calib),0.7285292416354614,474,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,5,0.1,S6 unweighted (NA calib),0.7271479549821576,254,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,5,0.1,S6w physical weights (NA calib),0.7271479549821576,254,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,5,0.1,S6 in-domain reference (Brazil calib),0.7271479549821576,254,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,5,0.2,S6 unweighted (NA calib),0.7271479549821576,254,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,5,0.2,S6w physical weights (NA calib),0.7271479549821576,254,0.014932747735382926,0.3382352941176471,0.01980524767815156,0.38696407001926897,0.051181102362204724,False,True
+strict_names,5,0.2,S6 in-domain reference (Brazil calib),0.7271479549821576,254,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,5,0.1,S6 unweighted (NA calib),0.7052624133540812,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,5,0.1,S6w physical weights (NA calib),0.7052624133540812,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,5,0.1,S6 in-domain reference (Brazil calib),0.7052624133540812,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,5,0.2,S6 unweighted (NA calib),0.7052624133540812,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,5,0.2,S6w physical weights (NA calib),0.7052624133540812,198,0.017965766020653556,0.35826771653543305,0.025227957766852174,0.4162613031530608,0.06060606060606061,False,True
+strict_qc,5,0.2,S6 in-domain reference (Brazil calib),0.7052624133540812,198,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,5,0.1,S6 unweighted (NA calib),0.7671290019814371,253,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,5,0.1,S6w physical weights (NA calib),0.7671290019814371,253,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,5,0.1,S6 in-domain reference (Brazil calib),0.7671290019814371,253,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,5,0.2,S6 unweighted (NA calib),0.7671290019814371,253,0.019188653665658566,0.2717391304347826,0.01893708046641865,0.43555285072762895,0.043478260869565216,False,True
+hydro_only,5,0.2,S6w physical weights (NA calib),0.7671290019814371,253,0.022942955469809158,0.25227272727272726,0.01617392000973653,0.34100014687194524,0.04743083003952569,False,True
+hydro_only,5,0.2,S6 in-domain reference (Brazil calib),0.7671290019814371,253,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,5,0.1,S6 unweighted (NA calib),0.6296436407656806,220,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,5,0.1,S6w physical weights (NA calib),0.6296436407656806,220,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,5,0.1,S6 in-domain reference (Brazil calib),0.6296436407656806,220,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,5,0.2,S6 unweighted (NA calib),0.6296436407656806,220,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,5,0.2,S6w physical weights (NA calib),0.6296436407656806,220,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,5,0.2,S6 in-domain reference (Brazil calib),0.6296436407656806,220,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,5,0.1,S6 unweighted (NA calib),0.6897241992882562,78,0.021129893238434165,0.25263157894736843,0.0152014652014652,0.1976190476190476,0.07692307692307693,False,True
+amazon_basin,5,0.1,S6w physical weights (NA calib),0.6897241992882562,78,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,5,0.1,S6 in-domain reference (Brazil calib),0.6897241992882562,78,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,5,0.2,S6 unweighted (NA calib),0.6897241992882562,78,0.06761565836298933,0.3256578947368421,0.06292921941215951,0.37757531647295706,0.16666666666666666,False,True
+amazon_basin,5,0.2,S6w physical weights (NA calib),0.6897241992882562,78,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,5,0.2,S6 in-domain reference (Brazil calib),0.6897241992882562,78,0.046263345195729534,0.3701923076923077,0.03542803972881664,0.4605645164746163,0.07692307692307693,False,True
+optimistic,5,0.1,S6 unweighted (NA calib),0.6808605341246291,392,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,5,0.1,S6w physical weights (NA calib),0.6808605341246291,392,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,5,0.1,S6 in-domain reference (Brazil calib),0.6808605341246291,392,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,5,0.2,S6 unweighted (NA calib),0.6808605341246291,392,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,5,0.2,S6w physical weights (NA calib),0.6808605341246291,392,0.03798219584569733,0.287109375,0.030645960343542052,0.31613727512285483,0.09693877551020408,False,True
+optimistic,5,0.2,S6 in-domain reference (Brazil calib),0.6808605341246291,392,0.009606824925816024,0.33204633204633205,0.008705390346425607,0.3791681128665376,0.02295918367346939,False,True
+main,6,0.1,S6 unweighted (NA calib),0.7211359546106214,471,0.0,0.0,0.0,0.0,0.0,True,False
+main,6,0.1,S6w physical weights (NA calib),0.7211359546106214,471,0.0,0.0,0.0,0.0,0.0,True,False
+main,6,0.1,S6 in-domain reference (Brazil calib),0.7211359546106214,471,0.0,0.0,0.0,0.0,0.0,True,False
+main,6,0.2,S6 unweighted (NA calib),0.7211359546106214,471,0.0,0.0,0.0,0.0,0.0,True,False
+main,6,0.2,S6w physical weights (NA calib),0.7211359546106214,471,0.0,0.0,0.0,0.0,0.0,True,False
+main,6,0.2,S6 in-domain reference (Brazil calib),0.7211359546106214,471,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,6,0.1,S6 unweighted (NA calib),0.7336536904054857,257,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,6,0.1,S6w physical weights (NA calib),0.7336536904054857,257,0.01031261810917337,0.49214659685863876,0.01236634330019544,0.45402146116431835,0.027237354085603113,False,True
+strict_names,6,0.1,S6 in-domain reference (Brazil calib),0.7336536904054857,257,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,6,0.2,S6 unweighted (NA calib),0.7336536904054857,257,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,6,0.2,S6w physical weights (NA calib),0.7336536904054857,257,0.013768155067220992,0.5647058823529412,0.01119895636825386,0.5756263573282483,0.019455252918287938,False,True
+strict_names,6,0.2,S6 in-domain reference (Brazil calib),0.7336536904054857,257,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,6,0.1,S6 unweighted (NA calib),0.686331239856044,199,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,6,0.1,S6w physical weights (NA calib),0.686331239856044,199,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,6,0.1,S6 in-domain reference (Brazil calib),0.686331239856044,199,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,6,0.2,S6 unweighted (NA calib),0.686331239856044,199,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,6,0.2,S6w physical weights (NA calib),0.686331239856044,199,0.013478230188412956,0.3089005235602094,0.008191264347043242,0.4075154012654013,0.020100502512562814,False,True
+strict_qc,6,0.2,S6 in-domain reference (Brazil calib),0.686331239856044,199,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,6,0.1,S6 unweighted (NA calib),0.7826499420259302,253,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,6,0.1,S6w physical weights (NA calib),0.7826499420259302,253,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,6,0.1,S6 in-domain reference (Brazil calib),0.7826499420259302,253,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,6,0.2,S6 unweighted (NA calib),0.7826499420259302,253,0.008854221566353957,0.2857142857142857,0.003736823034023749,0.3151387425360028,0.011857707509881422,False,True
+hydro_only,6,0.2,S6w physical weights (NA calib),0.7826499420259302,253,0.009750184462949299,0.7405405405405405,0.008802067497719671,0.7423076923076923,0.011857707509881422,False,True
+hydro_only,6,0.2,S6 in-domain reference (Brazil calib),0.7826499420259302,253,0.035469589965215556,0.475482912332838,0.025632603625985254,0.4988499013364821,0.05138339920948617,False,True
+non_hydro,6,0.1,S6 unweighted (NA calib),0.6474809388548363,218,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,6,0.1,S6w physical weights (NA calib),0.6474809388548363,218,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,6,0.1,S6 in-domain reference (Brazil calib),0.6474809388548363,218,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,6,0.2,S6 unweighted (NA calib),0.6474809388548363,218,0.06241590671251308,0.17604790419161676,0.018072100148011354,0.20735357011928812,0.0871559633027523,False,True
+non_hydro,6,0.2,S6w physical weights (NA calib),0.6474809388548363,218,0.029675586784272685,0.19899244332493704,0.010913944850270387,0.23792399773589445,0.045871559633027525,False,True
+non_hydro,6,0.2,S6 in-domain reference (Brazil calib),0.6474809388548363,218,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,6,0.1,S6 unweighted (NA calib),0.6787605412826044,81,0.022357324965679545,0.39473684210526316,0.030444289168358504,0.35228391751957705,0.08641975308641975,False,True
+amazon_basin,6,0.1,S6w physical weights (NA calib),0.6787605412826044,81,0.003530103941949402,0.2222222222222222,0.005555555555555556,0.225,0.024691358024691357,False,True
+amazon_basin,6,0.1,S6 in-domain reference (Brazil calib),0.6787605412826044,81,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,6,0.2,S6 unweighted (NA calib),0.6787605412826044,81,0.012551480682486762,0.265625,0.02398743773012779,0.6476608187134503,0.037037037037037035,False,True
+amazon_basin,6,0.2,S6w physical weights (NA calib),0.6787605412826044,81,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,6,0.2,S6 in-domain reference (Brazil calib),0.6787605412826044,81,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,6,0.1,S6 unweighted (NA calib),0.671656027588231,393,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,6,0.1,S6w physical weights (NA calib),0.671656027588231,393,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,6,0.1,S6 in-domain reference (Brazil calib),0.671656027588231,393,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,6,0.2,S6 unweighted (NA calib),0.671656027588231,393,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,6,0.2,S6w physical weights (NA calib),0.671656027588231,393,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,6,0.2,S6 in-domain reference (Brazil calib),0.671656027588231,393,0.0,0.0,0.0,0.0,0.0,True,False
+main,7,0.1,S6 unweighted (NA calib),0.7199033936091157,471,0.0,0.0,0.0,0.0,0.0,True,False
+main,7,0.1,S6w physical weights (NA calib),0.7199033936091157,471,0.0,0.0,0.0,0.0,0.0,True,False
+main,7,0.1,S6 in-domain reference (Brazil calib),0.7199033936091157,471,0.0,0.0,0.0,0.0,0.0,True,False
+main,7,0.2,S6 unweighted (NA calib),0.7199033936091157,471,0.0,0.0,0.0,0.0,0.0,True,False
+main,7,0.2,S6w physical weights (NA calib),0.7199033936091157,471,0.0,0.0,0.0,0.0,0.0,True,False
+main,7,0.2,S6 in-domain reference (Brazil calib),0.7199033936091157,471,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,7,0.1,S6 unweighted (NA calib),0.7250416435313715,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,7,0.1,S6w physical weights (NA calib),0.7250416435313715,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,7,0.1,S6 in-domain reference (Brazil calib),0.7250416435313715,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,7,0.2,S6 unweighted (NA calib),0.7250416435313715,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,7,0.2,S6w physical weights (NA calib),0.7250416435313715,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,7,0.2,S6 in-domain reference (Brazil calib),0.7250416435313715,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,7,0.1,S6 unweighted (NA calib),0.6965814990445184,197,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,7,0.1,S6w physical weights (NA calib),0.6965814990445184,197,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,7,0.1,S6 in-domain reference (Brazil calib),0.6965814990445184,197,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,7,0.2,S6 unweighted (NA calib),0.6965814990445184,197,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,7,0.2,S6w physical weights (NA calib),0.6965814990445184,197,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,7,0.2,S6 in-domain reference (Brazil calib),0.6965814990445184,197,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,7,0.1,S6 unweighted (NA calib),0.7779045643153527,252,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,7,0.1,S6w physical weights (NA calib),0.7779045643153527,252,0.002385892116182573,0.2391304347826087,0.0009489302967563837,0.2391304347826087,0.003968253968253968,False,True
+hydro_only,7,0.1,S6 in-domain reference (Brazil calib),0.7779045643153527,252,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,7,0.2,S6 unweighted (NA calib),0.7779045643153527,252,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,7,0.2,S6w physical weights (NA calib),0.7779045643153527,252,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,7,0.2,S6 in-domain reference (Brazil calib),0.7779045643153527,252,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,7,0.1,S6 unweighted (NA calib),0.6355710549258936,217,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,7,0.1,S6w physical weights (NA calib),0.6355710549258936,217,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,7,0.1,S6 in-domain reference (Brazil calib),0.6355710549258936,217,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,7,0.2,S6 unweighted (NA calib),0.6355710549258936,217,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,7,0.2,S6w physical weights (NA calib),0.6355710549258936,217,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,7,0.2,S6 in-domain reference (Brazil calib),0.6355710549258936,217,0.0486050566695728,0.28550074738415543,0.05254955817945237,0.3167570590261435,0.16589861751152074,False,True
+amazon_basin,7,0.1,S6 unweighted (NA calib),0.6852309446873218,83,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,7,0.1,S6w physical weights (NA calib),0.6852309446873218,83,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,7,0.1,S6 in-domain reference (Brazil calib),0.6852309446873218,83,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,7,0.2,S6 unweighted (NA calib),0.6852309446873218,83,0.020528416650826838,0.3425925925925926,0.025323516287371707,0.42037037037037034,0.060240963855421686,False,True
+amazon_basin,7,0.2,S6w physical weights (NA calib),0.6852309446873218,83,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,7,0.2,S6 in-domain reference (Brazil calib),0.6852309446873218,83,0.014826078692263827,0.3333333333333333,0.02090584560464078,0.43379629629629624,0.04819277108433735,False,True
+optimistic,7,0.1,S6 unweighted (NA calib),0.6708604979221472,386,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,7,0.1,S6w physical weights (NA calib),0.6708604979221472,386,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,7,0.1,S6 in-domain reference (Brazil calib),0.6708604979221472,386,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,7,0.2,S6 unweighted (NA calib),0.6708604979221472,386,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,7,0.2,S6w physical weights (NA calib),0.6708604979221472,386,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,7,0.2,S6 in-domain reference (Brazil calib),0.6708604979221472,386,0.0,0.0,0.0,0.0,0.0,True,False
+main,8,0.1,S6 unweighted (NA calib),0.7300133089851125,469,0.0,0.0,0.0,0.0,0.0,True,False
+main,8,0.1,S6w physical weights (NA calib),0.7300133089851125,469,0.0,0.0,0.0,0.0,0.0,True,False
+main,8,0.1,S6 in-domain reference (Brazil calib),0.7300133089851125,469,0.0,0.0,0.0,0.0,0.0,True,False
+main,8,0.2,S6 unweighted (NA calib),0.7300133089851125,469,0.009811507629453094,0.26498422712933756,0.004129825034001341,0.24211099261832864,0.017057569296375266,False,True
+main,8,0.2,S6w physical weights (NA calib),0.7300133089851125,469,0.0,0.0,0.0,0.0,0.0,True,False
+main,8,0.2,S6 in-domain reference (Brazil calib),0.7300133089851125,469,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,8,0.1,S6 unweighted (NA calib),0.7212028542303772,250,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,8,0.1,S6w physical weights (NA calib),0.7212028542303772,250,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,8,0.1,S6 in-domain reference (Brazil calib),0.7212028542303772,250,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,8,0.2,S6 unweighted (NA calib),0.7212028542303772,250,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,8,0.2,S6w physical weights (NA calib),0.7212028542303772,250,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,8,0.2,S6 in-domain reference (Brazil calib),0.7212028542303772,250,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,8,0.1,S6 unweighted (NA calib),0.7067192562332723,199,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,8,0.1,S6w physical weights (NA calib),0.7067192562332723,199,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,8,0.1,S6 in-domain reference (Brazil calib),0.7067192562332723,199,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,8,0.2,S6 unweighted (NA calib),0.7067192562332723,199,0.024369629525285253,0.2023121387283237,0.0398518235071692,0.26435042926422236,0.1507537688442211,False,True
+strict_qc,8,0.2,S6w physical weights (NA calib),0.7067192562332723,199,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,8,0.2,S6 in-domain reference (Brazil calib),0.7067192562332723,199,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,8,0.1,S6 unweighted (NA calib),0.7742236024844721,252,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,8,0.1,S6w physical weights (NA calib),0.7742236024844721,252,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,8,0.1,S6 in-domain reference (Brazil calib),0.7742236024844721,252,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,8,0.2,S6 unweighted (NA calib),0.7742236024844721,252,0.012991718426501035,0.24302788844621515,0.006273387141857436,0.2634822599580123,0.023809523809523808,False,True
+hydro_only,8,0.2,S6w physical weights (NA calib),0.7742236024844721,252,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,8,0.2,S6 in-domain reference (Brazil calib),0.7742236024844721,252,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,8,0.1,S6 unweighted (NA calib),0.6374699519230769,217,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,8,0.1,S6w physical weights (NA calib),0.6374699519230769,217,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,8,0.1,S6 in-domain reference (Brazil calib),0.6374699519230769,217,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,8,0.2,S6 unweighted (NA calib),0.6374699519230769,217,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,8,0.2,S6w physical weights (NA calib),0.6374699519230769,217,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,8,0.2,S6 in-domain reference (Brazil calib),0.6374699519230769,217,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,8,0.1,S6 unweighted (NA calib),0.7006082009024917,80,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,8,0.1,S6w physical weights (NA calib),0.7006082009024917,80,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,8,0.1,S6 in-domain reference (Brazil calib),0.7006082009024917,80,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,8,0.2,S6 unweighted (NA calib),0.7006082009024917,80,0.011379242691779479,0.15517241379310345,0.015732600732600733,0.2517216117216117,0.0625,False,True
+amazon_basin,8,0.2,S6w physical weights (NA calib),0.7006082009024917,80,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,8,0.2,S6 in-domain reference (Brazil calib),0.7006082009024917,80,0.009417304296645085,0.14583333333333334,0.013232600732600732,0.26465201465201466,0.05,False,True
+optimistic,8,0.1,S6 unweighted (NA calib),0.6839804577012085,397,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,8,0.1,S6w physical weights (NA calib),0.6839804577012085,397,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,8,0.1,S6 in-domain reference (Brazil calib),0.6839804577012085,397,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,8,0.2,S6 unweighted (NA calib),0.6839804577012085,397,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,8,0.2,S6w physical weights (NA calib),0.6839804577012085,397,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,8,0.2,S6 in-domain reference (Brazil calib),0.6839804577012085,397,0.0,0.0,0.0,0.0,0.0,True,False
+main,9,0.1,S6 unweighted (NA calib),0.7145139486297161,471,0.0,0.0,0.0,0.0,0.0,True,False
+main,9,0.1,S6w physical weights (NA calib),0.7145139486297161,471,0.0,0.0,0.0,0.0,0.0,True,False
+main,9,0.1,S6 in-domain reference (Brazil calib),0.7145139486297161,471,0.0,0.0,0.0,0.0,0.0,True,False
+main,9,0.2,S6 unweighted (NA calib),0.7145139486297161,471,0.0,0.0,0.0,0.0,0.0,True,False
+main,9,0.2,S6w physical weights (NA calib),0.7145139486297161,471,0.0,0.0,0.0,0.0,0.0,True,False
+main,9,0.2,S6 in-domain reference (Brazil calib),0.7145139486297161,471,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,9,0.1,S6 unweighted (NA calib),0.7394174121754309,253,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,9,0.1,S6w physical weights (NA calib),0.7394174121754309,253,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,9,0.1,S6 in-domain reference (Brazil calib),0.7394174121754309,253,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,9,0.2,S6 unweighted (NA calib),0.7394174121754309,253,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,9,0.2,S6w physical weights (NA calib),0.7394174121754309,253,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,9,0.2,S6 in-domain reference (Brazil calib),0.7394174121754309,253,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,9,0.1,S6 unweighted (NA calib),0.7009114675333852,199,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,9,0.1,S6w physical weights (NA calib),0.7009114675333852,199,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,9,0.1,S6 in-domain reference (Brazil calib),0.7009114675333852,199,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,9,0.2,S6 unweighted (NA calib),0.7009114675333852,199,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,9,0.2,S6w physical weights (NA calib),0.7009114675333852,199,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,9,0.2,S6 in-domain reference (Brazil calib),0.7009114675333852,199,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,9,0.1,S6 unweighted (NA calib),0.7873232872456113,252,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,9,0.1,S6w physical weights (NA calib),0.7873232872456113,252,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,9,0.1,S6 in-domain reference (Brazil calib),0.7873232872456113,252,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,9,0.2,S6 unweighted (NA calib),0.7873232872456113,252,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,9,0.2,S6w physical weights (NA calib),0.7873232872456113,252,0.005178395733001916,0.16,0.0012266381194522503,0.15455640305098353,0.007936507936507936,False,False
+hydro_only,9,0.2,S6 in-domain reference (Brazil calib),0.7873232872456113,252,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,9,0.1,S6 unweighted (NA calib),0.6451050276787745,219,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,9,0.1,S6w physical weights (NA calib),0.6451050276787745,219,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,9,0.1,S6 in-domain reference (Brazil calib),0.6451050276787745,219,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,9,0.2,S6 unweighted (NA calib),0.6451050276787745,219,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,9,0.2,S6w physical weights (NA calib),0.6451050276787745,219,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,9,0.2,S6 in-domain reference (Brazil calib),0.6451050276787745,219,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,9,0.1,S6 unweighted (NA calib),0.689935064935065,83,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,9,0.1,S6w physical weights (NA calib),0.689935064935065,83,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,9,0.1,S6 in-domain reference (Brazil calib),0.689935064935065,83,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,9,0.2,S6 unweighted (NA calib),0.689935064935065,83,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,9,0.2,S6w physical weights (NA calib),0.689935064935065,83,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,9,0.2,S6 in-domain reference (Brazil calib),0.689935064935065,83,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,9,0.1,S6 unweighted (NA calib),0.6757599376461418,397,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,9,0.1,S6w physical weights (NA calib),0.6757599376461418,397,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,9,0.1,S6 in-domain reference (Brazil calib),0.6757599376461418,397,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,9,0.2,S6 unweighted (NA calib),0.6757599376461418,397,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,9,0.2,S6w physical weights (NA calib),0.6757599376461418,397,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,9,0.2,S6 in-domain reference (Brazil calib),0.6757599376461418,397,0.0,0.0,0.0,0.0,0.0,True,False
+main,10,0.1,S6 unweighted (NA calib),0.7466166588529458,464,0.0,0.0,0.0,0.0,0.0,True,False
+main,10,0.1,S6w physical weights (NA calib),0.7466166588529458,464,0.0,0.0,0.0,0.0,0.0,True,False
+main,10,0.1,S6 in-domain reference (Brazil calib),0.7466166588529458,464,0.0,0.0,0.0,0.0,0.0,True,False
+main,10,0.2,S6 unweighted (NA calib),0.7466166588529458,464,0.03750586029067042,0.31333333333333335,0.03659602479155021,0.3691425109408544,0.09913793103448276,False,True
+main,10,0.2,S6w physical weights (NA calib),0.7466166588529458,464,0.020940771995624316,0.21044776119402986,0.01182936483363083,0.26137263251450976,0.04525862068965517,False,True
+main,10,0.2,S6 in-domain reference (Brazil calib),0.7466166588529458,464,0.015221128301297078,0.14168377823408623,0.003974253223625122,0.16764122688745967,0.023706896551724137,False,False
+strict_names,10,0.1,S6 unweighted (NA calib),0.7293212268851733,254,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,10,0.1,S6w physical weights (NA calib),0.7293212268851733,254,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,10,0.1,S6 in-domain reference (Brazil calib),0.7293212268851733,254,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,10,0.2,S6 unweighted (NA calib),0.7293212268851733,254,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,10,0.2,S6w physical weights (NA calib),0.7293212268851733,254,0.01766138855054811,0.39184952978056425,0.016854908161929194,0.38919515210272865,0.04330708661417323,False,True
+strict_names,10,0.2,S6 in-domain reference (Brazil calib),0.7293212268851733,254,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,10,0.1,S6 unweighted (NA calib),0.7075471698113207,199,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,10,0.1,S6w physical weights (NA calib),0.7075471698113207,199,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,10,0.1,S6 in-domain reference (Brazil calib),0.7075471698113207,199,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,10,0.2,S6 unweighted (NA calib),0.7075471698113207,199,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,10,0.2,S6w physical weights (NA calib),0.7075471698113207,199,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,10,0.2,S6 in-domain reference (Brazil calib),0.7075471698113207,199,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,10,0.1,S6 unweighted (NA calib),0.7872612115640004,257,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,10,0.1,S6w physical weights (NA calib),0.7872612115640004,257,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,10,0.1,S6 in-domain reference (Brazil calib),0.7872612115640004,257,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,10,0.2,S6 unweighted (NA calib),0.7872612115640004,257,0.022116661558892636,0.30484988452655887,0.01938682557571476,0.3321609448639128,0.058365758754863814,False,True
+hydro_only,10,0.2,S6w physical weights (NA calib),0.7872612115640004,257,0.014148534068852794,0.259927797833935,0.011134118490322845,0.3179409391125524,0.03501945525291829,False,True
+hydro_only,10,0.2,S6 in-domain reference (Brazil calib),0.7872612115640004,257,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,10,0.1,S6 unweighted (NA calib),0.6555295184821226,219,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,10,0.1,S6w physical weights (NA calib),0.6555295184821226,219,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,10,0.1,S6 in-domain reference (Brazil calib),0.6555295184821226,219,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,10,0.2,S6 unweighted (NA calib),0.6555295184821226,219,0.04739587270390808,0.32057416267942584,0.05531953963071076,0.36712058118562596,0.1506849315068493,False,True
+non_hydro,10,0.2,S6w physical weights (NA calib),0.6555295184821226,219,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,10,0.2,S6 in-domain reference (Brazil calib),0.6555295184821226,219,0.04739587270390808,0.32057416267942584,0.05531953963071076,0.36712058118562596,0.1506849315068493,False,True
+amazon_basin,10,0.1,S6 unweighted (NA calib),0.7129300118623962,82,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,10,0.1,S6w physical weights (NA calib),0.7129300118623962,82,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,10,0.1,S6 in-domain reference (Brazil calib),0.7129300118623962,82,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,10,0.2,S6 unweighted (NA calib),0.7129300118623962,82,0.014234875444839857,0.2916666666666667,0.020834187333469974,0.3416806722689075,0.06097560975609756,False,True
+amazon_basin,10,0.2,S6w physical weights (NA calib),0.7129300118623962,82,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,10,0.2,S6 in-domain reference (Brazil calib),0.7129300118623962,82,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,10,0.1,S6 unweighted (NA calib),0.6754228928427898,394,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,10,0.1,S6w physical weights (NA calib),0.6754228928427898,394,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,10,0.1,S6 in-domain reference (Brazil calib),0.6754228928427898,394,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,10,0.2,S6 unweighted (NA calib),0.6754228928427898,394,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,10,0.2,S6w physical weights (NA calib),0.6754228928427898,394,0.020532680574330497,0.28825622775800713,0.015705341087759964,0.3256791783461804,0.048223350253807105,False,True
+optimistic,10,0.2,S6 in-domain reference (Brazil calib),0.6754228928427898,394,0.0,0.0,0.0,0.0,0.0,True,False
+main,11,0.1,S6 unweighted (NA calib),0.7066440049443757,467,0.0,0.0,0.0,0.0,0.0,True,False
+main,11,0.1,S6w physical weights (NA calib),0.7066440049443757,467,0.0,0.0,0.0,0.0,0.0,True,False
+main,11,0.1,S6 in-domain reference (Brazil calib),0.7066440049443757,467,0.0,0.0,0.0,0.0,0.0,True,False
+main,11,0.2,S6 unweighted (NA calib),0.7066440049443757,467,0.0,0.0,0.0,0.0,0.0,True,False
+main,11,0.2,S6w physical weights (NA calib),0.7066440049443757,467,0.0,0.0,0.0,0.0,0.0,True,False
+main,11,0.2,S6 in-domain reference (Brazil calib),0.7066440049443757,467,0.05024721878862794,0.2859778597785978,0.027081815286374537,0.3011239937794502,0.08993576017130621,False,True
+strict_names,11,0.1,S6 unweighted (NA calib),0.7120529348012092,245,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,11,0.1,S6w physical weights (NA calib),0.7120529348012092,245,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,11,0.1,S6 in-domain reference (Brazil calib),0.7120529348012092,245,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,11,0.2,S6 unweighted (NA calib),0.7120529348012092,245,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,11,0.2,S6w physical weights (NA calib),0.7120529348012092,245,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,11,0.2,S6 in-domain reference (Brazil calib),0.7120529348012092,245,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,11,0.1,S6 unweighted (NA calib),0.7093497388940554,194,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,11,0.1,S6w physical weights (NA calib),0.7093497388940554,194,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,11,0.1,S6 in-domain reference (Brazil calib),0.7093497388940554,194,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,11,0.2,S6 unweighted (NA calib),0.7093497388940554,194,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,11,0.2,S6w physical weights (NA calib),0.7093497388940554,194,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,11,0.2,S6 in-domain reference (Brazil calib),0.7093497388940554,194,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,11,0.1,S6 unweighted (NA calib),0.7751451919617618,254,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,11,0.1,S6w physical weights (NA calib),0.7751451919617618,254,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,11,0.1,S6 in-domain reference (Brazil calib),0.7751451919617618,254,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,11,0.2,S6 unweighted (NA calib),0.7751451919617618,254,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,11,0.2,S6w physical weights (NA calib),0.7751451919617618,254,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,11,0.2,S6 in-domain reference (Brazil calib),0.7751451919617618,254,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,11,0.1,S6 unweighted (NA calib),0.6312794050690544,220,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,11,0.1,S6w physical weights (NA calib),0.6312794050690544,220,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,11,0.1,S6 in-domain reference (Brazil calib),0.6312794050690544,220,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,11,0.2,S6 unweighted (NA calib),0.6312794050690544,220,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,11,0.2,S6w physical weights (NA calib),0.6312794050690544,220,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,11,0.2,S6 in-domain reference (Brazil calib),0.6312794050690544,220,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,11,0.1,S6 unweighted (NA calib),0.7032511907227169,81,0.010147028370262995,0.46938775510204084,0.013866523528359275,0.5615942028985507,0.024691358024691357,False,True
+amazon_basin,11,0.1,S6w physical weights (NA calib),0.7032511907227169,81,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,11,0.1,S6 in-domain reference (Brazil calib),0.7032511907227169,81,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,11,0.2,S6 unweighted (NA calib),0.7032511907227169,81,0.02837026299440878,0.38686131386861317,0.038311094483933994,0.38789983164983166,0.09876543209876543,False,True
+amazon_basin,11,0.2,S6w physical weights (NA calib),0.7032511907227169,81,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,11,0.2,S6 in-domain reference (Brazil calib),0.7032511907227169,81,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,11,0.1,S6 unweighted (NA calib),0.6788518423839609,394,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,11,0.1,S6w physical weights (NA calib),0.6788518423839609,394,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,11,0.1,S6 in-domain reference (Brazil calib),0.6788518423839609,394,0.011540006573421465,0.189873417721519,0.0029756070600148316,0.19539819694097393,0.015228426395939087,False,True
+optimistic,11,0.2,S6 unweighted (NA calib),0.6788518423839609,394,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,11,0.2,S6w physical weights (NA calib),0.6788518423839609,394,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,11,0.2,S6 in-domain reference (Brazil calib),0.6788518423839609,394,0.0,0.0,0.0,0.0,0.0,True,False
+main,12,0.1,S6 unweighted (NA calib),0.7250203595815323,465,0.00397794900707887,0.07086614173228346,0.0023200039641246713,0.10788018433179725,0.021505376344086023,False,True
+main,12,0.1,S6w physical weights (NA calib),0.7250203595815323,465,0.0,0.0,0.0,0.0,0.0,True,False
+main,12,0.1,S6 in-domain reference (Brazil calib),0.7250203595815323,465,0.0,0.0,0.0,0.0,0.0,True,False
+main,12,0.2,S6 unweighted (NA calib),0.7250203595815323,465,0.0,0.0,0.0,0.0,0.0,True,False
+main,12,0.2,S6w physical weights (NA calib),0.7250203595815323,465,0.0,0.0,0.0,0.0,0.0,True,False
+main,12,0.2,S6 in-domain reference (Brazil calib),0.7250203595815323,465,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,12,0.1,S6 unweighted (NA calib),0.6963558234276467,255,0.0013393604553825547,0.125,0.00196078431372549,0.1,0.0196078431372549,False,False
+strict_names,12,0.1,S6w physical weights (NA calib),0.6963558234276467,255,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,12,0.1,S6 in-domain reference (Brazil calib),0.6963558234276467,255,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,12,0.2,S6 unweighted (NA calib),0.6963558234276467,255,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,12,0.2,S6w physical weights (NA calib),0.6963558234276467,255,0.0018974273117919526,0.38235294117647056,0.0034967320261437905,0.4458333333333333,0.00784313725490196,False,True
+strict_names,12,0.2,S6 in-domain reference (Brazil calib),0.6963558234276467,255,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,12,0.1,S6 unweighted (NA calib),0.6983419764808999,198,0.00029216273464319626,0.0,0.0,0.0,0.005050505050505051,False,False
+strict_qc,12,0.1,S6w physical weights (NA calib),0.6983419764808999,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,12,0.1,S6 in-domain reference (Brazil calib),0.6983419764808999,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,12,0.2,S6 unweighted (NA calib),0.6983419764808999,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,12,0.2,S6w physical weights (NA calib),0.6983419764808999,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,12,0.2,S6 in-domain reference (Brazil calib),0.6983419764808999,198,0.07793440946607261,0.2774133083411434,0.05699960435522432,0.32245490463812615,0.17676767676767677,False,True
+hydro_only,12,0.1,S6 unweighted (NA calib),0.7942207099690214,256,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,12,0.1,S6w physical weights (NA calib),0.7942207099690214,256,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,12,0.1,S6 in-domain reference (Brazil calib),0.7942207099690214,256,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,12,0.2,S6 unweighted (NA calib),0.7942207099690214,256,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,12,0.2,S6w physical weights (NA calib),0.7942207099690214,256,0.014778325123152709,0.30927835051546393,0.007321334045559113,0.31237691927718886,0.0234375,False,True
+hydro_only,12,0.2,S6 in-domain reference (Brazil calib),0.7942207099690214,256,0.019044233406124624,0.33866666666666667,0.010692283119633189,0.34215305982826194,0.03125,False,True
+non_hydro,12,0.1,S6 unweighted (NA calib),0.6488795623173199,218,0.006070598815858502,0.09876543209876543,0.004066978473346525,0.1477668845315904,0.027522935779816515,False,True
+non_hydro,12,0.1,S6w physical weights (NA calib),0.6488795623173199,218,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,12,0.1,S6 in-domain reference (Brazil calib),0.6488795623173199,218,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,12,0.2,S6 unweighted (NA calib),0.6488795623173199,218,0.020010492393015063,0.19101123595505617,0.010624397577452819,0.3308740959835307,0.03211009174311927,False,True
+non_hydro,12,0.2,S6w physical weights (NA calib),0.6488795623173199,218,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,12,0.2,S6 in-domain reference (Brazil calib),0.6488795623173199,218,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,12,0.1,S6 unweighted (NA calib),0.7030400644252064,81,0.0030199315482182403,0.2,0.011316872427983538,0.3055555555555555,0.037037037037037035,False,True
+amazon_basin,12,0.1,S6w physical weights (NA calib),0.7030400644252064,81,0.0016106301590497283,0.0,0.0,0.0,0.012345679012345678,False,False
+amazon_basin,12,0.1,S6 in-domain reference (Brazil calib),0.7030400644252064,81,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,12,0.2,S6 unweighted (NA calib),0.7030400644252064,81,0.031205959331588484,0.2903225806451613,0.010502231114147376,0.28356024008197916,0.037037037037037035,False,True
+amazon_basin,12,0.2,S6w physical weights (NA calib),0.7030400644252064,81,0.010871753573585665,0.2222222222222222,0.0027434842249657062,0.2222222222222222,0.012345679012345678,False,True
+amazon_basin,12,0.2,S6 in-domain reference (Brazil calib),0.7030400644252064,81,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,12,0.1,S6 unweighted (NA calib),0.682440753871991,392,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,12,0.1,S6w physical weights (NA calib),0.682440753871991,392,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,12,0.1,S6 in-domain reference (Brazil calib),0.682440753871991,392,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,12,0.2,S6 unweighted (NA calib),0.682440753871991,392,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,12,0.2,S6w physical weights (NA calib),0.682440753871991,392,0.013808546370591528,0.2945945945945946,0.0073167051522466265,0.2868148419680677,0.025510204081632654,False,True
+optimistic,12,0.2,S6 in-domain reference (Brazil calib),0.682440753871991,392,0.05747340921813771,0.30454545454545456,0.03581581628682284,0.3190863632826035,0.11224489795918367,False,True
+main,13,0.1,S6 unweighted (NA calib),0.7337444823592023,466,0.0,0.0,0.0,0.0,0.0,True,False
+main,13,0.1,S6w physical weights (NA calib),0.7337444823592023,466,0.0,0.0,0.0,0.0,0.0,True,False
+main,13,0.1,S6 in-domain reference (Brazil calib),0.7337444823592023,466,0.0,0.0,0.0,0.0,0.0,True,False
+main,13,0.2,S6 unweighted (NA calib),0.7337444823592023,466,0.0,0.0,0.0,0.0,0.0,True,False
+main,13,0.2,S6w physical weights (NA calib),0.7337444823592023,466,0.0,0.0,0.0,0.0,0.0,True,False
+main,13,0.2,S6 in-domain reference (Brazil calib),0.7337444823592023,466,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,13,0.1,S6 unweighted (NA calib),0.7243947858472998,255,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,13,0.1,S6w physical weights (NA calib),0.7243947858472998,255,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,13,0.1,S6 in-domain reference (Brazil calib),0.7243947858472998,255,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,13,0.2,S6 unweighted (NA calib),0.7243947858472998,255,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,13,0.2,S6w physical weights (NA calib),0.7243947858472998,255,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,13,0.2,S6 in-domain reference (Brazil calib),0.7243947858472998,255,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,13,0.1,S6 unweighted (NA calib),0.700989509709099,191,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,13,0.1,S6w physical weights (NA calib),0.700989509709099,191,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,13,0.1,S6 in-domain reference (Brazil calib),0.700989509709099,191,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,13,0.2,S6 unweighted (NA calib),0.700989509709099,191,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,13,0.2,S6w physical weights (NA calib),0.700989509709099,191,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,13,0.2,S6 in-domain reference (Brazil calib),0.700989509709099,191,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,13,0.1,S6 unweighted (NA calib),0.7771654362067173,254,0.0008838515129458251,0.23529411764705882,0.0017497812773403323,0.2222222222222222,0.007874015748031496,False,True
+hydro_only,13,0.1,S6w physical weights (NA calib),0.7771654362067173,254,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,13,0.1,S6 in-domain reference (Brazil calib),0.7771654362067173,254,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,13,0.2,S6 unweighted (NA calib),0.7771654362067173,254,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,13,0.2,S6w physical weights (NA calib),0.7771654362067173,254,0.007174794634501404,0.16666666666666666,0.0019564518720874176,0.16564625850340134,0.011811023622047244,False,False
+hydro_only,13,0.2,S6 in-domain reference (Brazil calib),0.7771654362067173,254,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,13,0.1,S6 unweighted (NA calib),0.6301048463963633,220,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,13,0.1,S6w physical weights (NA calib),0.6301048463963633,220,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,13,0.1,S6 in-domain reference (Brazil calib),0.6301048463963633,220,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,13,0.2,S6 unweighted (NA calib),0.6301048463963633,220,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,13,0.2,S6w physical weights (NA calib),0.6301048463963633,220,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,13,0.2,S6 in-domain reference (Brazil calib),0.6301048463963633,220,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,13,0.1,S6 unweighted (NA calib),0.7029575653664809,80,0.0034290612944706386,0.5,0.00625,0.5,0.0125,False,True
+amazon_basin,13,0.1,S6w physical weights (NA calib),0.7029575653664809,80,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,13,0.1,S6 in-domain reference (Brazil calib),0.7029575653664809,80,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,13,0.2,S6 unweighted (NA calib),0.7029575653664809,80,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,13,0.2,S6w physical weights (NA calib),0.7029575653664809,80,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,13,0.2,S6 in-domain reference (Brazil calib),0.7029575653664809,80,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,13,0.1,S6 unweighted (NA calib),0.6715581739979036,398,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,13,0.1,S6w physical weights (NA calib),0.6715581739979036,398,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,13,0.1,S6 in-domain reference (Brazil calib),0.6715581739979036,398,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,13,0.2,S6 unweighted (NA calib),0.6715581739979036,398,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,13,0.2,S6w physical weights (NA calib),0.6715581739979036,398,0.03177070155781256,0.22753128555176336,0.01523837559611171,0.2888034993929744,0.052763819095477386,False,True
+optimistic,13,0.2,S6 in-domain reference (Brazil calib),0.6715581739979036,398,0.01655401742147685,0.2183406113537118,0.006448138951258942,0.2851510336223399,0.022613065326633167,False,True
+main,14,0.1,S6 unweighted (NA calib),0.7175049188391539,475,0.0,0.0,0.0,0.0,0.0,True,False
+main,14,0.1,S6w physical weights (NA calib),0.7175049188391539,475,0.0,0.0,0.0,0.0,0.0,True,False
+main,14,0.1,S6 in-domain reference (Brazil calib),0.7175049188391539,475,0.0,0.0,0.0,0.0,0.0,True,False
+main,14,0.2,S6 unweighted (NA calib),0.7175049188391539,475,0.0,0.0,0.0,0.0,0.0,True,False
+main,14,0.2,S6w physical weights (NA calib),0.7175049188391539,475,0.0,0.0,0.0,0.0,0.0,True,False
+main,14,0.2,S6 in-domain reference (Brazil calib),0.7175049188391539,475,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,14,0.1,S6 unweighted (NA calib),0.7283786772837868,254,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,14,0.1,S6w physical weights (NA calib),0.7283786772837868,254,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,14,0.1,S6 in-domain reference (Brazil calib),0.7283786772837868,254,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,14,0.2,S6 unweighted (NA calib),0.7283786772837868,254,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,14,0.2,S6w physical weights (NA calib),0.7283786772837868,254,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,14,0.2,S6 in-domain reference (Brazil calib),0.7283786772837868,254,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,14,0.1,S6 unweighted (NA calib),0.7027164809555021,195,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,14,0.1,S6w physical weights (NA calib),0.7027164809555021,195,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,14,0.1,S6 in-domain reference (Brazil calib),0.7027164809555021,195,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,14,0.2,S6 unweighted (NA calib),0.7027164809555021,195,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,14,0.2,S6w physical weights (NA calib),0.7027164809555021,195,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,14,0.2,S6 in-domain reference (Brazil calib),0.7027164809555021,195,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,14,0.1,S6 unweighted (NA calib),0.7890253069406163,262,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,14,0.1,S6w physical weights (NA calib),0.7890253069406163,262,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,14,0.1,S6 in-domain reference (Brazil calib),0.7890253069406163,262,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,14,0.2,S6 unweighted (NA calib),0.7890253069406163,262,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,14,0.2,S6w physical weights (NA calib),0.7890253069406163,262,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,14,0.2,S6 in-domain reference (Brazil calib),0.7890253069406163,262,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,14,0.1,S6 unweighted (NA calib),0.6463895292630326,219,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,14,0.1,S6w physical weights (NA calib),0.6463895292630326,219,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,14,0.1,S6 in-domain reference (Brazil calib),0.6463895292630326,219,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,14,0.2,S6 unweighted (NA calib),0.6463895292630326,219,0.05852606529337399,0.23506988564167725,0.01766735323290824,0.22759707988275912,0.0776255707762557,False,True
+non_hydro,14,0.2,S6w physical weights (NA calib),0.6463895292630326,219,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,14,0.2,S6 in-domain reference (Brazil calib),0.6463895292630326,219,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,14,0.1,S6 unweighted (NA calib),0.6866359447004609,81,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,14,0.1,S6w physical weights (NA calib),0.6866359447004609,81,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,14,0.1,S6 in-domain reference (Brazil calib),0.6866359447004609,81,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,14,0.2,S6 unweighted (NA calib),0.6866359447004609,81,0.06786761625471303,0.5524691358024691,0.062159740979185425,0.4577217290285472,0.13580246913580246,False,True
+amazon_basin,14,0.2,S6w physical weights (NA calib),0.6866359447004609,81,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,14,0.2,S6 in-domain reference (Brazil calib),0.6866359447004609,81,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,14,0.1,S6 unweighted (NA calib),0.6669796331070346,398,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,14,0.1,S6w physical weights (NA calib),0.6669796331070346,398,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,14,0.1,S6 in-domain reference (Brazil calib),0.6669796331070346,398,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,14,0.2,S6 unweighted (NA calib),0.6669796331070346,398,0.011483460927343637,0.13522012578616352,0.0016772546069010188,0.1335094667093211,0.01256281407035176,False,False
+optimistic,14,0.2,S6w physical weights (NA calib),0.6669796331070346,398,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,14,0.2,S6 in-domain reference (Brazil calib),0.6669796331070346,398,0.01599739997111079,0.19413092550790068,0.0034108328925947203,0.1939302130360998,0.017587939698492462,False,False
+main,15,0.1,S6 unweighted (NA calib),0.723661858726874,467,0.0,0.0,0.0,0.0,0.0,True,False
+main,15,0.1,S6w physical weights (NA calib),0.723661858726874,467,0.0,0.0,0.0,0.0,0.0,True,False
+main,15,0.1,S6 in-domain reference (Brazil calib),0.723661858726874,467,0.0,0.0,0.0,0.0,0.0,True,False
+main,15,0.2,S6 unweighted (NA calib),0.723661858726874,467,0.032430429008246595,0.30095238095238097,0.049189675294774256,0.3589309119165559,0.13704496788008566,False,True
+main,15,0.2,S6w physical weights (NA calib),0.723661858726874,467,0.0,0.0,0.0,0.0,0.0,True,False
+main,15,0.2,S6 in-domain reference (Brazil calib),0.723661858726874,467,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,15,0.1,S6 unweighted (NA calib),0.7226054066080765,256,0.00439425965068417,0.5569620253164557,0.0056677018633540365,0.48364389233954447,0.01171875,False,True
+strict_names,15,0.1,S6w physical weights (NA calib),0.7226054066080765,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,15,0.1,S6 in-domain reference (Brazil calib),0.7226054066080765,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,15,0.2,S6 unweighted (NA calib),0.7226054066080765,256,0.03126042941372789,0.35231316725978645,0.05432007193629473,0.3659457477813539,0.1484375,False,True
+strict_names,15,0.2,S6w physical weights (NA calib),0.7226054066080765,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,15,0.2,S6 in-domain reference (Brazil calib),0.7226054066080765,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,15,0.1,S6 unweighted (NA calib),0.6879942487419123,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,15,0.1,S6w physical weights (NA calib),0.6879942487419123,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,15,0.1,S6 in-domain reference (Brazil calib),0.6879942487419123,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,15,0.2,S6 unweighted (NA calib),0.6879942487419123,198,0.02695902228612509,0.22933333333333333,0.04241235915379903,0.29991596830186457,0.1414141414141414,False,True
+strict_qc,15,0.2,S6w physical weights (NA calib),0.6879942487419123,198,0.014593817397555716,0.2660098522167488,0.016900420940824983,0.3042075769348496,0.05555555555555555,False,True
+strict_qc,15,0.2,S6 in-domain reference (Brazil calib),0.6879942487419123,198,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,15,0.1,S6 unweighted (NA calib),0.7743198576150522,255,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,15,0.1,S6w physical weights (NA calib),0.7743198576150522,255,0.0035087719298245615,0.4927536231884058,0.004540927482103952,0.289484126984127,0.01568627450980392,False,True
+hydro_only,15,0.1,S6 in-domain reference (Brazil calib),0.7743198576150522,255,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,15,0.2,S6 unweighted (NA calib),0.7743198576150522,255,0.024307144673277395,0.3682008368200837,0.04896062370122947,0.40274061431656505,0.12156862745098039,False,True
+hydro_only,15,0.2,S6w physical weights (NA calib),0.7743198576150522,255,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,15,0.2,S6 in-domain reference (Brazil calib),0.7743198576150522,255,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,15,0.1,S6 unweighted (NA calib),0.6771482393855963,217,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,15,0.1,S6w physical weights (NA calib),0.6771482393855963,217,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,15,0.1,S6 in-domain reference (Brazil calib),0.6771482393855963,217,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,15,0.2,S6 unweighted (NA calib),0.6771482393855963,217,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,15,0.2,S6w physical weights (NA calib),0.6771482393855963,217,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,15,0.2,S6 in-domain reference (Brazil calib),0.6771482393855963,217,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,15,0.1,S6 unweighted (NA calib),0.7109094745726947,78,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,15,0.1,S6w physical weights (NA calib),0.7109094745726947,78,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,15,0.1,S6 in-domain reference (Brazil calib),0.7109094745726947,78,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,15,0.2,S6 unweighted (NA calib),0.7109094745726947,78,0.01097277906731378,0.25,0.029975233100233097,0.46761363636363634,0.0641025641025641,False,True
+amazon_basin,15,0.2,S6w physical weights (NA calib),0.7109094745726947,78,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,15,0.2,S6 in-domain reference (Brazil calib),0.7109094745726947,78,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,15,0.1,S6 unweighted (NA calib),0.6782560296846011,394,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,15,0.1,S6w physical weights (NA calib),0.6782560296846011,394,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,15,0.1,S6 in-domain reference (Brazil calib),0.6782560296846011,394,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,15,0.2,S6 unweighted (NA calib),0.6782560296846011,394,0.01038961038961039,0.21785714285714286,0.00522398914045508,0.2572814651674127,0.02030456852791878,False,True
+optimistic,15,0.2,S6w physical weights (NA calib),0.6782560296846011,394,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,15,0.2,S6 in-domain reference (Brazil calib),0.6782560296846011,394,0.0,0.0,0.0,0.0,0.0,True,False
+main,16,0.1,S6 unweighted (NA calib),0.7267557403613906,469,0.0,0.0,0.0,0.0,0.0,True,False
+main,16,0.1,S6w physical weights (NA calib),0.7267557403613906,469,0.0,0.0,0.0,0.0,0.0,True,False
+main,16,0.1,S6 in-domain reference (Brazil calib),0.7267557403613906,469,0.0,0.0,0.0,0.0,0.0,True,False
+main,16,0.2,S6 unweighted (NA calib),0.7267557403613906,469,0.0,0.0,0.0,0.0,0.0,True,False
+main,16,0.2,S6w physical weights (NA calib),0.7267557403613906,469,0.01828354786437154,0.30434782608695654,0.006063869044585427,0.2843954581910565,0.021321961620469083,False,True
+main,16,0.2,S6 in-domain reference (Brazil calib),0.7267557403613906,469,0.013208181734796832,0.24305555555555555,0.004332409817405607,0.2539875255454037,0.017057569296375266,False,True
+strict_names,16,0.1,S6 unweighted (NA calib),0.6954512147004115,249,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,16,0.1,S6w physical weights (NA calib),0.6954512147004115,249,0.001690998252635139,0.1,0.0028887479743535545,0.17982456140350878,0.01606425702811245,False,True
+strict_names,16,0.1,S6 in-domain reference (Brazil calib),0.6954512147004115,249,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,16,0.2,S6 unweighted (NA calib),0.6954512147004115,249,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,16,0.2,S6w physical weights (NA calib),0.6954512147004115,249,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,16,0.2,S6 in-domain reference (Brazil calib),0.6954512147004115,249,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,16,0.1,S6 unweighted (NA calib),0.72026286966046,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,16,0.1,S6w physical weights (NA calib),0.72026286966046,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,16,0.1,S6 in-domain reference (Brazil calib),0.72026286966046,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,16,0.2,S6 unweighted (NA calib),0.72026286966046,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,16,0.2,S6w physical weights (NA calib),0.72026286966046,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,16,0.2,S6 in-domain reference (Brazil calib),0.72026286966046,198,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,16,0.1,S6 unweighted (NA calib),0.7909851154473255,254,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,16,0.1,S6w physical weights (NA calib),0.7909851154473255,254,0.0037868826592331564,0.7916666666666666,0.006139529761577007,0.7797202797202798,0.007874015748031496,False,True
+hydro_only,16,0.1,S6 in-domain reference (Brazil calib),0.7909851154473255,254,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,16,0.2,S6 unweighted (NA calib),0.7909851154473255,254,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,16,0.2,S6w physical weights (NA calib),0.7909851154473255,254,0.016935780781570504,0.4813664596273292,0.011581004042926838,0.4902625044839028,0.023622047244094488,False,True
+hydro_only,16,0.2,S6 in-domain reference (Brazil calib),0.7909851154473255,254,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,16,0.1,S6 unweighted (NA calib),0.651309053678514,220,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,16,0.1,S6w physical weights (NA calib),0.651309053678514,220,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,16,0.1,S6 in-domain reference (Brazil calib),0.651309053678514,220,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,16,0.2,S6 unweighted (NA calib),0.651309053678514,220,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,16,0.2,S6w physical weights (NA calib),0.651309053678514,220,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,16,0.2,S6 in-domain reference (Brazil calib),0.651309053678514,220,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,16,0.1,S6 unweighted (NA calib),0.7163277632373666,80,0.006643849406080129,0.45454545454545453,0.005681818181818182,0.45454545454545453,0.0125,False,True
+amazon_basin,16,0.1,S6w physical weights (NA calib),0.7163277632373666,80,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,16,0.1,S6 in-domain reference (Brazil calib),0.7163277632373666,80,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,16,0.2,S6 unweighted (NA calib),0.7163277632373666,80,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,16,0.2,S6w physical weights (NA calib),0.7163277632373666,80,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,16,0.2,S6 in-domain reference (Brazil calib),0.7163277632373666,80,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,16,0.1,S6 unweighted (NA calib),0.6739933505725896,398,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,16,0.1,S6w physical weights (NA calib),0.6739933505725896,398,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,16,0.1,S6 in-domain reference (Brazil calib),0.6739933505725896,398,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,16,0.2,S6 unweighted (NA calib),0.6739933505725896,398,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,16,0.2,S6w physical weights (NA calib),0.6739933505725896,398,0.014702622829700775,0.3316582914572864,0.005536266264909481,0.2754292466792467,0.020100502512562814,False,True
+optimistic,16,0.2,S6 in-domain reference (Brazil calib),0.6739933505725896,398,0.015367565570742519,0.19951923076923078,0.0042339278957150926,0.21063791281182587,0.020100502512562814,False,True
+main,17,0.1,S6 unweighted (NA calib),0.726024139366193,481,0.0,0.0,0.0,0.0,0.0,True,False
+main,17,0.1,S6w physical weights (NA calib),0.726024139366193,481,0.0,0.0,0.0,0.0,0.0,True,False
+main,17,0.1,S6 in-domain reference (Brazil calib),0.726024139366193,481,0.0,0.0,0.0,0.0,0.0,True,False
+main,17,0.2,S6 unweighted (NA calib),0.726024139366193,481,0.0,0.0,0.0,0.0,0.0,True,False
+main,17,0.2,S6w physical weights (NA calib),0.726024139366193,481,0.0,0.0,0.0,0.0,0.0,True,False
+main,17,0.2,S6 in-domain reference (Brazil calib),0.726024139366193,481,0.052321778940483975,0.3034090909090909,0.025307744092552674,0.31212884380814976,0.08108108108108109,False,True
+strict_names,17,0.1,S6 unweighted (NA calib),0.7123265216916184,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,17,0.1,S6w physical weights (NA calib),0.7123265216916184,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,17,0.1,S6 in-domain reference (Brazil calib),0.7123265216916184,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,17,0.2,S6 unweighted (NA calib),0.7123265216916184,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,17,0.2,S6w physical weights (NA calib),0.7123265216916184,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,17,0.2,S6 in-domain reference (Brazil calib),0.7123265216916184,256,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,17,0.1,S6 unweighted (NA calib),0.7024606923781993,199,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,17,0.1,S6w physical weights (NA calib),0.7024606923781993,199,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,17,0.1,S6 in-domain reference (Brazil calib),0.7024606923781993,199,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,17,0.2,S6 unweighted (NA calib),0.7024606923781993,199,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,17,0.2,S6w physical weights (NA calib),0.7024606923781993,199,0.01325530564760629,0.31382978723404253,0.004723988306089385,0.3133578909705959,0.01507537688442211,False,True
+strict_qc,17,0.2,S6 in-domain reference (Brazil calib),0.7024606923781993,199,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,17,0.1,S6 unweighted (NA calib),0.779306464811784,256,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,17,0.1,S6w physical weights (NA calib),0.779306464811784,256,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,17,0.1,S6 in-domain reference (Brazil calib),0.779306464811784,256,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,17,0.2,S6 unweighted (NA calib),0.779306464811784,256,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,17,0.2,S6w physical weights (NA calib),0.779306464811784,256,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,17,0.2,S6 in-domain reference (Brazil calib),0.779306464811784,256,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,17,0.1,S6 unweighted (NA calib),0.6427126264518547,217,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,17,0.1,S6w physical weights (NA calib),0.6427126264518547,217,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,17,0.1,S6 in-domain reference (Brazil calib),0.6427126264518547,217,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,17,0.2,S6 unweighted (NA calib),0.6427126264518547,217,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,17,0.2,S6w physical weights (NA calib),0.6427126264518547,217,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,17,0.2,S6 in-domain reference (Brazil calib),0.6427126264518547,217,0.05155488947171225,0.28343023255813954,0.019583051970802446,0.2833014851776087,0.06912442396313365,False,True
+amazon_basin,17,0.1,S6 unweighted (NA calib),0.6873682192831129,83,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,17,0.1,S6w physical weights (NA calib),0.6873682192831129,83,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,17,0.1,S6 in-domain reference (Brazil calib),0.6873682192831129,83,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,17,0.2,S6 unweighted (NA calib),0.6873682192831129,83,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,17,0.2,S6w physical weights (NA calib),0.6873682192831129,83,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,17,0.2,S6 in-domain reference (Brazil calib),0.6873682192831129,83,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,17,0.1,S6 unweighted (NA calib),0.6836712605527094,401,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,17,0.1,S6w physical weights (NA calib),0.6836712605527094,401,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,17,0.1,S6 in-domain reference (Brazil calib),0.6836712605527094,401,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,17,0.2,S6 unweighted (NA calib),0.6836712605527094,401,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,17,0.2,S6w physical weights (NA calib),0.6836712605527094,401,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,17,0.2,S6 in-domain reference (Brazil calib),0.6836712605527094,401,0.0,0.0,0.0,0.0,0.0,True,False
+main,18,0.1,S6 unweighted (NA calib),0.7156662796900003,464,0.0,0.0,0.0,0.0,0.0,True,False
+main,18,0.1,S6w physical weights (NA calib),0.7156662796900003,464,0.0,0.0,0.0,0.0,0.0,True,False
+main,18,0.1,S6 in-domain reference (Brazil calib),0.7156662796900003,464,0.0,0.0,0.0,0.0,0.0,True,False
+main,18,0.2,S6 unweighted (NA calib),0.7156662796900003,464,0.0,0.0,0.0,0.0,0.0,True,False
+main,18,0.2,S6w physical weights (NA calib),0.7156662796900003,464,0.04960622509491387,0.3295382669196711,0.051388154607531614,0.35064858438080393,0.14655172413793102,False,True
+main,18,0.2,S6 in-domain reference (Brazil calib),0.7156662796900003,464,0.024912930250070596,0.2947103274559194,0.015177283259327991,0.35211297161640936,0.04310344827586207,False,True
+strict_names,18,0.1,S6 unweighted (NA calib),0.719556566230813,248,0.0008527572484366117,0.2,0.0028561827956989244,0.23611111111111108,0.012096774193548387,False,True
+strict_names,18,0.1,S6w physical weights (NA calib),0.719556566230813,248,0.00045480386583285955,0.125,0.0005040322580645161,0.125,0.004032258064516129,False,True
+strict_names,18,0.1,S6 in-domain reference (Brazil calib),0.719556566230813,248,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,18,0.2,S6 unweighted (NA calib),0.719556566230813,248,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,18,0.2,S6w physical weights (NA calib),0.719556566230813,248,0.03496304718590108,0.24227642276422764,0.03914784559029345,0.2855489913644934,0.13709677419354838,False,True
+strict_names,18,0.2,S6 in-domain reference (Brazil calib),0.719556566230813,248,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,18,0.1,S6 unweighted (NA calib),0.6961283571677712,203,0.0029996512033484478,0.2558139534883721,0.005287747282821174,0.21468253968253967,0.024630541871921183,False,True
+strict_qc,18,0.1,S6w physical weights (NA calib),0.6961283571677712,203,0.0018137425880711546,0.3076923076923077,0.0025314723590585658,0.2569444444444444,0.009852216748768473,False,True
+strict_qc,18,0.1,S6 in-domain reference (Brazil calib),0.6961283571677712,203,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,18,0.2,S6 unweighted (NA calib),0.6961283571677712,203,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,18,0.2,S6w physical weights (NA calib),0.6961283571677712,203,0.05490059295430764,0.3290978398983482,0.062021750719505615,0.34973376100165665,0.17733990147783252,False,True
+strict_qc,18,0.2,S6 in-domain reference (Brazil calib),0.6961283571677712,203,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,18,0.1,S6 unweighted (NA calib),0.7737374791318865,248,0.004695325542570952,0.3333333333333333,0.006170725547220886,0.30606798714215594,0.020161290322580645,False,True
+hydro_only,18,0.1,S6w physical weights (NA calib),0.7737374791318865,248,0.00547787979966611,0.38095238095238093,0.008858897590231637,0.3661677670629077,0.024193548387096774,False,True
+hydro_only,18,0.1,S6 in-domain reference (Brazil calib),0.7737374791318865,248,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,18,0.2,S6 unweighted (NA calib),0.7737374791318865,248,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,18,0.2,S6w physical weights (NA calib),0.7737374791318865,248,0.027180717863105174,0.4145873320537428,0.028291038422052387,0.438511095541812,0.06451612903225806,False,True
+hydro_only,18,0.2,S6 in-domain reference (Brazil calib),0.7737374791318865,248,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,18,0.1,S6 unweighted (NA calib),0.6450424716229421,219,0.00616402315267233,0.08536585365853659,0.0036420961078495327,0.1139455782312925,0.0319634703196347,False,True
+non_hydro,18,0.1,S6w physical weights (NA calib),0.6450424716229421,219,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,18,0.1,S6 in-domain reference (Brazil calib),0.6450424716229421,219,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,18,0.2,S6 unweighted (NA calib),0.6450424716229421,219,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,18,0.2,S6w physical weights (NA calib),0.6450424716229421,219,0.041419228745395775,0.2595281306715064,0.047053679609945616,0.3220236198305653,0.1461187214611872,False,True
+non_hydro,18,0.2,S6 in-domain reference (Brazil calib),0.6450424716229421,219,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,18,0.1,S6 unweighted (NA calib),0.7397845090465541,80,0.003659280341532832,0.3888888888888889,0.004861111111111111,0.3888888888888889,0.0125,False,True
+amazon_basin,18,0.1,S6w physical weights (NA calib),0.7397845090465541,80,0.003659280341532832,0.3888888888888889,0.004861111111111111,0.3888888888888889,0.0125,False,True
+amazon_basin,18,0.1,S6 in-domain reference (Brazil calib),0.7397845090465541,80,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,18,0.2,S6 unweighted (NA calib),0.7397845090465541,80,0.03374669648302501,0.42168674698795183,0.0649426907786708,0.5195415262293664,0.125,False,True
+amazon_basin,18,0.2,S6w physical weights (NA calib),0.7397845090465541,80,0.01910957511689368,0.5851063829787234,0.04645114942528736,0.6193486590038314,0.075,False,True
+amazon_basin,18,0.2,S6 in-domain reference (Brazil calib),0.7397845090465541,80,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,18,0.1,S6 unweighted (NA calib),0.6720347084344437,393,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,18,0.1,S6w physical weights (NA calib),0.6720347084344437,393,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,18,0.1,S6 in-domain reference (Brazil calib),0.6720347084344437,393,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,18,0.2,S6 unweighted (NA calib),0.6720347084344437,393,0.015846753437752777,0.2668213457076566,0.00530866121523518,0.2607879821984282,0.020356234096692113,False,True
+optimistic,18,0.2,S6w physical weights (NA calib),0.6720347084344437,393,0.06445326862269285,0.30062749572162006,0.06015599783520242,0.3194771236383047,0.18829516539440203,False,True
+optimistic,18,0.2,S6 in-domain reference (Brazil calib),0.6720347084344437,393,0.0318405765129789,0.27251732101616627,0.01539812776018748,0.302573210487684,0.05089058524173028,False,True
+main,19,0.1,S6 unweighted (NA calib),0.7313284762052396,469,0.0,0.0,0.0,0.0,0.0,True,False
+main,19,0.1,S6w physical weights (NA calib),0.7313284762052396,469,0.005735544876763293,0.2756756756756757,0.005153120636627472,0.3452590826540406,0.014925373134328358,False,True
+main,19,0.1,S6 in-domain reference (Brazil calib),0.7313284762052396,469,0.0,0.0,0.0,0.0,0.0,True,False
+main,19,0.2,S6 unweighted (NA calib),0.7313284762052396,469,0.0,0.0,0.0,0.0,0.0,True,False
+main,19,0.2,S6w physical weights (NA calib),0.7313284762052396,469,0.02315920012401178,0.32663989290495316,0.01908273405631767,0.3729084280172077,0.0511727078891258,False,True
+main,19,0.2,S6 in-domain reference (Brazil calib),0.7313284762052396,469,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,19,0.1,S6 unweighted (NA calib),0.709613149593226,252,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,19,0.1,S6w physical weights (NA calib),0.709613149593226,252,0.009629752614975926,0.5632183908045977,0.008055147564076135,0.5074742965367965,0.015873015873015872,False,True
+strict_names,19,0.1,S6 in-domain reference (Brazil calib),0.709613149593226,252,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,19,0.2,S6 unweighted (NA calib),0.709613149593226,252,0.0,0.0,0.0,0.0,0.0,True,False
+strict_names,19,0.2,S6w physical weights (NA calib),0.709613149593226,252,0.01782057667828878,0.4937888198757764,0.014513831768375885,0.40638728951452485,0.03571428571428571,False,True
+strict_names,19,0.2,S6 in-domain reference (Brazil calib),0.709613149593226,252,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,19,0.1,S6 unweighted (NA calib),0.71476840771505,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,19,0.1,S6w physical weights (NA calib),0.71476840771505,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,19,0.1,S6 in-domain reference (Brazil calib),0.71476840771505,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,19,0.2,S6 unweighted (NA calib),0.71476840771505,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,19,0.2,S6w physical weights (NA calib),0.71476840771505,198,0.0,0.0,0.0,0.0,0.0,True,False
+strict_qc,19,0.2,S6 in-domain reference (Brazil calib),0.71476840771505,198,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,19,0.1,S6 unweighted (NA calib),0.7933257095332155,250,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,19,0.1,S6w physical weights (NA calib),0.7933257095332155,250,0.014398586131614512,0.37184115523465705,0.009714930562480472,0.346961805802874,0.028,False,True
+hydro_only,19,0.1,S6 in-domain reference (Brazil calib),0.7933257095332155,250,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,19,0.2,S6 unweighted (NA calib),0.7933257095332155,250,0.0,0.0,0.0,0.0,0.0,True,False
+hydro_only,19,0.2,S6w physical weights (NA calib),0.7933257095332155,250,0.017569393907890633,0.3905325443786982,0.010573200191580846,0.3776142925564588,0.028,False,True
+hydro_only,19,0.2,S6 in-domain reference (Brazil calib),0.7933257095332155,250,0.015178292961846345,0.4143835616438356,0.009616678452450412,0.40069493551876717,0.024,False,True
+non_hydro,19,0.1,S6 unweighted (NA calib),0.6335753444954808,222,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,19,0.1,S6w physical weights (NA calib),0.6335753444954808,222,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,19,0.1,S6 in-domain reference (Brazil calib),0.6335753444954808,222,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,19,0.2,S6 unweighted (NA calib),0.6335753444954808,222,0.015261520225218551,0.2766990291262136,0.0037192941604706313,0.2752277678748267,0.013513513513513514,False,True
+non_hydro,19,0.2,S6w physical weights (NA calib),0.6335753444954808,222,0.0,0.0,0.0,0.0,0.0,True,False
+non_hydro,19,0.2,S6 in-domain reference (Brazil calib),0.6335753444954808,222,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,19,0.1,S6 unweighted (NA calib),0.6806565551631,79,0.029295657594016207,0.28368794326241137,0.011451650725468181,0.22617010182799657,0.05063291139240506,False,True
+amazon_basin,19,0.1,S6w physical weights (NA calib),0.6806565551631,79,0.010804072304176189,0.21153846153846154,0.002677702044790652,0.21153846153846154,0.012658227848101266,False,True
+amazon_basin,19,0.1,S6 in-domain reference (Brazil calib),0.6806565551631,79,0.0,0.0,0.0,0.0,0.0,True,False
+amazon_basin,19,0.2,S6 unweighted (NA calib),0.6806565551631,79,0.02991896945771868,0.3125,0.011288432657237635,0.29726205997392435,0.0379746835443038,False,True
+amazon_basin,19,0.2,S6w physical weights (NA calib),0.6806565551631,79,0.024516933305630585,0.3305084745762712,0.00836730315382965,0.3305084745762712,0.02531645569620253,False,True
+amazon_basin,19,0.2,S6 in-domain reference (Brazil calib),0.6806565551631,79,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,19,0.1,S6 unweighted (NA calib),0.6677286860389237,388,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,19,0.1,S6w physical weights (NA calib),0.6677286860389237,388,0.010901692833288549,0.15492957746478872,0.00420058579640667,0.2037284111257235,0.020618556701030927,False,True
+optimistic,19,0.1,S6 in-domain reference (Brazil calib),0.6677286860389237,388,0.0,0.0,0.0,0.0,0.0,True,False
+optimistic,19,0.2,S6 unweighted (NA calib),0.6677286860389237,388,0.015469655675405935,0.18114143920595532,0.002879767964667904,0.18622499504852444,0.015463917525773196,False,False
+optimistic,19,0.2,S6w physical weights (NA calib),0.6677286860389237,388,0.04076618939771986,0.2551789077212806,0.02396502532592801,0.3099476608820024,0.07731958762886598,False,True
+optimistic,19,0.2,S6 in-domain reference (Brazil calib),0.6677286860389237,388,0.0,0.0,0.0,0.0,0.0,True,False

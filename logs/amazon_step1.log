@@ -1,0 +1,38 @@
+nohup: ignoring input
+SWORD v17b South America: 31632 river reaches, 1889261 river nodes
+ANA telemetric stations: 5401; fields ['NomeEstacao', 'CodEstacao', 'Bacia', 'SubBacia', 'Operadora', 'Responsavel', 'Municipio-UF', 'Latitude', 'Longitude', 'Altitude', 'CodRio', 'NomeRio', 'Origem', 'StatusEstacao']
+NomeEstacao CodEstacao Bacia SubBacia                                                           Operadora                                                         Responsavel  Municipio-UF Latitude Longitude Altitude   CodRio       NomeRio           Origem StatusEstacao
+     CURUÇÁ   00047008     3       32 00403 - SEMAS-PA - Secretaria do Meio Ambiente e Sustentabilidad... 00403 - SEMAS-PA - Secretaria do Meio Ambiente e Sustentabilidad...     CURUÇA-PA -0.72310 -47.85470    22.00        0                            RHN         Ativo
+ SALVATERRA   00048007     1       19 00403 - SEMAS-PA - Secretaria do Meio Ambiente e Sustentabilidad... 00403 - SEMAS-PA - Secretaria do Meio Ambiente e Sustentabilidad... SALVATERRA-PA -0.85190 -48.54190    14.00        0                            RHN         Ativo
+   GARGANTA   00057001     1       16                      00082 - SGB-CPRM - Serviço Geológico do Brasil                             00001 - ANA - Agência Nacional de Águas  ORIXIMINÁ-PA -0.99780 -57.04310     0.00 16700000 RIO TROMBETAS Açudes Semiárido         Ativo
+fluviometric-style codes with coordinates: 4666
+matched within 1 km of a SWORD river node: 1829 stations on 1332 reaches; distance quantiles km [0.116, 0.478]
+   Hydrocron 0/1332
+   Hydrocron 50/1332
+   Hydrocron 100/1332
+   Hydrocron 150/1332
+   Hydrocron 200/1332
+   Hydrocron 250/1332
+   Hydrocron 300/1332
+   Hydrocron 350/1332
+   Hydrocron 400/1332
+   Hydrocron 450/1332
+   Hydrocron 500/1332
+   Hydrocron 550/1332
+   Hydrocron 600/1332
+   Hydrocron 650/1332
+   Hydrocron 700/1332
+   Hydrocron 750/1332
+   Hydrocron 800/1332
+   Hydrocron 850/1332
+   Hydrocron 900/1332
+   Hydrocron 950/1332
+   Hydrocron 1000/1332
+   Hydrocron 1050/1332
+   Hydrocron 1100/1332
+   Hydrocron 1150/1332
+   Hydrocron 1200/1332
+   Hydrocron 1250/1332
+   Hydrocron 1300/1332
+all matched: stations 1829, reaches 1332, with >= 10 valid SWOT D obs: 1827 stations; failed queries 0
+Amazon bounding box: stations 775, reaches 607, with >= 10 valid SWOT D obs: 775 stations; failed queries 0

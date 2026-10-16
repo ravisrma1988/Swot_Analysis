@@ -1,0 +1,51 @@
+name status, all matched stations: {'match': 961, 'unknown': 722, 'mismatch': 146}
+name status, Amazon box: {'match': 438, 'unknown': 291, 'mismatch': 46}
+distance km by status (median): {'match': 0.112, 'mismatch': 0.196, 'unknown': 0.114}
+
+inspection sample (Amazon box, up to 15 per status):
+    code                              station_name_fixed                  ana_name_fixed     river_name name_status  name_ratio  dist_km  node_width     lat     lon
+23490000                         UHE ESTREITO BARRAMENTO                   RIO TOCANTINS  Rio Tocantins       match       1.000    0.358       357.5  -6.592 -47.466
+60783000                          PCH VERDE 8 MONTANTE 2             RIO VERDE OU VERDÃO      Rio Verde       match       0.500    0.116        36.0 -17.366 -50.642
+30380000           UHE CACHOEIRA CALDEIRÃO RIO AMAPARI 2                     RIO AMAPARI    Rio Amapari       match       1.000    0.077        93.0   0.644 -51.755
+60229500               CGH CACHOEIRA DOS MACACOS JUSANTE                    RIO ARAGUARI   Rio Araguari       match       1.000    0.074        94.0 -19.606 -47.455
+15490400                    UHE SANTO ANTÔNIO SÃO CARLOS                     RIO MADEIRA    Rio Madeira       match       1.000    0.575      1066.0  -8.444 -63.508
+13439000                                ALDEIA DOS PATOS                        RIO ACRE     Acre River       match       0.571    0.025        46.5 -10.926 -69.923
+18480000                             FAZENDA RIO DOURADO                      RIO FRESCO     Rio Fresco       match       1.000    0.033        94.0  -8.327 -51.460
+40866100                 UHE RETIRO BAIXO RESERVATÓRIO 7                   RIO PARAOPEBA  Rio Paraopeba       match       1.000    0.064       192.0 -18.864 -44.811
+34160900     UHE BOA ESPERANÇA (CASTELO BRANCO) BALSAS 1                  RIO DAS BALSAS Rio das Balsas       match       1.000    0.081        67.0  -7.082 -44.812
+60229470            CGH CACHOEIRA DOS MACACOS BARRAMENTO                    RIO ARAGUARI   Rio Araguari       match       1.000    0.253        94.0 -19.609 -47.456
+13310000                                  SENA MADUREIRA                        RIO IACO       Rio Iaco       match       1.000    0.101        87.0  -9.068 -68.653
+23100100                         UHE ESTREITO MONTANTE 2                   RIO TOCANTINS  Rio Tocantins       match       1.000    0.230       510.0  -8.392 -48.111
+60910300                            UHE SALTO MONTANTE 1                       RIO VERDE      Rio Verde       match       1.000    0.066        63.0 -18.576 -51.474
+40866000                        UHE RETIRO BAIXO JUSANTE                   RIO PARAOPEBA  Rio Paraopeba       match       1.000    0.101       148.0 -18.872 -44.783
+32550000                                         CAFEZAL                       RIO URAIM      Rio Uraim       match       1.000    0.106        42.0  -2.772 -46.803
+26798600                        JUSANTE EIXO TERRA NEGRA                     RIO FORMOSO      Rio Urubu    mismatch       0.167    0.055       128.0 -10.790 -49.826
+26034600 FAZENDA SUSPIRO III / Rio Cumbuco - P. do Leste                     RIO CUMBUCO Rio das Mortes    mismatch       0.308    0.083        11.0 -15.223 -53.967
+26799000                                 FOZ RIO FORMOSO                     RIO FORMOSO      Rio Urubu    mismatch       0.167    0.143       138.0 -10.583 -49.930
+12351000                                       FONTE BOA           RIO SOLIMÕES-AMAZONAS   Amazon river    mismatch       0.414    0.533       925.0  -2.491 -66.062
+15040000                                         CAREIRO               PARANÃ DO CAREIRO   Amazon river    mismatch       0.421    0.380       737.0  -3.196 -59.834
+60877080                        UHE SÃO SIMÃO BARRAMENTO                   RIO PARANAÍBA Rio Uberabinha    mismatch       0.421    0.094        42.0 -18.989 -48.190
+30055000                                 PONTE CASSIPORE                    RIO CACIPÓRE    Rio Varador    mismatch       0.400    0.112        84.0   2.957 -51.422
+15308000                                         PAKITZA               RIO MADRE DE DIOS     Manu River    mismatch       0.400    0.381       190.0 -11.950 -71.283
+22680000                       JATOBÁ (FAZENDA BOA NOVA)                     RIO DO SONO       Rio Novo    mismatch       0.500    0.241        42.0  -9.995 -47.472
+60877600             UHE ILHA SOLTEIRA JUSANTE SÃO SIMÃO                   RIO PARANAÍBA      Rio Claro    mismatch       0.286    0.034       212.0 -19.066 -50.515
+42290000                      PONTE DA BR-040 - PARACATU                    RIO PARACATU   Rio da Prata    mismatch       0.615    0.107        75.0 -17.502 -46.571
+66120000                                 PORTO CONCEIÇÃO                    RIO PARAGUAI Paraguay River    mismatch       0.727    0.144       127.0 -17.143 -57.359
+66810300                                   CAPIM GORDURA                    RIO PARAGUAI Paraguay River    mismatch       0.727    0.201       330.0 -18.807 -57.578
+10500000                              ESTIRÃO DO REPOUSO                      RIO JAVARI   Javary River    mismatch       0.667    0.130       284.0  -4.341 -70.906
+66960200                                FAZENDA SAPUCAÍA                    RIO PARAGUAI Paraguay River    mismatch       0.727    0.315       277.0 -19.730 -57.584
+60500040                           PCH GAMELEIRA JUSANTE              RIO SÃO BARTOLOMEU         NODATA     unknown         NaN    0.013        61.5 -16.647 -47.836
+66380000                               SÃO PEDRO DA CIPA                RIO SÃO LOURENÇO         NODATA     unknown         NaN    0.069        58.5 -15.998 -54.922
+60191000                    PCH NOVA AURORA RIO DO BRAÇO                    RIO DO BRAÇO         NODATA     unknown         NaN    0.478        42.0 -17.909 -48.083
+40100100                                   BARRA DO PARÁ                        RIO PARÁ         NODATA     unknown         NaN    0.151       201.0 -19.208 -45.141
+22151000              UHE LUÍS EDUARDO MAGALHÃES JACINTO                RIO SANTA TEREZA         NODATA     unknown         NaN    0.140        67.0 -11.982 -48.657
+66008500                    BARRA DO BUGRES - RIO BUGRES                  RIO DOS BUGRES         NODATA     unknown         NaN    0.079        39.0 -14.987 -57.116
+17390100                        UHE SÃO MANOEL JUSANTE 1 RIO TELES PIRES (OU SÃO MANUEL)         NODATA     unknown         NaN    0.310       408.0  -9.165 -57.061
+29100000                                 FAZENDA ALEGRIA                  RIO ITACAIÚNAS         NODATA     unknown         NaN    0.128       138.0  -5.487 -49.221
+24748700                           PCH MOSQUITÃO JUSANTE                      RIO CAIAPÓ         NODATA     unknown         NaN    0.123        65.0 -16.331 -51.460
+15335000                    UHE JIRAU VELHA MUTUM-PARANÁ                RIO MUTUM-PARANA         NODATA     unknown         NaN    0.108        60.5  -9.618 -64.934
+26130000                           FAZENDA RIO CORRENTES                 RIBEIRÃO ÍNSULA         NODATA     unknown         NaN    0.085        48.0 -15.089 -52.049
+13405000                                SERINGAL GUARANY                       RIO CAETÉ         NODATA     unknown         NaN    0.076        39.0  -9.110 -68.993
+26800000                                BARREIRA DA CRUZ                      RIO JAVAÉS         NODATA     unknown         NaN    0.309       228.0 -10.565 -49.934
+60444980                          UHE CORUMBÁ IV JUSANTE                     RIO CORUMBÁ         NODATA     unknown         NaN    0.064        75.0 -16.326 -48.181
+21220000                                 FLORES DE GOIÁS                      RIO PARANÃ         NODATA     unknown         NaN    0.069        63.0 -14.451 -47.047

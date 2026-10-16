@@ -1,0 +1,49 @@
+zip members (first 12): ['netcdf/', '__MACOSX/._netcdf', 'netcdf/eu_sword_v17b.nc', '__MACOSX/netcdf/._eu_sword_v17b.nc', 'netcdf/.DS_Store', '__MACOSX/netcdf/._.DS_Store', 'netcdf/oc_sword_v17b.nc', '__MACOSX/netcdf/._oc_sword_v17b.nc', 'netcdf/sa_sword_v17b.nc', '__MACOSX/netcdf/._sa_sword_v17b.nc', 'netcdf/af_sword_v17b.nc', '__MACOSX/netcdf/._af_sword_v17b.nc']
+North America file: ['netcdf/na_sword_v17b.nc', '__MACOSX/netcdf/._na_sword_v17b.nc']
+reaches variables: ['area_fits', 'cl_ids', 'discharge_models', 'dist_out', 'edit_flag', 'end_reach', 'facc', 'grod_id', 'hfalls_id', 'iceflag', 'julian_day', 'lakeflag', 'low_slope_flag', 'main_side', 'max_width', 'n_chan_max', 'n_chan_mod', 'n_nodes', 'n_rch_down', 'n_rch_up', 'network', 'num_domains', 'num_ids', 'num_reaches', 'obstr_type', 'orbits', 'path_freq', 'path_order', 'path_segs', 'rch_id_dn', 'rch_id_up', 'reach_id', 'reach_length', 'river_name', 'slope', 'stream_order', 'swot_obs', 'swot_orbits', 'trib_flag', 'width', 'width_var', 'wse', 'wse_var', 'x', 'x_max', 'x_min', 'y', 'y_max', 'y_min']
+reach: 1997 sites, SWORD match 1.000; agencies {'USGS': 1516, 'ECCC': 361, 'Quebec': 22}
+   US->CA: source units 1516, target units 383; 54 s (total 57 s)
+   CA->US: source units 383, target units 1516; 49 s (total 106 s)
+   S->N55: source units 1719, target units 180; 53 s (total 159 s)
+   E->W110: source units 1451, target units 448; 52 s (total 212 s)
+node: 2046 sites, SWORD match 1.000; agencies {'USGS': 1550, 'ECCC': 368, 'Quebec': 23}
+   US->CA: source units 1550, target units 391; 55 s (total 271 s)
+   CA->US: source units 391, target units 1550; 50 s (total 320 s)
+   S->N55: source units 1760, target units 181; 55 s (total 375 s)
+   E->W110: source units 1480, target units 461; 54 s (total 429 s)
+
+excess_over_2se > 0: mean realised SDR above alpha by more than two standard errors
+                                   retention  site_coverage    sdr  sdr_sd  share_gt_alpha  share_none    ess_C   n_cal  n_test  bad_C  bad_target  excess_over_2se
+type  design  alpha method                                                                                                                                         
+node  CA->US  0.1   S6 unweighted      0.163          0.233  0.050   0.042            0.15        0.35      NaN  181.55  824.95  0.377       0.463           -0.068
+                    S6w weighted       0.004          0.005  0.004   0.018            0.00        0.95    8.083  181.55  824.95  0.377       0.463           -0.104
+              0.2   S6 unweighted      0.340          0.383  0.123   0.060            0.10        0.10      NaN  196.40  824.95  0.377       0.463           -0.103
+                    S6w weighted       0.006          0.006  0.007   0.029            0.00        0.95    7.899  196.40  824.95  0.377       0.463           -0.207
+      E->W110 0.1   S6 unweighted      0.555          0.783  0.126   0.008            1.00        0.00      NaN  596.15  240.85  0.466       0.384            0.023
+                    S6w weighted       0.000          0.000  0.000   0.000            0.00        1.00   30.148  596.15  240.85  0.466       0.384           -0.100
+              0.2   S6 unweighted      0.728          0.907  0.208   0.009            0.80        0.00      NaN  690.85  240.85  0.466       0.384            0.004
+                    S6w weighted       0.000          0.000  0.000   0.000            0.00        1.00   11.605  690.85  240.85  0.466       0.384           -0.200
+      S->N55  0.1   S6 unweighted      0.570          0.865  0.125   0.013            0.95        0.00      NaN  709.65   91.70  0.454       0.365            0.020
+                    S6w weighted       0.000          0.001  0.000   0.000            0.00        0.95  140.090  709.65   91.70  0.454       0.365           -0.100
+              0.2   S6 unweighted      0.756          0.982  0.202   0.013            0.70        0.00      NaN  823.15   91.70  0.454       0.365           -0.003
+                    S6w weighted       0.001          0.001  0.005   0.024            0.00        0.95  162.132  823.15   91.70  0.454       0.365           -0.205
+      US->CA  0.1   S6 unweighted      0.573          0.830  0.124   0.012            0.95        0.00      NaN  626.95  199.90  0.461       0.377            0.019
+                    S6w weighted       0.003          0.006  0.011   0.051            0.05        0.95    9.343  626.95  199.90  0.461       0.377           -0.111
+              0.2   S6 unweighted      0.745          0.947  0.211   0.010            0.80        0.00      NaN  728.85  199.90  0.461       0.377            0.007
+                    S6w weighted       0.014          0.019  0.032   0.098            0.10        0.90    9.996  728.85  199.90  0.461       0.377           -0.212
+reach CA->US  0.1   S6 unweighted      0.289          0.401  0.078   0.033            0.20        0.10      NaN  169.80  804.55  0.354       0.352           -0.037
+                    S6w weighted       0.000          0.000  0.000   0.000            0.00        1.00    5.509  169.80  804.55  0.354       0.352           -0.100
+              0.2   S6 unweighted      0.595          0.668  0.170   0.035            0.20        0.00      NaN  190.60  804.55  0.354       0.352           -0.046
+                    S6w weighted       0.000          0.000  0.000   0.000            0.00        1.00    5.480  190.60  804.55  0.354       0.352           -0.200
+      E->W110 0.1   S6 unweighted      0.546          0.739  0.126   0.014            0.95        0.00      NaN  607.80  233.75  0.351       0.343            0.019
+                    S6w weighted       0.000          0.000  0.000   0.000            0.00        1.00   14.142  607.80  233.75  0.351       0.343           -0.100
+              0.2   S6 unweighted      0.778          0.877  0.216   0.015            0.90        0.00      NaN  728.60  233.75  0.351       0.343            0.010
+                    S6w weighted       0.000          0.000  0.000   0.000            0.00        1.00   12.335  728.60  233.75  0.351       0.343           -0.200
+      S->N55  0.1   S6 unweighted      0.504          0.854  0.127   0.018            0.90        0.00      NaN  704.95   90.55  0.351       0.358            0.019
+                    S6w weighted       0.000          0.000  0.000   0.000            0.00        1.00  314.508  704.95   90.55  0.351       0.358           -0.100
+              0.2   S6 unweighted      0.806          0.975  0.238   0.016            1.00        0.00      NaN  869.00   90.55  0.351       0.358            0.031
+                    S6w weighted       0.000          0.000  0.000   0.000            0.00        1.00  392.013  869.00   90.55  0.351       0.358           -0.200
+      US->CA  0.1   S6 unweighted      0.532          0.769  0.123   0.031            0.95        0.05      NaN  630.95  195.20  0.351       0.354            0.009
+                    S6w weighted       0.006          0.007  0.017   0.042            0.10        0.85    8.084  630.95  195.20  0.351       0.354           -0.102
+              0.2   S6 unweighted      0.788          0.919  0.219   0.009            1.00        0.00      NaN  767.75  195.20  0.351       0.354            0.016
+                    S6w weighted       0.019          0.022  0.020   0.053            0.00        0.85    9.466  767.75  195.20  0.351       0.354           -0.204

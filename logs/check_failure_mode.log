@@ -1,0 +1,37 @@
+nohup: ignoring input
+reach D: rows 98563, sites 1997, units 1899, bad rate 0.351, features 30
+   done reach D at 152 s
+reach C: rows 101203, sites 2005, units 1903, bad rate 0.423, features 29
+   done reach C at 296 s
+node D: rows 136976, sites 2046, units 1941, bad rate 0.441, features 30
+   done node D at 447 s
+node C: rows 106285, sites 2011, units 1909, bad rate 0.450, features 30
+   done node C at 572 s
+
+FDP = share of kept observations at held-out units with |eB| > 0.25 m; 20 repeats
+                                          fdp_mean  fdp_sd  share_splits_fdp_gt_alpha  site_fdp_mean  retention_mean  naive_eval_fdp
+type  v alpha method                                                                                                                
+node  C 0.1   M1 grid in-sample              0.000   0.000                       0.00          0.000           0.000             NaN
+              M2 obs-level conformal         0.112   0.009                       0.90          0.212           0.341           0.098
+              M3 site-disjoint conformal     0.101   0.011                       0.60          0.191           0.279             NaN
+        0.2   M1 grid in-sample              0.196   0.016                       0.40          0.265           0.195             NaN
+              M2 obs-level conformal         0.209   0.010                       0.75          0.299           0.598           0.200
+              M3 site-disjoint conformal     0.201   0.011                       0.50          0.292           0.574             NaN
+      D 0.1   M1 grid in-sample              0.000   0.000                       0.00          0.000           0.000             NaN
+              M2 obs-level conformal         0.116   0.007                       1.00          0.242           0.398           0.099
+              M3 site-disjoint conformal     0.102   0.012                       0.55          0.216           0.342             NaN
+        0.2   M1 grid in-sample              0.182   0.006                       0.00          0.258           0.195             NaN
+              M2 obs-level conformal         0.209   0.008                       0.85          0.324           0.619           0.200
+              M3 site-disjoint conformal     0.200   0.011                       0.50          0.318           0.596             NaN
+reach C 0.1   M1 grid in-sample              0.111   0.040                       0.50          0.088           0.001             NaN
+              M2 obs-level conformal         0.121   0.008                       1.00          0.208           0.339           0.100
+              M3 site-disjoint conformal     0.101   0.026                       0.70          0.178           0.242             NaN
+        0.2   M1 grid in-sample              0.201   0.014                       0.35          0.269           0.360             NaN
+              M2 obs-level conformal         0.216   0.009                       0.90          0.287           0.622           0.202
+              M3 site-disjoint conformal     0.204   0.011                       0.70          0.278           0.588             NaN
+      D 0.1   M1 grid in-sample              0.069   0.080                       0.45          0.048           0.000             NaN
+              M2 obs-level conformal         0.119   0.008                       1.00          0.211           0.491           0.099
+              M3 site-disjoint conformal     0.099   0.010                       0.55          0.184           0.390             NaN
+        0.2   M1 grid in-sample              0.192   0.043                       0.55          0.240           0.386             NaN
+              M2 obs-level conformal         0.213   0.010                       0.95          0.283           0.761           0.200
+              M3 site-disjoint conformal     0.201   0.010                       0.45          0.276           0.729             NaN
